@@ -4,13 +4,20 @@ categories:
 durations:
   - Add a duration
 experiments:
-  - Add an experimental affiliation
+  - Add an experimental (or pheno/theory) affiliation
 skillset:
   - a list of skills
 status:
   - Available
-description: A one line description
-shortdescription: >
+project:
+  - If associated to a community project, add it here
+location:
+  - Remote or In person
+Commitment:
+  - Part time or Full time
+  
+shortdescription: A one line description
+description: >
 Add a long description
 
 contacts:
