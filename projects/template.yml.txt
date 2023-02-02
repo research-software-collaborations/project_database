@@ -1,0 +1,19 @@
+name: <add a title>
+categories:
+  - Add one or more categories
+durations:
+  - Add a duration
+experiments:
+  - Add an experimental affiliation
+skillset:
+  - a list of skills
+status:
+  - Available
+description: A one line description
+shortdescription: >
+Add a long description
+
+contacts:
+  - add your email address
+  - or a list of them
+  
