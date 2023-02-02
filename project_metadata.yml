@@ -1,0 +1,51 @@
+categories:
+  - Analysis systems
+  - Generators
+  - Simulation
+  - Open science
+  - ML/AI
+
+durations:
+  - 3 months
+  - 1 year
+  - PhD thesis
+
+experiments:
+  - CMS
+  - Atlas
+  - Dune
+  - INO
+  - Alice
+  - EIC
+  - HLLHC
+  
+skillset:
+  - Python
+  - C++
+  - Geant4
+  - Generators
+  - ML
+  
+status:
+  - Available
+  - In progress
+  - Complete
+  - Obsolete/Closed
+
+project:
+  - compiler research
+  - IRIS-HEP
+
+program:
+  - GSOC 2023
+  - IRIS-HEP fellow
+  - HSF-India fellow
+  
+location:
+  - Remote
+  - In person
+  
+Commitment:
+  - Part time
+  - Full time
+
