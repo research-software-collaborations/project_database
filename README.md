@@ -1,7 +1,7 @@
 [![CI](https://github.com/research-software-collaborations/project_database/workflows/check_projects.yml/badge.svg)](https://github.com/research-software-collaborations/project_database/workflows/check_projects.yml)
 [![CI](https://github.com/research-software-collaborations/project_database/workflows/yaml_checker.yml/badge.svg)](https://github.com/research-software-collaborations/project_database/workflows/yaml_checker.yml)
 
-# Open proejcts in high-energy and nuclear physics research software
+# Open projects in high-energy and nuclear physics research software
 
 There are two main components of this repository:
 - project_metadata.yml that defines the set of fields that describe a project and known values for each field
