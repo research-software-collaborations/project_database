@@ -8,8 +8,8 @@ Both of these can be updated via a pull request to this repository
 
 ## project_metadata
 - Has a set of attributes, and possible values for each attribute.
-- You might find that the set of possible values does not meet your needs. If not, add a new value and make a pull request
-- You might find that you would like a new attribute. If so, please open an issue for discussion
+- You might find that the set of possible values does not meet your needs. If not, add a new value and make a pull request.
+- You might find that you would like a new attribute. If so, please open an issue for discussion in this repository.
 
 ## Adding a new project
 - Clone this repository so that you can make a pull request against it
