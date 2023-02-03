@@ -21,5 +21,4 @@ jobs:
           pip install pyyaml
 
       - name: execute py script # run main.py
-        run: python ./_scripts/check_projects.py
-	
+        run: "python ./_scripts/check_projects.py"
