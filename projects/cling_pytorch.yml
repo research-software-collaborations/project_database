@@ -20,7 +20,7 @@ commitment:
 status:
   - Available
 shortdescription: Interfacing Cling and PyTorch together to facilitate\
-Machine Learning workflows
+  Machine Learning workflows
 description: |
   Cling is an interactive C++ interpreter, built on top of Clang
   and LLVM compiler infrastructure. Cling realizes the read-eval-print
