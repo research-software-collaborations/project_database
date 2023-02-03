@@ -19,7 +19,8 @@ commitment:
   - Any
 status:
   - Available
-shortdescription: Interfacing Cling and PyTorch together to facilitate Machine Learning workflows
+shortdescription: Interfacing Cling and PyTorch together to facilitate\
+Machine Learning workflows
 description: |
   Cling is an interactive C++ interpreter, built on top of Clang
   and LLVM compiler infrastructure. Cling realizes the read-eval-print
@@ -33,7 +34,8 @@ description: |
   In this project we aim to demonstrate that interactive C++ is useful
   with data analysis tools outside of the field of HEP. For example,
   prototype implementations for Pytorch have been successfully completed.
-  [See this link](https://krshrimali.github.io/posts/2019/08/setting-up-jupyter-notebook-xeus-cling-for-libtorch-and-opencv-libraries/)
+  [See this link](https://krshrimali.github.io/posts/2019/08/\
+  setting-up-jupyter-notebook-xeus-cling-for-libtorch-and-opencv-libraries/)
 
   The project deliverables are:
     * Demonstrate that we can build and use PyTorch programs with\
