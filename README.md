@@ -1,5 +1,5 @@
-[![CI](https://github.com/research-software-collaborations/project_database/workflows/check_projects.yml/badge.svg)](https://github.com/research-software-collaborations/project_database/workflows/check_projects.yml)
-[![CI](https://github.com/research-software-collaborations/project_database/workflows/yaml_checker.yml/badge.svg)](https://github.com/research-software-collaborations/project_database/workflows/yaml_checker.yml)
+[![CI](https://github.com/research-software-collaborations/project_database/actions/workflows/check_projects.yml/badge.svg)](https://github.com/research-software-collaborations/project_database/actions/workflows/check_projects.yml)
+[![CI](https://github.com/research-software-collaborations/project_database/actions/workflows/yaml_checker.yml/badge.svg)](https://github.com/research-software-collaborations/project_database/actions/workflows/yaml_checker.yml)
 
 # Open projects in high-energy and nuclear physics research software
 
