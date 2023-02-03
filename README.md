@@ -1,3 +1,6 @@
+[![CI](https://github.com/research-software-collaborations/projects/workflows/check_projects.yml/badge.svg)](https://github.com/research-software-collaborations/projects/workflows/check_projects.yml)
+[![CI](https://github.com/research-software-collaborations/projects/workflows/yaml_checker.yml/badge.svg)](https://github.com/research-software-collaborations/projects/workflows/yaml_checker.yml)
+
 # Open proejcts in high-energy and nuclear physics research software
 
 There are two main components of this repository:
