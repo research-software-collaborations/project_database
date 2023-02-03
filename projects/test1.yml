@@ -12,5 +12,7 @@ status:
 description: I have a great idea. Come talk to me to find out what it is
 shortdescription: I have a great idea. Come talk to me to find out what it is
 contacts:
-  - david.lange@cern.ch
-  - peter.elmer@cern.ch
+  - name: David Lange
+    email: david.lange@cern.ch
+  - name: Peter Elmer
+    email: peter.elmer@cern.ch

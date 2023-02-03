@@ -1,26 +1,32 @@
-name: <add a title>
+#remove commented text (after "#") in your project yml, including this line..
+#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+#to add additional responses, please modify project_metadata.yml accordingly
+
+name: <add a title for your project>
+postdate: <todays date>
 categories:
-  - Add one or more categories
+  - Any   # or add one or more specific categories listed in project_metadata.yml
 durations:
-  - Add a duration
+  - Any   # or add one or more specific duration listed in project_metadata.yml
 experiments:
-  - Add an experimental (or pheno/theory) affiliation
+  - Any   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
 skillset:
-  - a list of skills
+  - Any   # or add one or more skills listed in project_metadata.yml
 status:
   - Available
 project:
-  - If associated to a community project, add it here
+  - Any   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
 location:
-  - Remote or In person
+  - Any    # otherwise "Remote" or "In person" 
 Commitment:
-  - Part time or Full time
+  - Any    # otherwise "Part time" or "Full time"
   
 shortdescription: A one line description
 description: >
 Add a long description
 
 contacts:
-  - add your email address
-  - or a list of them
+  - name: Contact 1 name
+    email: Contact 1 email address
+  - can be a list of them but 1-2 mentors is likely best
   

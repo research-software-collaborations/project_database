@@ -34,6 +34,8 @@ description: |
     * Experience with ML Interest in exploring the intersection of data science and interactive C++.
 
 contacts:
-  - david.lange@cern.ch
-  - vvasilev@cern.ch
+  - name: David Lange
+    email: david.lange@cern.ch
+  - name: Vassil Vasilev
+    email: vvasilev@cern.ch
 

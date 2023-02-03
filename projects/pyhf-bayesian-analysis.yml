@@ -35,6 +35,8 @@ description: >
   Applicants are expected to have strong working experience with Python and basic knowledge
   of statistical analysis.
 contacts:
-  - mfeickert@gmail.com
-  - lukas.heinrich@cern.ch
+  - name: Matthew Feickert
+    email: mfeickert@gmail.com
+  - name: Lukas Heinrich
+    email: lukas.heinrich@cern.ch
   
