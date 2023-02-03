@@ -21,13 +21,15 @@ status:
   - Available
 shortdescription: Interfacing Cling and PyTorch together to facilitate Machine Learning workflows
 description: |
-  Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure. Cling realizes the read-eval-print loop
-  (REPL) concept, in order to leverage rapid application development. Implemented as a small extension to LLVM and Clang, the
-  interpreter reuses its strengths such as the praised concise and expressive compiler diagnostics. The LLVM-based C++
-  interpreter has enabled interactive C++ coding environments, whether in a standalone shell or a Jupyter notebook environment in xeus-cling.
+  Cling is an interactive C++ interpreter, built on top of Clang and LLVM compiler infrastructure.
+  Cling realizes the read-eval-print loop (REPL) concept, in order to leverage rapid application
+  development. Implemented as a small extension to LLVM and Clang, the interpreter reuses its
+  strengths such as the praised concise and expressive compiler diagnostics. The LLVM-based C++
+  interpreter has enabled interactive C++ coding environments, whether in a standalone shell or a
+  Jupyter notebook environment in xeus-cling.
 
-  In this project we aim to demonstrate that interactive C++ is useful with data analysis tools outside of the field of HEP. For example,
-  prototype implementations for Pytorch have been successfully completed.
+  In this project we aim to demonstrate that interactive C++ is useful with data analysis tools outside
+  of the field of HEP. For example, prototype implementations for Pytorch have been successfully completed.
   [See this link](https://krshrimali.github.io/posts/2019/08/setting-up-jupyter-notebook-xeus-cling-for-libtorch-and-opencv-libraries/)
 
   The project deliverables are:
@@ -37,10 +39,8 @@ description: |
   Candidate requirements:
     * Experience with C++, Jupyter notebooks and Conda are desirable
     * Experience with ML Interest in exploring the intersection of data science and interactive C++.
-
 contacts:
   - name: David Lange
     email: david.lange@cern.ch
   - name: Vassil Vasilev
     email: vvasilev@cern.ch
-
