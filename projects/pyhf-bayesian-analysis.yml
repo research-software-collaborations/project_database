@@ -11,9 +11,13 @@ status:
   - Available
 project:
   - IRIS-HEP
+experiments:
+  - Any
+program:
+  - Any
 location:
   - Remote
-Commitment:
+commitment:
   - Full time
 shortdescription: Build a library on top of the pyhf Python API to allow for Bayesian
   analysis of HistFactory models

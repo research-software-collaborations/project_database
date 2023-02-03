@@ -6,12 +6,16 @@ durations:
 skillset:
   - C++
   - ML
-experiment:
+experiments:
   - Any
 project:
   - compiler research
 location:
   - Remote
+program:
+  - Any
+commitment:
+  - Any
 status:
   - Available
 shortdescription: Interfacing Cling and PyTorch together to facilitate Machine Learning workflows

@@ -18,7 +18,7 @@ project:
   - Any   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
 location:
   - Any    # otherwise "Remote" or "In person" 
-Commitment:
+commitment:
   - Any    # otherwise "Part time" or "Full time"
   
 shortdescription: A one line description
