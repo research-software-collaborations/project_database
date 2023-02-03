@@ -1,4 +1,4 @@
-name: run check_projects.py
+name: Check Projects
 
 on:
   push:
