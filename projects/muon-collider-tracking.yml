@@ -1,0 +1,45 @@
+---
+name: Charged-particles reconstruction at Muon Colliders
+postdate: 2023-02-08
+categories:
+  - Simulation
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Future Colliders
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+  - In person
+commitment:
+  - Full time
+  
+shortdescription: Simulation and Charged-particle reconstruction algorithms in future Muon Colliders
+description: >
+  A muon-collider has been proposed as a possible path for future high-energy physics.
+  The design of a detector for a muon collider has to cope with a large
+  rate of beam-induced background, resulting in an unprecedentedly large multplicity of particles entering the
+  detector that are unrelated to the main muon-muon collision.
+  The algorithms used for charged particle reconstruction (tracking) need to cope with such "noise" and be
+  able to successfully reconstruct the trajectories of the particles of interest, which results
+  in a very large conbinatorial problem that challenges the approaches adopted so far.
+  The project consists of two complementary objectives. In the first one, we will investigate how the tracking algorithms can
+  be improved by utilizing directional information from specially-arranged silicon-detector layers; this requires improving
+  the simulation of the detector as well. The second one, aims to port the modern track reconstruction algorithms we are
+  using from the older ILCSoft framework to the new Key4HEP software framework, validate them and ensure they can be widely
+  used by all collaborators.
+
+contacts:
+  - name: Simone Pagan Griso
+    email: spagangriso@lbl.gov
+  - name: Sergo Jindariani
+    emai: sergo@fnal.gov
+
+  
