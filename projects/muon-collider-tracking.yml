@@ -33,7 +33,8 @@ description: >
   The project consists of two complementary objectives. In the first one, we will investigate how the tracking algorithms can
   be improved by utilizing directional information from specially-arranged silicon-detector layers; this requires improving
   the simulation of the detector as well. The second one, aims to port the modern track reconstruction algorithms we are
-  using from the older ILCSoft framework to the new Key4HEP software framework, validate them and ensure they can be widely
+  using from the older ILCSoft framework to the new Key4HEP software framework, which supports parallel multi-threaded execution
+  of algorithms and will be needed to scale performance to the needs of the Collaboration, validate them and ensure they can be widely
   used by all collaborators.
 
 contacts:
