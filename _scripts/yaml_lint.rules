@@ -5,4 +5,5 @@ rules:
     max: 160
     level: warning
 
+  trailing-spaces: disable
   
