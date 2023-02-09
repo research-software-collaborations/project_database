@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Validate YAML file
-        run: yamllint -d relaxed projects/.
+        run: yamllint -c _scripts/yaml_lint.rules projects/.
