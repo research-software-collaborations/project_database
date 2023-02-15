@@ -17,10 +17,10 @@ status:
 project:
   - Any   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
 location:
-  - Any    # otherwise "Remote" or "In person" 
+  - Any    # otherwise "Remote" or "In person"
 commitment:
   - Any    # otherwise "Part time" or "Full time"
-  
+
 shortdescription: A one line description
 description: >
 Add a long description
@@ -29,4 +29,4 @@ contacts:
   - name: Contact 1 name
     email: Contact 1 email address
   - can be a list of them but 1-2 mentors is likely best
-  
+
