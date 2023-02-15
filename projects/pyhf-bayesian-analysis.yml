@@ -25,8 +25,8 @@ shortdescription: Build a library on top of the pyhf Python API to
 description: >
   Collider physics analyses have historically favored Frequentist
   statistical methodologies, with some exceptions of Bayesian inference in LHC
-  analyses through use of the [Bayesian Analysis Toolkit (BAT)]
-  (https://bat.github.io/BAT.jl/stable). As HistFactory's model construction
+  analyses through use of the [Bayesian Analysis Toolkit (BAT)](https://bat.github.io/BAT.jl/stable).
+  As HistFactory's model construction
   allows for creation of models that can be interpreted
   as having Bayesian priors, HistFactory models built with
   [pyhf](https://pyhf.readthedocs.io/)
@@ -45,6 +45,6 @@ description: >
   of statistical analysis.
 contacts:
   - name: Matthew Feickert
-    email: mfeickert@gmail.com
+    email: matthew.feickert@cern.ch
   - name: Lukas Heinrich
     email: lukas.heinrich@cern.ch
