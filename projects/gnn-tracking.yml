@@ -1,0 +1,54 @@
+---
+name: GNN Tracking
+postdate: 2023-02-14
+categories:
+  - ML/AI
+durations:
+  - 3 months
+  - 1 year
+experiments:
+  - Any
+skillset:
+  - Python
+  - ML
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any # otherwise "Remote" or "In person"
+commitment:
+  - Any # otherwise "Part time" or "Full time"
+program:
+  - GSOC 2023
+  - IRIS-HEP fellow
+
+shortdescription: Reconstruct the trajectories of particle with graph neural networks
+description: >
+  In the GNN tracking project, we use [graph neural networks][gnn-wiki] (GNNs) to reconstruct trajectories ("tracks") of elementary particles traveling through a detector.
+  This task is called ["tracking"][tracking-wiki] and is different from many other problems that involve trajectories:
+
+  * there are several thousand particles that need to be tracked at once,
+  * there is no time information (the particles travel too fast),
+  * we do not observe a continuous trajectory but instead only around five points ("hits") along the way in different detector layers.
+
+  The task can be described as a combinatorically very challenging "connect-the-dots" problem, essentially turning a cloud of points (hits) in 3D space into a set of O(1000) trajectories.
+  Expressed differently, each hit (containing not much more than the x/y/z coordinate) must be assigned to the particle/track it belongs to.
+
+  A conceptually simple way to turn this problem into a machine learning task is to create a fully connected graph of all points and then train an edge classifier to reject any edge that doesn't connect points that belong to the same particle.
+  In this way, only the individual trajectories remain as components of the initial fully connected graph.
+  However, this strategy does not seem to lead to perfect results in practice.
+  The approach of this project uses this strategy only as the first step to arrive at "small" graphs.
+  It then projects all hits into a learned latent space with the model learning to place hits of the same particle close to each other, such that the hits belonging to the same particle form clusters.
+
+  The project code together with documentation and a reading list is available on [github][ghorganization] and uses [pytorch geometric][pyg].
+
+
+  [ghorganization]: https://github.com/gnn-tracking
+  [pyg]: https://pytorch-geometric.readthedocs.io/
+  [tracking-wiki]: https://en.wikipedia.org/wiki/Tracking_(particle_physics)
+  [gnn-wiki]: https://en.wikipedia.org/wiki/Graph_neural_network
+
+contacts:
+  - name: Kilian Lieret
+    email: kl5675@princeton.edu
