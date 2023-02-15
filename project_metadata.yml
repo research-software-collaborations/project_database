@@ -12,10 +12,10 @@ durations:
 
 experiments:
   - CMS
-  - Atlas
-  - Dune
+  - ATLAS
+  - DUNE
   - INO
-  - Alice
+  - ALICE
   - EIC
   - HLLHC
   - Future Colliders
