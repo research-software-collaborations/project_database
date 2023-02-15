@@ -30,4 +30,4 @@ contacts:
   - name: Contact 1 name
     email: Contact 1 email address
   - can be a list of them but 1-2 mentors is likely best
-  
+
