@@ -56,6 +56,6 @@ for f in filelist:
             print(f)
             print(att)
             sys.exit(1)
-            
+
 print("Success")
-print("Checked ",str(len(filelist)),"projects")    
+print("Checked ",str(len(filelist)),"projects")

@@ -19,14 +19,14 @@ experiments:
   - EIC
   - HLLHC
   - Future Colliders
-  
+
 skillset:
   - Python
   - C++
   - Geant4
   - Generators
   - ML
-  
+
 status:
   - Available
   - In progress
@@ -41,12 +41,11 @@ program:
   - GSOC 2023
   - IRIS-HEP fellow
   - HSF-India fellow
-  
+
 location:
   - Remote
   - In person
-  
+
 commitment:
   - Part time
   - Full time
-

@@ -6,4 +6,4 @@ rules:
     level: warning
 
   trailing-spaces: disable
-  
+
