@@ -22,7 +22,7 @@ location:
   - In person
 commitment:
   - Full time
-  
+
 shortdescription: Simulation and Charged-particle reconstruction algorithms in future Muon Colliders
 description: >
   A muon-collider has been proposed as a possible path for future high-energy physics.
@@ -44,5 +44,3 @@ contacts:
     email: spagangriso@lbl.gov
   - name: Sergo Jindariani
     emai: sergo@fnal.gov
-
-  
