@@ -1,0 +1,37 @@
+---
+name: CMS RECAST Example
+postdate: 2023-02-14
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Docker
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - CMS
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implement a CMS analysis with RECAST and REANA
+description: >
+  [RECAST](/projects/recast.html) is a platform for systematic interpretation
+  of LHC searches. It reuses preserved analysis workflows from the LHC experiments,
+  which is now possible with containerization and tools such as [REANA](http://reanahub.io).
+  Recently, IRIS-HEP and the HEP Software Foundation (HSF) supported an [analysis
+  preservation bootcamp at CERN](/2020/02/17/analysis-preservation.html) teaching
+  these tools. Furthermore, the ATLAS experiment is now actively using RECAST. We
+  seek a member of CMS to incorporate a CMS analysis into the system with support
+  from IRIS-HEP, REANA, and RECAST developers.
+contacts:
+  - name: Kyle Cranmer
+    email: kyle.cranmer@wisc.edu
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
