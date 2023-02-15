@@ -17,10 +17,11 @@ status:
 project:
   - Any   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
 location:
-  - Any    # otherwise "Remote" or "In person" 
+  - Any    # otherwise "Remote" or "In person"
 commitment:
   - Any    # otherwise "Part time" or "Full time"
-  
+program:
+  - Any
 shortdescription: A one line description
 description: >
 Add a long description
