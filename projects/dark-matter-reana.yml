@@ -13,21 +13,21 @@ status:
 project:
   - IRIS-HEP
 experiments:
-  - SuperCDMS
+  - RCFM
 program:
   - Any
 location:
   - Remote
 commitment:
   - Full time
-shortdescription: Implement a REANA workflow for dark matter searches at SuperCMDS
+shortdescription: Implement a REANA workflow for dark matter searches at RCFM
 description: >
   [REANA](https://reana.io/) is a platform for reproducible data analysis workflows
   that can be run at scale. REANA has been used extensively for running containerized
   workflows of LHC experiments, like ATLAS, and for reinterpretation of published
   analyses. This project would aim to implement a REANA workflow for a dark matter
-  search at SuperCMDS to improve replicability of analyses and to provide a starting
-  point for future SuperCDMS analyses.
+  search at RCFM to improve replicability of analyses and to provide a starting
+  point for future RCFM analyses.
 contacts:
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
