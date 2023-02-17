@@ -19,6 +19,7 @@ experiments:
   - EIC
   - HLLHC
   - Future Colliders
+  - SuperCDMS
 
 skillset:
   - Python
