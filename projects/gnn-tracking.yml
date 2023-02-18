@@ -24,10 +24,9 @@ program:
   - IRIS-HEP fellow
 
 shortdescription: Reconstruct the trajectories of particle with graph neural networks
-description: >
+description: |
   In the GNN tracking project, we use [graph neural networks][gnn-wiki] (GNNs) to reconstruct trajectories ("tracks") of elementary particles traveling through a detector.
   This task is called ["tracking"][tracking-wiki] and is different from many other problems that involve trajectories:
-
   * there are several thousand particles that need to be tracked at once,
   * there is no time information (the particles travel too fast),
   * we do not observe a continuous trajectory but instead only around five points ("hits") along the way in different detector layers.
