@@ -1,0 +1,78 @@
+#remove commented text (after "#") in your project yml, including this line..
+#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+#to add additional responses, please modify project_metadata.yml accordingly
+---
+name: Augmenting Line-Segment Tracking with Graph Neural Network
+postdate: 2023-02-18
+categories:
+  - Simulation
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - C++
+  - ML
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+  - In person
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Leveraging Graph Neural Network to utilize graph input data produced by Line-Segment Tracking
+description: >
+  The increase of the pile-up in the upcoming HL-LHC will present a challenge
+  to event reconstruction for the CMS experiment. The single largest
+  contribution to the total reconstruction time comes from charged-particle
+  tracking. Without algorithm innovation, the projected charged-particle
+  reconstruction timing is projected to exponentially increase. This
+  increase in timing in combination with the fact that the computational
+  performance of single thread processors is plateauing, CMS Collaboration
+  estimates that without algorithmic innovation the computing resource
+  requirement will hit a factor 2 to 5 over the projected computing
+  capabilities. This can seriously hinder physicists to publish timely
+  scientific results.  This motivates a new approach in tracking to develop a
+  new algorithm that are parallel in nature to alleviate problems of
+  combinatorics, and also can leverage industry advancements in parallel
+  computing such as the GPUs. In light of this, Line-Segment Tracking project
+  started.  Line-Segment Tracking (LST) project leverages the CMS
+  outer-tracker’s doublet modules to build mini-doublets (a pair of hits in
+  each layer of the doublet layer) in parallel, and subsequently build
+  line-segments via connecting consistent pair of mini-doublets across
+  different logical layers of the tracker, all done on high-performance GPUs.
+  Eventually, the line-segments are linked together iteratively to form a long
+  chain of line-segments to produce list of track candidates.  The parallel
+  nature of the LST algorithm allows the algorithm to naturally lends itself
+  for GPU usage. The project has produced on-par performance with the existing
+  tracking alternatives, and have been integrated to central CMS Software as a
+  step towards production.  As LST algorithm creates line-segments and
+  links them to create track candidates, a graph representation of hits and
+  linking between them is naturally obtained. In other words, LST can also be
+  thought of as a fast graph producing algorithm. The project will take the
+  graph data and develop GNN models that classify linkings. We plan to
+  integrate the GNN model to the LST algorithm to augment its capability to
+  produce high-quality track candidates at a shorter time while keeping the
+  same or better tracking performance. Also, a solution for a “one-shot”
+  linking of long chains of line-segments in one algorithm instead of through
+  iteration will also be studied.
+  Estimated Timeline:
+  Week 1/2: Understanding the preliminary LST GNN workflow for Line Segment classification
+  Week 3: Creating example of running the Line Segment classification inference on C++ environment with TorchScript
+  Week 4/5: Integrating the inference with LST’s CUDA code to run the inference on GNN
+  Week 5: Validating the implementation in the LST framework
+  Week 6/7: Performing optimization of utilizing the GNN inferences to measure performance gain in the efficiency metric of LST framework (i.e. efficiency, fake rate, and duplicate rate)
+  Week 8/9: Perform large scale hyperparameter optimization to find best resulting model architectecture
+  Week 10/11: Perform research and development of extending the ability to classify Triplets, and beyond, with the Line Graph transformation approach, which would enable “one-shot” inference
+  Week 12: Wrap up the project, document and summarize the findings to allow for next steps
+
+contacts:
+  - name: Philip Chang
+    email: p.chang@ufl.edu
+
