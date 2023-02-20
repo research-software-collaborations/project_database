@@ -41,13 +41,17 @@ description: |
   It then projects all hits into a learned latent space with the model learning to place hits of the same particle close to each other, such that the hits belonging to the same particle form clusters.
 
   The project code together with documentation and a reading list is available on [github][ghorganization] and uses [pytorch geometric][pyg].
+  See also [our GSoC proposal for the same project][gsoc-proposal], which lists prerequisites and possible tasks.
 
 
   [ghorganization]: https://github.com/gnn-tracking
   [pyg]: https://pytorch-geometric.readthedocs.io/
   [tracking-wiki]: https://en.wikipedia.org/wiki/Tracking_(particle_physics)
   [gnn-wiki]: https://en.wikipedia.org/wiki/Graph_neural_network
+  [gsoc-proposal]: https://hepsoftwarefoundation.org/gsoc/2023/proposal_GNN_tracking_object_condensation.html
 
 contacts:
   - name: Kilian Lieret
     email: kl5675@princeton.edu
+  - name: Gage deZoort
+    email: jdezoort@princeton.edu
