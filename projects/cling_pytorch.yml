@@ -32,7 +32,7 @@ description: |
   enabled interactive C++ coding environments, whether in a standalone shell
   or a Jupyter notebook environment in xeus-cling.
 
-  In this project we aim to demonstrate that interactive C++ is useful
+  This project aims to demonstrate that interactive C++ is useful
   with data analysis tools outside of the field of HEP. For example,
   prototype implementations for Pytorch have been successfully completed.
   [See this link](https://krshrimali.github.io/posts/2019/08/\
