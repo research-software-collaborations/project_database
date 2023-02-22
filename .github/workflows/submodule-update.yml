@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PARENT_REPOSITORY: 'research-software-collaborations/research-software-collaborations.github.io'
-      CHECKOUT_BRANCH: 'main'
-      PR_AGAINST_BRANCH: 'main'
+      CHECKOUT_BRANCH: 'master'
+      PR_AGAINST_BRANCH: 'master'
       OWNER: 'davidlange6'
 
     steps:
