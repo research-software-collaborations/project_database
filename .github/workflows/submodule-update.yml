@@ -21,7 +21,7 @@ jobs:
       PARENT_REPOSITORY: 'research-software-collaborations/research-software-collaborations.github.io'
       CHECKOUT_BRANCH: 'master'
       PR_AGAINST_BRANCH: 'master'
-      OWNER: 'davidlange6'
+      OWNER: 'research-software-collaborations'
 
     steps:
       ##########################
