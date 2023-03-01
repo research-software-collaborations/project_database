@@ -24,7 +24,7 @@ shortdescription: Interfacing Cling and PyTorch together to facilitate\
   Machine Learning workflows
 description: |
   Cling is an interactive C++ interpreter, built on top of Clang
-  and LLVM compiler infrastructure. Cling realizes the read-eval-print
+  and the LLVM compiler infrastructure. Cling realizes the read-eval-print
   loop (REPL) concept, in order to leverage rapid application
   development. Implemented as a small extension to LLVM and Clang,
   the interpreter reuses its strengths such as the praised concise and
