@@ -12,8 +12,6 @@ status:
   - Available
 project:
   - IRIS-HEP
-experiments:
-  - RCFM
 program:
   - Any
 location:
