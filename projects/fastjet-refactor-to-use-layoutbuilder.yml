@@ -1,0 +1,47 @@
+---
+name: Refactoring fastjet with Awkward LayoutBuilder
+
+postdate: 2023-03-08
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+
+shortdescription: Replacing the fastjet implementation with safe, maintainable LayoutBuilder while retaining its interface
+
+description: >
+  [fastjet](https://github.com/scikit-hep/fastjet) is a Python interface to the
+  popular [FastJet](https://fastjet.fr/) particle-clustering package, which is
+  written in C++. fastjet is unique in that it offers a
+  [vectorized interface](https://fastjet.readthedocs.io/en/latest/Awkward.html)
+  to FastJet's algorithms, allowing Python users to analyze many collision
+  events in a single function call, avoiding the overhead of Python iteration.
+  Collections of particles and jets with different lengths per event are managed
+  by [Awkward Array](https://awkward-array.org/). Although the fastjet package
+  functions and is currently used in HEP analysis, its Python-C++ interface
+  predates [LayoutBuilder](https://awkward-array.org/doc/main/user-guide/how-to-use-header-only-layoutbuilder.html),
+  which simplifies the construction of Awkward Arrays in C++, is easier to
+  maintain, and avoids the dangers of raw array handling. This project would be
+  to refactor fastjet to use the new abstraction layer, maintaining its
+  well-tested interface, and possibly adding new algorithms and functionality.
+
+contacts:
+  - name: Javier Duarte
+    email: jduarte@ucsd.edu
+  - name: Jim Pivarski
+    email: pivarski@princeton.edu
