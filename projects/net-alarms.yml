@@ -1,0 +1,41 @@
+---
+name: Enabling Advanced Network and Infrastructure Alarms
+postdate: March 9, 2023
+categories:
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+skillset:
+  - Python
+  - Networking
+  - Big data
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Enabling advanced network problem detection for the science community.
+description: >
+  Research and Education networks are critical for modern, distributed scientific infrastructures. Networks enable data and services to operate across data centers and across the world.
+
+  The IRIS-HEP/OSG-LHC team has members working on network measurement, analytics and pre-emptive problem identification and localization and would like to involve a student or students interested in data science, monitoring or analytics to participate in our work.  The team has assembled a rich, unique dataset, consisting of network-specific metrics, statistics and other measurements which are collected by various tools and systems.  In addition, we have developed simple functions to create alarms identifying some types of problems.
+
+  This project is intended to expand and augment the existing simple alarms with new alarms based upon the extensive data we are collecting.   As we examine the data in depth, we realize there are important indicators of problems both in our networks as well as in our network monitoring infrastructure.   Interested students would work with our data using tools like Elasticsearch, Kibana and Jupyter Notebooks to first understand the types of data being collected and then use that knowledge to create increasingly powerful alarms which clearly identify specific problems.  The task is to maximize the diagnostic range and capability of our alarms to proactively identify problems before they impact scientists who rely on these networks or impact our network measurement infrastructure’s ability to gather data in the first place.
+
+  The student will be expected to participate in a weekly group meeting focused on network measurement, analytics, monitoring and alarming, which will provide a venue to discuss and learn about concepts, tools and methodologies relevant to the project.
+
+  The project goal is to create improved alerting and alarming related to both the research and education networks used by HEP, WLCG and OSG communities and the infrastructure we have created to measure and monitor it.
+
+contacts:
+  - name: Shawn McKee
+    email: smckee@umich.edu
+  - name: Ilija Vukotic
+    email: ivukotic@uchicago.edu
