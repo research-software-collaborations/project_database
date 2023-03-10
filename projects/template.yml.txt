@@ -24,7 +24,8 @@ program:
   - Any
 shortdescription: A one line description
 description: >
-Add a long description
+  Add a long description
+  You can use lots of lines, but be sure they are indented by 2 spaces (as to be valid yaml)
 
 contacts:
   - name: Contact 1 name
