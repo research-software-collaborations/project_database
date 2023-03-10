@@ -24,15 +24,15 @@ program:
   - IRIS-HEP fellow
 shortdescription: Machine learning for network problem identification.
 description: >
-Research and Education networks are critical for modern, distributed scientific infrastructures. Networks enable data and services to operate across data centers and across the world.
+  Research and Education networks are critical for modern, distributed scientific infrastructures. Networks enable data and services to operate across data centers and across the world.
 
-The IRIS-HEP/OSG-LHC team has members working on network measurement, analytics and pre-emptive problem identification and localization and would like to involve a student or students interested in data science, machine learning or analytics to participate in our work.  The team has assembled a rich, unique dataset, consisting of network-specific metrics, statistics and other measurements which are collected by various tools and systems.  In addition, we have developed simple functions to create alarms identifying some types of problems.
+  The IRIS-HEP/OSG-LHC team has members working on network measurement, analytics and pre-emptive problem identification and localization and would like to involve a student or students interested in data science, machine learning or analytics to participate in our work.  The team has assembled a rich, unique dataset, consisting of network-specific metrics, statistics and other measurements which are collected by various tools and systems.  In addition, we have developed simple functions to create alarms identifying some types of problems.
 
-Interested students would work with pre-prepared datasets, annotated via our existing alarms, to train one or more machine learning algorithms and then use the trained algorithms to process another dataset, comparing results with the sample alarm method.  The task is to provide a more effective method of identifying certain types of network issues using machine learning so that such problems can be quickly resolved before they impact scientists who rely on these networks.
+  Interested students would work with pre-prepared datasets, annotated via our existing alarms, to train one or more machine learning algorithms and then use the trained algorithms to process another dataset, comparing results with the sample alarm method.  The task is to provide a more effective method of identifying certain types of network issues using machine learning so that such problems can be quickly resolved before they impact scientists who rely on these networks.
 
-The student will be expected to participate in a weekly group meeting focused on network measurement, analytics, monitoring and alarming, which will provide a venue to discuss and learn about concepts, tools and methodologies relevant to the project.
+  The student will be expected to participate in a weekly group meeting focused on network measurement, analytics, monitoring and alarming, which will provide a venue to discuss and learn about concepts, tools and methodologies relevant to the project.
 
-The project goal is to create improved user-facing alerting and alarming related to the research and education networks used by HEP, WLCG and OSG communities.
+  The project goal is to create improved user-facing alerting and alarming related to the research and education networks used by HEP, WLCG and OSG communities.
 
 contacts:
   - name: Shawn McKee
