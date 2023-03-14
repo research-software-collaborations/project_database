@@ -38,7 +38,9 @@ description: >
   which simplifies the construction of Awkward Arrays in C++, is easier to
   maintain, and avoids the dangers of raw array handling. This project would be
   to refactor fastjet to use the new abstraction layer, maintaining its
-  well-tested interface, and possibly adding new algorithms and functionality.
+  well-tested interface, and possibly adding new algorithms and functionality
+  new algorithms and functionality, such as
+  [jet groomers and other transformations](https://github.com/scikit-hep/fastjet/discussions/170).
 
 contacts:
   - name: Javier Duarte
