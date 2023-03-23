@@ -13,13 +13,13 @@ skillset:
 status:
   - Available
 project:
-  - IRIS-HEP
+  - compiler research
 location:
-  - Any
+  - Remote
 commitment:
   - Full time
 program:
-  - IRIS-HEP fellow
+  - HSF-India fellow
 
 shortdescription: How fast can large-scale HEP data analysis be performed using Dask and Awkward Arrays?
 
