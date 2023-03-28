@@ -1,5 +1,6 @@
 ---
 name: Horzontal scaling of HTTP caches
+postdate: 2023-03-28
 shortdescription: learn how to automate load-balancing with Kubernetes
 categories: ['Open science']
 durations: ['3 months']
