@@ -1,5 +1,5 @@
 ---
-name: Horzontal scaling of HTTP caches
+name: Horizontal scaling of HTTP caches
 postdate: 2023-03-28
 shortdescription: learn how to automate load-balancing with Kubernetes
 categories: ['Open science']
@@ -17,7 +17,7 @@ description: >
   needs. Frontier Squid is part of this software stack and acts as an
   HTTP proxy, caching requests to improve network usage.  We seek a
   fellow to turn our existing single cache Kubernetes deployment into
-  one that can scale horiontally using the same underlying storage for
+  one that can scale horizontally using the same underlying storage for
   its cache.
 contacts:
   - name: Brian Bockelman
