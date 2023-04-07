@@ -7,6 +7,7 @@ categories:
 durations:
   - 3 months
 experiments:
+  - ATLAS
   - CMS
   - HLLHC
 skillset:
