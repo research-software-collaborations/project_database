@@ -9,7 +9,7 @@ durations:
 experiments:
   - Any (ATLAS, DUNE, EIC, HLLHC, Future Colliders, ..)  
 skillset:
- - Python
+  - Python
   - ML
   - Big data
   - Networking
