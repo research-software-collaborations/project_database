@@ -7,7 +7,7 @@ categories:
 durations:
   - 3 months
 experiments:
-  - Any (ATLAS, DUNE, EIC, HLLHC, Future Colliders, ..)  
+  - Any
 skillset:
   - Python
   - ML
