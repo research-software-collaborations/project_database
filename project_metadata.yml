@@ -12,6 +12,7 @@ durations:
   - PhD thesis
 
 experiments:
+  - LHCb
   - CMS
   - ATLAS
   - DUNE
@@ -31,6 +32,7 @@ skillset:
   - Docker
   - Big data
   - Networking
+  - CUDA
 
 status:
   - Available
