@@ -3,13 +3,13 @@ name: To develop microservice architecture for CMS HTCondor Job Monitoring
 
 postdate: 29-03-2023
 categories:
-  -Analytics and Open science 
+  - Analytics, Open science 
 durations:
-  -3 months
+  - 3 months
 experiments:
-  -CMS
+  - CMS
 skillset:
-  -Python, Big data, Docker, networking
+  - Python, Big data, Docker, networking
 status:
   - Available
 project:
@@ -19,7 +19,7 @@ location:
 commitment:
   - Full time
 program:
-  - IRIS-HEP
+  - IRIS-HEP fellow
 shortdescription: To develop microservice architecture for CMS HTCondor Job Monitoring
 description: >
   Current implementation of HTCondor Job Monitoring, internally known as Spider service, is a monolithic application which query HTCondor Schedds periodically. This implementation does not allow deployment in modern Kubernetes infrastructures with advantages like auto-scaling, resilience, self-healing, and so on. However, it can be separated into microservices responsible for “ClassAds calculation and conversion to JSON documents”, “transmitting results to ActiveMQ and OpenSearch without any duplicates” and “highly durable query management”. Such a microservice architecture will allow the use of appropriate languages like GoLang when it has advantages over Python. Moreover, intermediate monitoring pipelines can be integrated into this microservice architecture and it will drop the work-power needed for the services that produce monitoring outcomes using HTCondor Job Monitoring data
