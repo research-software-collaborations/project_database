@@ -32,6 +32,7 @@ skillset:
   - Docker
   - Big data
   - Networking
+  - Julia
   - CUDA
 
 status:
