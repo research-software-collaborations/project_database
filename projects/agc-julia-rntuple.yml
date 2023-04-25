@@ -1,0 +1,34 @@
+---
+name: Julia for the Analysis Grand Challenge
+postdate: 2023-04-07
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+  - HLLHC
+skillset:
+  - Julia
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Implement an analysis pipeline for the Analysis Grand Challenge (AGC) using [JuliaHEP](https://github.com/JuliaHEP/) ecosystem.
+description: >
+  The project's main goal is to implement AGC pipeline using Julia to demonstrate usability and as a test of performance. New utility packages can be expected especially for systematics handling and out-of-core orchestration. (built on existing packages such as `FHist.jl` and `Dagger.jl`)
+  At the same time, the project can explore using `RNTuple` instead of `TTree` for AGC data storage. As the interface is exactly transparent, this goal mainly requires data conversion unless performance bugs are spotted. This will be help inform transition at LHC experiments in near future (Run 4).
+contacts:
+  - name: Jerry Ling
+    email: jling@g.harvard.edu
+  - name: Alexander Held
+    email: alexander.held@cern.ch
