@@ -4,6 +4,7 @@ categories:
   - Simulation
   - Open science
   - ML/AI
+  - Analytics
 
 durations:
   - 3 months
@@ -11,6 +12,7 @@ durations:
   - PhD thesis
 
 experiments:
+  - LHCb
   - CMS
   - ATLAS
   - DUNE
@@ -31,6 +33,7 @@ skillset:
   - Big data
   - Networking
   - Julia
+  - CUDA
 
 status:
   - Available

@@ -1,0 +1,33 @@
+---
+name: Development of high level trigger (HLT1) lines to detect long lived particles at LHCb.
+
+postdate: 29-03-2023
+categories:
+  - Analysis tools, ML/AI
+durations:
+  - 3 months
+experiments:
+  - LHCb
+skillset:
+  - CUDA, C++, Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Development of trigger lines to detect long-lived particles at LHCb
+description: >
+The project focuses on developing trigger lines to detect long-lived particles by utilizing recently developed reconstruction algorithms within the Allen framework. These lines will employ the topologies of SciFi seeds originating from standard model long-lived particles, such as the strange Λ0. Multiple studies based on Monte Carlo (MC) simulations will be conducted to understand the variables of interest that can be used to select events.
+The development of new trigger lines faces limitations due to output trigger rate throughput constraints of the entire HLT1 system.
+
+An essential aspect of the project is the physics performance and the capability of the trigger lines for long-lived particle detection. The student will develop and employ ML/AI techniques that could significantly boost performance while maintaining control over execution time. The physics performance of the new trigger lines will be tested using specific decay channels from both Standard Model (SM) transitions and novel processes, such as dark bosons. Additionally, 2023 data from collisions collected during Run 3 will be used to commission these lines.
+contacts:
+  - name: Arantza Oyanguren
+    email: oyanguren@ific.uv.es
+  - name: Brij Kishor Jashal
+    email: brij@cern.ch
