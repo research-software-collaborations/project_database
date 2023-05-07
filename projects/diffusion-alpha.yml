@@ -26,8 +26,15 @@ program:
   - IRIS-HEP fellow
 shortdescription: A one line description
 description: >
-  Add a long description
-  You can use lots of lines, but be sure they are indented by 2 spaces (as to be valid yaml)
+  This project aims to build a conditional point-cloud diffusion model to simulate detector response to events in time projection 
+  chambers (TPCs), with a focus on the Active-Target Time Projection Chamber (AT-TPC). Current analysis and simulation
+  software is currently unable to model the noise signature in the AT-TPC. Prior explorations have successfully modeled this noise
+  in a cycle-GAN, but in a lower-dimensional space than the detector resolution. The IRIS-HEP project will be completed
+  in collaboration with the ALPhA research group at Davidson College. 
+  
+  The applicant should have a foundation in ML and a comfort in python. This is a newer type of ML deep learning generative
+  architecture, which will require the applicant to read, implement, and
+  modify approaches taken in ML literature using pytorch or tensorflow.
 
 contacts:
   - name: Michelle Kuchera
