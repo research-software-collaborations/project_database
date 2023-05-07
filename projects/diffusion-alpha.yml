@@ -24,7 +24,7 @@ commitment:
   - Full time
 program:
   - IRIS-HEP fellow
-shortdescription: A one line description
+shortdescription: Build, train, and tune a point-cloud diffusion model for the Active-Target Time Projection Chamber
 description: >
   This project aims to build a conditional point-cloud diffusion model to simulate detector response to events in time projection 
   chambers (TPCs), with a focus on the Active-Target Time Projection Chamber (AT-TPC). Current analysis and simulation
