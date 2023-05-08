@@ -7,7 +7,7 @@ categories:
 durations:
   - 3 months
 experiments:
-  - Any   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+  - Any # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
 skillset:
   - Python
   - ML
@@ -23,12 +23,12 @@ program:
   - IRIS-HEP fellow
 shortdescription: Build, train, and tune a point-cloud diffusion model for the Active-Target Time Projection Chamber
 description: >
-  This project aims to build a conditional point-cloud diffusion model to simulate detector response to events in time projection 
+  This project aims to build a conditional point-cloud diffusion model to simulate detector response to events in time projection
   chambers (TPCs), with a focus on the Active-Target Time Projection Chamber (AT-TPC). Current analysis and simulation
   software is currently unable to model the noise signature in the AT-TPC. Prior explorations have successfully modeled this noise
   in a cycle-GAN, but in a lower-dimensional space than the detector resolution. The IRIS-HEP project will be completed
-  in collaboration with the ALPhA research group at Davidson College. 
-  
+  in collaboration with the ALPhA research group at Davidson College.
+
   The applicant should have a foundation in ML and a comfort in python. This is a newer type of ML deep learning generative
   architecture, which will require the applicant to read, implement, and
   modify approaches taken in ML literature using pytorch or tensorflow.

@@ -1,5 +1,5 @@
 ---
-name: Julia interface to PODIO 
+name: Julia interface to PODIO
 postdate: 2023-05-018
 categories:
   - Analysis tools
@@ -20,9 +20,9 @@ commitment:
   - Full time
 program:
   - IRIS-HEP fellow
-shortdescription: Add Julia Interface to the [PODIO](https://github.com/aidasoft/podio) library. 
+shortdescription: Add Julia Interface to the [PODIO](https://github.com/aidasoft/podio) library.
 description: >
-  The project's main goal is to add a proper Julia back-end to [PODIO](https://github.com/aidasoft/podio). 
+  The project's main goal is to add a proper Julia back-end to [PODIO](https://github.com/aidasoft/podio).
   A previous Google Summer of Code [project](https://hepsoftwarefoundation.org/gsoc/blogs/2022/blog_PODIO_SoumilBaldota.html) worked on an early prototype, which showed the feasibility.
   The aim is to complete the feature set, and do thorough (performance) testing afterwards.
 contacts:
