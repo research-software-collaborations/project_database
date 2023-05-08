@@ -3,13 +3,17 @@ name: To develop microservice architecture for CMS HTCondor Job Monitoring
 
 postdate: 29-03-2023
 categories:
-  - Analytics, Open science 
+  - Analytics
+  - Open science 
 durations:
   - 3 months
 experiments:
   - CMS
 skillset:
-  - Python, Big data, Docker, networking
+  - Python
+  - Big data
+  - Docker
+  - networking
 status:
   - Available
 project:
