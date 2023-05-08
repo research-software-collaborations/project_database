@@ -3,13 +3,15 @@ name: Development of simulation workflows for BSM LLPs at LHCb
 
 postdate: 29-03-2023
 categories:
-  - Simulation, Generators
+  - Simulation
+  - Generators
 durations:
   - 3 months
 experiments:
   - LHCb
 skillset:
-  - C++, Python
+  - C++
+  - Python
 status:
   - Available
 project:
