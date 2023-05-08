@@ -3,13 +3,16 @@ name: Development of high level trigger (HLT1) lines to detect long lived partic
 
 postdate: 29-03-2023
 categories:
-  - Analysis tools, ML/AI
+  - Analysis tools
+  - ML/AI
 durations:
   - 3 months
 experiments:
   - LHCb
 skillset:
-  - CUDA, C++, Python
+  - CUDA
+  - C++
+  - Python
 status:
   - Available
 project:
