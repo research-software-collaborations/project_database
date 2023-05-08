@@ -23,7 +23,6 @@ commitment:
 program:
   - IRIS-HEP fellow
 shortdescription: Development of simulation workflows for BSM LLPs at LHCb
-
 description: >
   In this project, the candidate will become familiar with Monte Carlo (MC) simulations in the LHC environment, 
   using generators such as Pythia and EvtGen, and will learn to work within the LHCb framework. They will learn to 
