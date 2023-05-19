@@ -35,6 +35,7 @@ skillset:
   - Networking
   - Julia
   - CUDA
+  - Rust
 
 status:
   - Available
