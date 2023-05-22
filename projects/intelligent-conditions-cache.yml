@@ -1,0 +1,20 @@
+---
+name: Intelligent Caching for HSF Conditions Database
+postdate: 2023-05-22
+shortdescription: investigate patterns in conditions database accesses
+categories: ['Open science']
+durations: ['3 months']
+experiments: ['Any']
+skillset: ['Python']
+status: ['Available']
+project: ['IRIS-HEP']
+program: ['IRIS-HEP fellow']
+location: ['In person']
+commitment: ['Full time']
+description: >
+  Conditions data refers to additional information collected in particle physics experiments beyond what is recorded directly by the detector. This data plays a critical role in many experiments, providing crucial context and calibration information for the recorded measurements. However, managing conditions data poses unique challenges, particularly due to the high access rates involved.
+  The High-Energy Physics Software Foundation (HSF) has developed an experiment-agnostic approach to address these challenges, which has already been successfully deployed for the sPHENIX experiment at the Brookhaven National Laboratory (BNL).
+  The project focuses on investigating the access patterns for this conditions database to gather insights that will enable the development of an optimized caching system in the future. Machine Learning may be used for pattern recognition.
+contacts:
+  - name: Lino Gerlach
+    email: lino.oscar.gerlach@cern.ch
