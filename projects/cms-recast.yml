@@ -30,7 +30,8 @@ description: >
   preservation bootcamp at CERN](/2020/02/17/analysis-preservation.html) teaching
   these tools. Furthermore, the ATLAS experiment is now actively using RECAST. We
   seek a member of CMS to incorporate a CMS analysis into the system with support
-  from IRIS-HEP, REANA, and RECAST developers.
+  from IRIS-HEP, REANA, and RECAST developers. The analysis can be done using CMS
+  internal data or CMS open data and would use CMS analysis tooling.
 contacts:
   - name: Kyle Cranmer
     email: kyle.cranmer@wisc.edu
