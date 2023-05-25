@@ -22,9 +22,10 @@ commitment:
   - Full time
 shortdescription: Implement a CMS analysis with RECAST and REANA
 description: >
-  [RECAST](/projects/recast.html) is a platform for systematic interpretation
-  of LHC searches. It reuses preserved analysis workflows from the LHC experiments,
-  which is now possible with containerization and tools such as [REANA](http://reanahub.io).
+  [RECAST](https://iris-hep.org/projects/recast.html) is a platform for systematic
+  interpretation of LHC searches.
+  It reuses preserved analysis workflows from the LHC experiments, which is now
+  possible with containerization and tools such as [REANA](http://reanahub.io).
   Recently, IRIS-HEP and the HEP Software Foundation (HSF) supported an [analysis
   preservation bootcamp at CERN](/2020/02/17/analysis-preservation.html) teaching
   these tools. Furthermore, the ATLAS experiment is now actively using RECAST. We
