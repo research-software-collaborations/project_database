@@ -24,6 +24,7 @@ Both of these can be updated via a pull request to this repository
 ## Changing the status of your project
 - Projects can be changed/removed by their owner via pull request at any time. We encourage projects that have been filled or are no
 longer relevant to be updated accordingly.
+- Projects that are complete or in progress require a "link" field used to document the project results (eg, a project webpage, etc)
 
 ## Testing/visualizing your entry
 - This repo uses precommit-ci. Consider using pre-commit locally
