@@ -1,7 +1,7 @@
 import yaml
 
 extra_attributes = ["contacts","name","shortdescription","description","postdate"]
-
+ignore_attributes = ["link"]
 def get_yaml(f):
     with open(f, "r") as stream:
         try:
@@ -12,7 +12,7 @@ def get_yaml(f):
             return None
     return data
 
-print("Hi there. Checking your projects")
+print("Checking your projects against the expected metadata")
 
 metadata=get_yaml("project_metadata.yml")
 
@@ -41,12 +41,12 @@ for f in filelist:
         continue
     found_attributes=data.keys()
     for att in found_attributes:
-        if att not in all_attributes and att not in extra_attributes:
+        if att not in all_attributes and att not in extra_attributes and att not in ignore_attributes:
             print("Found unexpected attribute")
             print(f)
             print(att)
             n_errors+=1
-        if att not in extra_attributes:
+        if att not in extra_attributes and att not in ignore_attributes:
             vals = data[att]
             for v in vals:
                 if v not in metadata[att] and v!="Any":
@@ -68,8 +68,15 @@ for f in filelist:
             print(att)
             n_errors+=1
 
+    #one hardwired check - if the project is either in progress or done, it should have a link
+    if "status" in data:
+        status = data["status"]
+        if status=="In progress" or status=="Complete" or "Complete" in status or "In progress" in status:
+            if "link" not in found_attributes:
+                n_errors+=1
+                print("Missing project link", f)
+
 if n_errors>0:
     print("Found",n_errors,"errors")
     sys.exit(1)
-print("Success")
-print("Checked ",str(len(filelist)),"projects")
+print("Success -- Checked",str(len(filelist)),"projects")
