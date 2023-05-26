@@ -1,0 +1,42 @@
+---
+name: Recasting of IRIS-HEP Analysis Grand Challenge
+postdate: 2023-05-24
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Docker
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - Any
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implement the CMS open data AGC analysis with RECAST and REANA
+description: >
+  [RECAST](https://iris-hep.org/projects/recast.html) is a platform for systematic
+  interpretation of LHC searches.
+  It reuses preserved analysis workflows from the LHC experiments, which is now
+  possible with containerization and tools such as [REANA](http://reanahub.io).
+  A yet unrealized component of the IRIS-HEP [Analysis Grand Challenge](https://agc.readthedocs.io/)
+  (AGC) is reuse and reinterpretation of the analysis.
+  This project would aim to preserve the AGC CMS open data analysis and the
+  accompanying distributed infrastructure and implement a RECAST workflow allowing
+  REANA integration with the AGC.
+  A key challenge of the project is creating a preservation scheme for the associated
+  Kubernetes distributed infrastructure.
+contacts:
+  - name: Kyle Cranmer
+    email: kyle.cranmer@wisc.edu
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
+  - name: Lukas Heinrich
+    email: lukas.heinrich@cern.ch
