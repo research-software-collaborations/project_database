@@ -26,7 +26,7 @@ Both of these can be updated via a pull request to this repository
 longer relevant to be updated accordingly.
 
 ## Testing/visualizing your entry
-- This repo uses precommit-ci. Consider using pre-commit locally 
+- This repo uses precommit-ci. Consider using pre-commit locally
 - Two scripts will run on PRs. To check that they work ok with your change
 -  ```python3 _scripts/check_projects.py projects/*```
 -  ```yamllint -c _scripts/yaml_lint.rules projects/.``` (yamllist is installed by ```pip install yamllist``` for example)
