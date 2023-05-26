@@ -25,16 +25,16 @@ program:
 shortdescription: Simulate the detector response to high energy particle collisions using graph neural networks
 
 description: >
-  Geometric deep learning and graph neural networks (GNNs) have proven to be especially 
-  successful for machine learning tasks such as classification and reconstruction for 
-  high energy physics (HEP) data, such as jets and calorimeter showers produced at the 
-  Large Hadron Collider. This project extends their application to the computationally 
-  costly task of simulations, building off of existing work in this area [1]. Possible 
-  and complementary research directions are: (1) conditional generation of jets using 
-  auxiliary conditioning networks [2-3]; (2) application to generator-level showering 
-  and hadronization simulations, and investigating merging schemes with hard matrix elements; 
-  (3) developing an attention-based architecture, which has recently found success in 
-  jet classification [4]; (4) applications to shower datasets [5-6]. 
+  Geometric deep learning and graph neural networks (GNNs) have proven to be especially
+  successful for machine learning tasks such as classification and reconstruction for
+  high energy physics (HEP) data, such as jets and calorimeter showers produced at the
+  Large Hadron Collider. This project extends their application to the computationally
+  costly task of simulations, building off of existing work in this area [1]. Possible
+  and complementary research directions are: (1) conditional generation of jets using
+  auxiliary conditioning networks [2-3]; (2) application to generator-level showering
+  and hadronization simulations, and investigating merging schemes with hard matrix elements;
+  (3) developing an attention-based architecture, which has recently found success in
+  jet classification [4]; (4) applications to shower datasets [5-6].
 
   [1] https://arxiv.org/abs/2106.11535 \
   [2] https://arxiv.org/abs/1610.09585 \

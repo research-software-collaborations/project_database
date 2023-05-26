@@ -1,5 +1,5 @@
 ---
-name: Rust interfaces to I/O libraries 
+name: Rust interfaces to I/O libraries
 postdate: 2023-05-018
 categories:
   - Analysis tools
@@ -23,9 +23,9 @@ program:
   - IRIS-HEP fellow
 shortdescription: Explore the addition of a Rust interface to the [PODIO](https://github.com/aidasoft/podio) library.
 description: >
-  The project's main goal is to prototype a Rust interface to the PODIO library. Data models in PODIO are declared with a simple programming-language agnostic syntax. In this project 
-  we will explore how the PODIO data model concepts can be mapped best onto Rust. At the same time, we will investigate how much Rust's macro system can support the function of PODIO. 
-  For the other supported languages Python, C++ and (experimentally) Julia PODIO generates all of the source code. With proper usage of Rust macros this code generation could be kept to a minimum. 
+  The project's main goal is to prototype a Rust interface to the PODIO library. Data models in PODIO are declared with a simple programming-language agnostic syntax. In this project
+  we will explore how the PODIO data model concepts can be mapped best onto Rust. At the same time, we will investigate how much Rust's macro system can support the function of PODIO.
+  For the other supported languages Python, C++ and (experimentally) Julia PODIO generates all of the source code. With proper usage of Rust macros this code generation could be kept to a minimum.
 contacts:
   - name: Benedikt Hegner
     email: benedikt.hegner@cern.ch
