@@ -16,10 +16,10 @@ jobs:
     name: Submodule update
     runs-on: ubuntu-latest
     env:
-      PARENT_REPOSITORY: 'research-software-collaborations/research-software-collaborations.github.io'
-      CHECKOUT_BRANCH: 'master'
-      PR_AGAINST_BRANCH: 'master'
-      OWNER: 'research-software-collaborations'
+      PARENT_REPOSITORY: "research-software-collaborations/research-software-collaborations.github.io"
+      CHECKOUT_BRANCH: "master"
+      PR_AGAINST_BRANCH: "master"
+      OWNER: "research-software-collaborations"
 
     steps:
       ##########################
@@ -40,4 +40,3 @@ jobs:
           checkout_branch: ${{ env.CHECKOUT_BRANCH}}
           pr_against_branch: ${{ env.PR_AGAINST_BRANCH }}
           owner: ${{ env.OWNER }}
-
