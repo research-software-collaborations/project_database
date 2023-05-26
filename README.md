@@ -26,5 +26,5 @@ Both of these can be updated via a pull request to this repository
 longer relevant to be updated accordingly.
 
 ## Testing/visualizing your entry
-- Instructions to come..
+- [Instructions for building the webpage with all projects are maintained here](https://github.com/research-software-collaborations/research-software-collaborations.github.io/blob/master/README.md#testing-a-new-project-or-other-development-in-the-project_database-repo)
 
