@@ -3,7 +3,7 @@ name: Testing Real Time Analysis at LHCb using 2022 data
 postdate: 26.05.2023
 categories:
   - ML/AI
-  - Analysis tools 
+  - Analysis tools
 durations:
   - 3 months
 experiments:
