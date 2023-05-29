@@ -1,0 +1,47 @@
+---
+name: Testing Real Time Analysis at LHCb using 2022 data
+postdate: 26.05.2023
+categories:
+  - ML/AI
+  - Analysis tools 
+durations:
+  - 3 months
+experiments:
+  - LHCb
+skillset:
+  - Python
+  - ML
+  - Big data
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Testing the Real Time Analysis at LHCb using data collected in 2022.
+description: >
+  In this project, the candidate will use data collected at the LHCb experiment in 2022 to test
+  and compare the different machine learning algorithms used to select events,
+  in addition to probing the performance of the new detector more generally.
+  They will first develop a BDT-based machine learning algorithm to cleanly
+  select the decay candidates of interest in 2022 data. Statistical subtraction
+  techniques combined with likelihood estimations will be used to
+  remove any remaining background contamination. The decay properties of these
+  channels, depending on which machine learning algorithm was employed in the trig-
+  ger, will then be compared and their agreement with simulated events examined.
+  If needed, the existing trigger algorithms may be altered and improved.
+  If time allows, the student will also have a first look at the angular distributions
+  of the calibration channels being studied. Understanding such angular distributions
+  are vital to the LHCb physics program.
+
+contacts:
+  - name: Michele Atzeni
+    email: matzeni@cern.ch
+  - name: Eluned Anne Smith
+    email: eluned.anne.smith@cern.ch
+
+
