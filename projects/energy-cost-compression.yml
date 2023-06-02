@@ -24,7 +24,7 @@ commitment:
 shortdescription: Test and validate power consumption estimates for a ML algorithm for data compression
 description: >
   [Baler](https://github.com/baler-collaboration/baler) is a machine-learning based lossy data compression tool.
-  In this project, we will review the literature concerning energy consumption for ML modes and
+  In this project, we will review the literature concerning energy consumption for ML models and
   obtain estimates of the energetic cost of training and hyperparameter optimization following the guidelines
   of the Green Software Foundation. The candidate will work in a team of students and interns who are
   developers of the compression tool, and will be able to suggest improvements and insights towards Baler's
