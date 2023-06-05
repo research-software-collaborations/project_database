@@ -1,0 +1,40 @@
+---
+name: Measuring energy consumption of HEP software on user analysis facilities
+postdate: 2023-05-10
+categories:
+  - Analytics
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Big data
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - Any
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implementing energy consumption benchmarks on different analysis platforms and facilities
+description: >
+  Benchmarks for software energy consumption are starting to appear
+  (see e.g. the [SCI score](https://github.com/Green-Software-Foundation/software_carbon_intensity/blob/main/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md#quantification-method))
+  alongside more common performance benchmarks.
+  In this project, we will pilot the implementation of selected software energy consumption benchmarks
+  on two different facilities for user analysis:
+     * the [Virtual Research Environment](https://indico.jlab.org/event/459/contributions/11671/),
+       a prototype analysis platform for the European Open Science Cloud.
+     * [Coffea-casa](https://coffea-casa.readthedocs.io/), a prototype Analysis
+       Facility (AF), which provides services for "low-latency columnar analysis."
+  We will then test them with simple user software pipelines.
+  The candidate will work in collaboration with another IRIS-HEP fellow
+  investigating energy consumption benchmarks for ML algorithms,
+  and alongside a team of students and interns working on the selection and implementation of the benchmarks.
+contacts:
+  - name: Caterina Doglioni
+    email: caterina.doglioni@cern.ch
