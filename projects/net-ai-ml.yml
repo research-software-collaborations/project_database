@@ -39,4 +39,6 @@ contacts:
     email: smckee@umich.edu
   - name: Petya Vasileva
     email: petyav@umich.edu
-link: "https://iris-hep.org/fellows/70752300.html"
+mentees:
+  - name: Maxym Naumchyk
+    link: "https://iris-hep.org/fellows/70752300.html"

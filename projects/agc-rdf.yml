@@ -35,4 +35,6 @@ contacts:
     email: enrico.guiraud@cern.ch
   - name: Alexander Held
     email: alexander.held@cern.ch
-link: https://iris-hep.org/fellows/andriiknu.html
+mentees:
+  - name: Andrii Falko
+    link: https://iris-hep.org/fellows/andriiknu.html

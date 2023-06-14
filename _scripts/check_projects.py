@@ -1,7 +1,7 @@
 import yaml
 
 extra_attributes = ["contacts","name","shortdescription","description","postdate"]
-ignore_attributes = ["link"]
+ignore_attributes = ["mentees"]
 def get_yaml(f):
     with open(f, "r") as stream:
         try:
@@ -72,9 +72,9 @@ for f in filelist:
     if "status" in data:
         status = data["status"]
         if status=="In progress" or status=="Complete" or "Complete" in status or "In progress" in status:
-            if "link" not in found_attributes:
+            if "mentees" not in found_attributes:
                 n_errors+=1
-                print("Missing project link", f)
+                print("Missing project mentee list", f)
 
 if n_errors>0:
     print("Found",n_errors,"errors")

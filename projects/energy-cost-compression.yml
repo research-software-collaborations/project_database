@@ -34,4 +34,6 @@ contacts:
     email: caterina.doglioni@cern.ch
   - name: Alexander Ekman
     email: alexander.ekman@hep.lu.se
-link: https://iris-hep.org/fellows/LeonidDidukh.html
+mentees:
+  - name: Leonid Didukh
+    link: https://iris-hep.org/fellows/LeonidDidukh.html
