@@ -15,7 +15,7 @@ skillset:
   - C++
   - ML
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -35,3 +35,4 @@ contacts:
     email: enrico.guiraud@cern.ch
   - name: Alexander Held
     email: alexander.held@cern.ch
+link: https://iris-hep.org/fellows/andriiknu.html
