@@ -13,7 +13,7 @@ skillset:
   - Networking
   - Big data
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -39,3 +39,4 @@ contacts:
     email: smckee@umich.edu
   - name: Petya Vasileva
     email: petyav@umich.edu
+link: "https://iris-hep.org/fellows/70752300.html"
