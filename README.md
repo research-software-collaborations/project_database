@@ -28,7 +28,8 @@ longer relevant to be updated accordingly.
 - For example, the following should be done when work on a project has started:
   - Find the corresponding project in the ```project``` directory
   - Edit the ```status``` to be ```In progress```
-  - Add a ```link: project-webpage``` to allow everyone to find the ongoing work
+  - Add an entry in the mentees list (or add ```mentees:``` to start one) and then add the name (```  name: <name>```) and project page 
+    link  (```  link: project-webpage```) to allow everyone to find the ongoing work
   - Make a pull request with these changes (see above more for information
 
 ## Testing/visualizing your entry
