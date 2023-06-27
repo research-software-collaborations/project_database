@@ -9,7 +9,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -57,3 +57,6 @@ contacts:
     email: ioana.ifrim@cern.ch
   - name: Jim Pivarski
     email: pivarski@princeton.edu
+mentees:
+  - name: Seth Bendigo
+    link: https://iris-hep.org/fellows/SethBendigo.html

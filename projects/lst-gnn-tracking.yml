@@ -16,7 +16,7 @@ skillset:
   - C++
   - ML
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -75,3 +75,6 @@ description: >
 contacts:
   - name: Philip Chang
     email: p.chang@ufl.edu
+mentees:
+  - name: Povilas Pugzlys
+    link: https://iris-hep.org/fellows/HubertPugzlys.html

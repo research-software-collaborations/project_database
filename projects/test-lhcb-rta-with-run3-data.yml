@@ -13,7 +13,7 @@ skillset:
   - ML
   - Big data
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -43,3 +43,6 @@ contacts:
     email: matzeni@cern.ch
   - name: Eluned Anne Smith
     email: eluned.anne.smith@cern.ch
+mentees:
+  - name: Nazar Semkiv
+    link: https://iris-hep.org/fellows/nszark.html

@@ -6,7 +6,7 @@ categories: ["Open science"]
 durations: ["3 months"]
 experiments: ["Any"]
 skillset: ["Python"]
-status: ["Available"]
+status: ["In progress"]
 project: ["IRIS-HEP"]
 program: ["IRIS-HEP fellow"]
 location: ["In person"]
@@ -18,3 +18,6 @@ description: >
 contacts:
   - name: Lino Gerlach
     email: lino.oscar.gerlach@cern.ch
+mentees:
+  - name: Ernest Sorokun
+    link: https://iris-hep.org/fellows/esorokun.html
