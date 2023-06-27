@@ -36,6 +36,9 @@ skillset:
   - Julia
   - CUDA
   - Rust
+  - Jenkins
+  - CI/CD
+  - Linux
 
 status:
   - Available
