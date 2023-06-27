@@ -37,7 +37,7 @@ skillset:
   - CUDA
   - Rust
   - Jenkins
-  - CD/CI
+  - CI/CD
   - Linux
 
 status:
