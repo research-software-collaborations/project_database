@@ -6,7 +6,10 @@ categories:
 durations:
   - 3 months
 skillset:
-  - be familiar with the Linux environment (knowledge of python, git, Jenkins or other CI/CD tools is a plus)
+  - Linux
+  - Python
+  - Jenkins
+  - CI/CD
 status:
   - Available
 project:
