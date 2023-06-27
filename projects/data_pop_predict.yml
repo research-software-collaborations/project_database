@@ -14,7 +14,7 @@ skillset:
   - Big data
   - Networking
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -33,3 +33,6 @@ description: >
 contacts:
   - name: Vincent Garonne
     email: vincent.garonne@bnl.gov
+mentees:
+  - name: Avi G. Kaufman
+    link: https://iris-hep.org/fellows/AviKaufman.html

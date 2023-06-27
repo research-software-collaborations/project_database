@@ -14,7 +14,7 @@ skillset:
   - Julia
   - Python
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -32,3 +32,6 @@ contacts:
     email: jling@g.harvard.edu
   - name: Alexander Held
     email: alexander.held@cern.ch
+mentees:
+  - name: Atell-Yehor Krasnopolski
+    link: https://iris-hep.org/fellows/gojakuch.html

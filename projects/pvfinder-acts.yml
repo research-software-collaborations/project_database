@@ -8,7 +8,7 @@ durations:
 skillset:
   - Python
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 experiments:
@@ -42,3 +42,6 @@ contacts:
     email: rbgarg@stanford.edu
   - name: Michael Sokoloff
     email: sokoloff@ucmail.uc.edu
+mentees:
+  - name: Layan AlSarayra
+    link: https://iris-hep.org/fellows/layan-sarayra.html
