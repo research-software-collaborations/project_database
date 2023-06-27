@@ -1,0 +1,32 @@
+---
+name: Predict data popularity to improve its availability for physics analysis
+postdate: 2023-06-27
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - be familiar with the Linux environment
+  - working experience with python and machine learning tools
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - CMS
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implement a CMS analysis with RECAST and REANA
+description: >
+  The CMS data management team is responsible for distributing data among computing centers worldwide. Given the limited disk space at these sites, the team must dynamically manage the available data on disk. Whenever users attempt to access unavailable data, they are required to wait for the data to be retrieved from permanent tape storage. This delay impedes data analysis and hinders the scientific productivity of the collaboration. The objective of this project is to create a tool that utilizes machine learning algorithms to predict which data should be retained, based on current usage patterns.
+contacts:
+  - name: Dmytro Kovalskyi
+    email: Dmytro.Kovalskyi@cern.ch
+  - name: Rahul Chauhan
+    email: rahul.chauhan@cern.ch
+  - name: Hasan Ozturk
+    email: h.ozturk@cern.ch

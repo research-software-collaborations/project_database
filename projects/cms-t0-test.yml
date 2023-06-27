@@ -1,0 +1,31 @@
+---
+name: Improve testing procedures for prompt data processing at CMS
+postdate: 2023-06-27
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - be familiar with the Linux environment (knowledge of python, git, Jenkins or other CI/CD tools is a plus)
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - CMS
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implement a CMS analysis with RECAST and REANA
+description: >
+  The CMS Tier-0 service is responsible for the prompt processing and distribution of the data collected by the CMS Experiment. Thorough testing of any code or configuration changes for the service is critical for timely data processing. The existing system has a Jenkins pipeline to execute a large-scale "replay" of the data processing using old data for the final functional testing before deployment of critical changes. The project is focusing on integration of unit tests and smaller functional tests in the integration pipeline to speed up testing and reduce resource utilization.
+contacts:
+  - name: Dmytro Kovalskyi
+    email: Dmytro.Kovalskyi@cern.ch
+  - name:  German Giraldo
+    email: german.giraldo@cern.ch
+  - name: Jan Eysermans
+    email: jan.eysermans@cern.ch
