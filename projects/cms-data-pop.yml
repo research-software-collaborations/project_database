@@ -10,7 +10,7 @@ skillset:
   - Python
   - ML
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 experiments:
@@ -33,5 +33,5 @@ contacts:
     email: h.ozturk@cern.ch
 mentees:
   - name: Andrii Len
-  - link: https://iris-hep.org/fellows/Andreylen.html
+    link: https://iris-hep.org/fellows/Andreylen.html
   
