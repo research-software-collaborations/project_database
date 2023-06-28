@@ -9,7 +9,7 @@ skillset:
   - Python
   - Docker
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 experiments:
@@ -37,3 +37,6 @@ contacts:
     email: amy.roberts@ucdenver.edu
   - name: Giordon Stark
     email: gstark@cern.ch
+mentees:
+  - name: Sambridhi Deo
+    link: https://iris-hep.org/fellows/Samcoodess.html
