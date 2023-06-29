@@ -35,3 +35,7 @@ contacts:
     email: Mario.Lassnig@cern.ch
   - name: Martin Barisits
     email: Martin.Barisits@cern.ch
+
+mentees:
+  - name: Lev Pambuk
+    link: https://iris-hep.org/fellows/Kwaizer.html
