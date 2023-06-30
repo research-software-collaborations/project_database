@@ -12,7 +12,7 @@ skillset:
   - C++
   - Python
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 program:
@@ -44,3 +44,6 @@ contacts:
     email: spagangriso@lbl.gov
   - name: Sergo Jindariani
     email: sergo@fnal.gov
+mentees:
+  - name: Chris Sellgren
+    link: https://iris-hep.org/fellows/chrissellgren.html
