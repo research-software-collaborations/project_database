@@ -11,7 +11,7 @@ skillset:
   - Jenkins
   - CI/CD
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 experiments:
@@ -32,3 +32,6 @@ contacts:
     email: german.giraldo@cern.ch
   - name: Jan Eysermans
     email: jan.eysermans@cern.ch
+mentees:
+  - name: Mykola Kolomiiets
+    link: https://iris-hep.org/fellows/MycolaKolomiiets.html
