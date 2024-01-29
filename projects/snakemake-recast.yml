@@ -9,7 +9,7 @@ skillset:
   - Python
   - Docker
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 experiments:
@@ -40,3 +40,6 @@ contacts:
     email: matthew.feickert@cern.ch
   - name: Lukas Heinrich
     email: lukas.heinrich@cern.ch
+mentees:
+  - name: Andrii Povsten
+    link: https://iris-hep.org/fellows/AndriiPovsten.html
