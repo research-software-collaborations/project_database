@@ -1,6 +1,6 @@
-#remove commented text (after "#") in your project yml, including this line..
-#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
-#to add additional responses, please modify project_metadata.yml accordingly
+# remove commented text (after "#") in your project yml, including this line..
+# See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+# to add additional responses, please modify project_metadata.yml accordingly
 ---
 name: Augmenting Line-Segment Tracking with Graph Neural Network
 postdate: 2023-02-18
