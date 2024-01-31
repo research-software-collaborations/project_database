@@ -67,9 +67,11 @@ description: >
   Week 3: Creating example of running the Line Segment classification inference on C++ environment with TorchScript
   Week 4/5: Integrating the inference with LST’s CUDA code to run the inference on GNN
   Week 5: Validating the implementation in the LST framework
-  Week 6/7: Performing optimization of utilizing the GNN inferences to measure performance gain in the efficiency metric of LST framework (i.e. efficiency, fake rate, and duplicate rate)
+  Week 6/7: Performing optimization of utilizing the GNN inferences to measure performance gain in the efficiency metric of LST framework (i.e. efficiency, fake
+  rate, and duplicate rate)
   Week 8/9: Perform large scale hyperparameter optimization to find best resulting model architectecture
-  Week 10/11: Perform research and development of extending the ability to classify Triplets, and beyond, with the Line Graph transformation approach, which would enable “one-shot” inference
+  Week 10/11: Perform research and development of extending the ability to classify Triplets, and beyond, with the Line Graph transformation approach, which
+  would enable “one-shot” inference
   Week 12: Wrap up the project, document and summarize the findings to allow for next steps
 
 contacts:

@@ -24,11 +24,18 @@ program:
   - IRIS-HEP fellow
 shortdescription: Rucio core developments for large-scale data management
 description: >
-  The Rucio system is an open and community-driven data management system for data organisation, management, and access of scientific data. Several communities and experiments have adopted Rucio as a common solution, therefore we seek a dedicated software engineer to help implement much wished for features and extensions in the Rucio core.
+  The Rucio system is an open and community-driven data management system for data organisation, management, and access of scientific data. Several communities
+  and experiments have adopted Rucio as a common solution, therefore we seek a dedicated software engineer to help implement much wished for features and
+  extensions in the Rucio core.
 
-  The selected candidate will focus on producing software for several Rucio components. There is a multitude of potential topics, also based on the candidate's interests, that can be tackled. Examples include, but are not limited to (1) integrate static type checking capabilities into the framework as well as improve its runtime efficiency, (2) continue the documentation work for automatically generated API and REST interface documentation, (3) evolve the Rucio Upload and Download clients to new complex workflows suitable to modern analysis, (4) continue the development work on the new Rucio Web User Interface, and many more.
+  The selected candidate will focus on producing software for several Rucio components. There is a multitude of potential topics, also based on the candidate's
+  interests, that can be tackled. Examples include, but are not limited to (1) integrate static type checking capabilities into the framework as well as improve
+  its runtime efficiency, (2) continue the documentation work for automatically generated API and REST interface documentation, (3) evolve the Rucio Upload and
+  Download clients to new complex workflows suitable to modern analysis, (4) continue the development work on the new Rucio Web User Interface, and many more.
 
-  The selected candidate will participate in a large distributed team using best industry practices such code review, continuous integration, test-driven development, and blue-green deployments. It is important to us that the candidate bring their creativity to the team, therefore we encourage them to also help with developing and evaluating new ideas and designs.
+  The selected candidate will participate in a large distributed team using best industry practices such code review, continuous integration, test-driven
+  development, and blue-green deployments. It is important to us that the candidate bring their creativity to the team, therefore we encourage them to also help
+  with developing and evaluating new ideas and designs.
 
 contacts:
   - name: Mario Lassnig
