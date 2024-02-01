@@ -24,9 +24,9 @@ program:
   - IRIS-HEP fellow
 shortdescription: Developing an automatic differentiation and initial parameters optimisation pipeline for the particle shower model.
 description: >
-  The goal of this project is to develop a differentiable simulation and optimization pipeline for Geant4. The narrow task of this 
-  Fellowship project is to develop a trial automatic differentiation and backpropagation pipeline for the Markov-like stochastic 
-  branching process that is modeling a particle shower spreading inside a detector material in three spatial dimensions.
+  The goal of this project is to develop a differentiable simulation and optimization pipeline for Geant4. The narrow task of this Fellowship project is to
+  develop a trial automatic differentiation and backpropagation pipeline for the Markov-like stochastic branching process that is modeling a particle shower
+  spreading inside a detector material in three spatial dimensions.
 contacts:
   - name: Lukas Heinrich
     email: Lukas.Heinrich@cern.ch
