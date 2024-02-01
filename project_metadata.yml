@@ -39,6 +39,8 @@ skillset:
   - Jenkins
   - CI/CD
   - Linux
+  - Git
+  - Kubernetes
 
 status:
   - Available
