@@ -14,7 +14,6 @@ project:
   - IRIS-HEP
 experiments:
   - ATLAS
-  - LHC
 program:
   - IRIS-HEP fellow
 location:
