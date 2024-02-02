@@ -1,0 +1,32 @@
+---
+name: Improving the Maintainability of the ATLAS Global Sequential Calibration
+postdate: 2024-02-01
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - ATLAS
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Refactor parts of the ATLAS Global Sequential Calibration for ATLAS, integrating tests for continuous validation
+description: >
+  The Monte Carlo-based Global Sequential Calibration (GSC) is a calibration step intended to correct differences in response between quark- & gluon-initiated jets.
+  It is part of the jet calibration recommendations used by nearly every ATLAS analysis utilising jets.
+  The candidate will contribute towards a more robust framework for semi-automated validation of newly derived calibrations of this kind.
+  They will refactor parts of the code, making it more robust and less error-prone while improving the documentation.
+  Tests will be added at various steps of the procedure to ensure that newly derived calibrations do not introduce any unphysical effects.
+contacts:
+  - name: Tobias Fitschen
+    email: tobias.fitschen@cern.ch
