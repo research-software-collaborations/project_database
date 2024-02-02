@@ -1,0 +1,42 @@
+---
+name: Self-Supervised Approaches to Jet Assignment
+
+postdate: 2024-02-01
+categories:
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+  - ML
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+
+shortdescription: Self-Supervised Approaches to Jet Assignment
+
+description: >
+  Supervised machine learning has assisted various tasks in experimental high energy physics. However, using supervised learning to solve complicated problems, like assigning jets to resonant particles like Higgs bosons, requires a statistically representative, accurate, and fully labeled dataset. With the HL-LHC upgrade [1] in the near future, we will need to simulate an order of magnitude more events with a more complicated detector geometry to keep up with the recorded data [2], facing both budgetary and technological challenges [2, 3]. Therefore, it is desirable to explore how to assign jets to reconstruct particles via self-supervised learning (SSL) methods, which pretrain models on a large amount of unlabeled data and fine-tune those models on a small high-quality labeled dataset. Existing attempts [4-6] to use SSL in HEP focus on performing tasks at the jet or event levels. In this project, we propose to use the reconstruction of Higgs bosons from bottom quark jets as a test case to explore SSL for jet assignment. We will explore different neural network architectures, including PASSWD-ABC [7] for the self-supervised pretraining and SPANet [8, 9] for the supervised fine-tuning. The SSL model's performance will be compared with a baseline model trained from scratch on the small labeled dataset. We will test if pretraining with diverse objectives [10] improves the model performance on downstream tasks like jet assignment or tagging. The code will be developed open source to help other SSL projects.
+  
+  1. [HL-LHC] https://arxiv.org/abs/1705.08830 \
+  2. [Computing for HL LHC] https://doi.org/10.1051/epjconf/201921402036 \
+  3. [Computing summary] https://arxiv.org/abs/1803.04165 \
+  4. [JetCLR] https://arxiv.org/abs/2108.04253 \
+  5. [DarkCLR] https://arxiv.org/abs/2312.03067 \
+  6. [SSL for new physics] https://doi.org/10.1103/PhysRevD.106.056005 \
+  7. [PASSWD-ABC] https://arxiv.org/abs/2309.05728 \
+  8. [SPANet1] https://arxiv.org/abs/2010.09206 \
+  9. [SPANet2] https://arxiv.org/abs/2106.03898 \
+  10. [Pretraining benefits] https://arxiv.org/abs/2306.15063
+contacts:
+  - name: Javier Duarte
+    email: jduarte@ucsd.edu
