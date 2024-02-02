@@ -1,0 +1,40 @@
+---
+name: Parameter optimization in ACTS framework
+postdate: 2024-02-02
+categories:
+  - ML/AI
+durations:
+  - 3 months
+skillset:
+  - Python, C++
+status:
+  - Complete
+project:
+  - IRIS-HEP
+experiments:
+  - ACTS
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Developing an automatic parameter tuning pipeline for ACTS track reconstruction software framework
+description: >
+  Particle tracking in HEP constitutes a crucial and intricate segment of the overall event reconstruction process. 
+  The track reconstruction algorithms involve numerous configuration parameters that require meticulous fine-tuning 
+  to accurately accommodate the underlying detector and experimental conditions. Traditionally, these parameters are 
+  manually adjusted, presenting an opportunity for improvement. Introducing an automated parameter tuning pipeline 
+  can significantly enhance tracking performance. The open-source track reconstruction software framework known as 
+  "A Common Tracking Framework (ACTS)" offers a robust R&D platform with a well-organized tracking flow and support 
+  for multiple detector geometries. Our previous work within this domain focused on developing derivative-less 
+  auto-tuning techniques for track seeding and primary vertexing algorithms. The goal of the current project will 
+  be to further advance these efforts by researching and developing an optimization technique that is differentiable 
+  across the intricate tracking algorithms. Additionally, this project aims to establish a seamless pipeline that 
+  facilitates the application of these optimization techniques with minimal user concerns.
+contacts:
+  - name: Lauren Tompkins
+    email: laurenat@stanford.edu
+  - name: Rocky Bala garg
+    email: rbgarg@stanford.edu
+mentees:
