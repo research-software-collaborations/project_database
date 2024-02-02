@@ -1,0 +1,56 @@
+---
+name: Data balancing tool for CMS data management
+postdate: 2024-01-31
+categories:
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - Git
+  - Docker
+  - Kubernetes
+status:
+  - In progress
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Adapting Rucio data rebalancing daemon for CMS use
+description: >
+  CMS data management relies on the open-source Rucio software framework to manage its data,
+  which is stored at various sites around the world. A common challenge faced by the data management operators team
+  is the overfilling of sites, either due to being targeted by specific physics data or from the gradual
+  accumulation of data over time. Monitoring the capacity status of these sites and rebalancing data as needed
+  is essential. To address such issues, the core Rucio team has developed a rebalancing daemon dedicated to
+  managing data distribution across different sites. Originally designed for specific experiments,
+  this rebalancing daemon contains code that is experiment-specific, limiting its applicability
+  across diverse experiments or communities. Consequently, the main objective of this project is to
+  refine the daemon to be experiment agnostic. Achieving this will enable the daemon to effectively
+  serve not only CMS but also the broader Rucio community. This refinement process involves identifying
+  and modifying any experiment-specific elements within the daemon, ensuring its seamless integration with
+  CMS data management practices. Through this work, CMS will become more agile in maintaining balanced
+  site storage, thereby avoiding scenarios where sites run out of space.
+
+contacts:
+  - name: Hasan Ozturk
+    email: haozturk@cern.ch
+  - name: Panos Paparrigopoulos
+    email: panos.paparrigopoulos@cern.ch
+  - name: Rahul Chauhan
+    email: rahul.chauhan@cern.ch
+  - name: Eric Wayne Vaandering
+    email: ewv@fnal.gov
+  - name: Dmytro Kovalskyi
+    email: kdv@mit.edu
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
