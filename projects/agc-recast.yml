@@ -28,9 +28,11 @@ description: >
   open data analysis and the accompanying distributed infrastructure and implement a RECAST workflow allowing REANA integration with the AGC. A key challenge of
   the project is creating a preservation scheme for the associated Kubernetes distributed infrastructure.
 contacts:
-  - name: Kyle Cranmer
-    email: kyle.cranmer@wisc.edu
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
+  - name: Tibor Simko
+    email: tibor.simko@cern.ch
+  - name: Kyle Cranmer
+    email: kyle.cranmer@wisc.edu
   - name: Lukas Heinrich
     email: lukas.heinrich@cern.ch

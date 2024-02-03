@@ -30,9 +30,9 @@ description: >
   expected to differ in some aspects from what the AGC has considered thus far. This project will also investigate workflows to integrate the evaluation of such
   sources of uncertainty within a Python-based implementation of an AGC analysis task.
 contacts:
-  - name: Matthew Feickert
-    email: matthew.feickert@cern.ch
-  - name: Tal van Daalen
-    email: tal.van.daalen@cern.ch
+  - name: Vangelis Kourlitis
+    email: evangelos.kourlitis@cern.ch
   - name: Alexander Held
     email: alexander.held@cern.ch
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
