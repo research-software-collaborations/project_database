@@ -26,26 +26,26 @@ shortdescription: Towards an end-end ML event reconstruction algorithm
 
 description: >
 
-  The most common approach to reconstructing full scale events at general purpose detectors (such as ATLAS and CMS) 
-  is a particleflow-like algorithm [1–3] which combines low-level information (PF-elements) from different sub-detectors to 
-  reconstruct stable particles (PF-candidates). Attempts are being developed to improve upon the current PF-algorithm 
-  with machine learning (ML) methods and improving particle reconstruction in general. Within CMS, work has been conducted [4] 
-  to develop a graph neural network (GNN) model by the name MLPF [5] to reproduce the existing PF algorithm. The proposed 
-  MLPF algorithm has the advantage of running on heterogeneous computing architectures and may be efficient when scaling up 
-  to accommodate the high luminosity LHC upgrade. The current status of the MLPF model works by reconstructing high level 
+  The most common approach to reconstructing full scale events at general purpose detectors (such as ATLAS and CMS)
+  is a particleflow-like algorithm [1–3] which combines low-level information (PF-elements) from different sub-detectors to
+  reconstruct stable particles (PF-candidates). Attempts are being developed to improve upon the current PF-algorithm
+  with machine learning (ML) methods and improving particle reconstruction in general. Within CMS, work has been conducted [4]
+  to develop a graph neural network (GNN) model by the name MLPF [5] to reproduce the existing PF algorithm. The proposed
+  MLPF algorithm has the advantage of running on heterogeneous computing architectures and may be efficient when scaling up
+  to accommodate the high luminosity LHC upgrade. The current status of the MLPF model works by reconstructing high level
   PF-candidates, in a supervised fashion [6], from low level PF-elements. These “low level inputs'' have already gone through
-  several steps of reconstruction such as track reconstruction, and energy clustering. 
-  
-  Although each reconstruction step goes through several layers of development and validation, the optimization of each step 
-  is done independently which is not ideal since, for example, the tracking and clustering steps may not be well optimized for 
-  the final task if it is done separately from the full particle reconstruction. It is therefore interesting to explore an 
-  ML-based algorithm capable of performing the reconstruction in one-shot, in an end-end fashion. The first step towards 
-  this, is to train an MLPF-like model which takes as input the reconstructed tracks and, instead of the calorimeter clusters,
-  the calorimeter cell energy deposits. 
+  several steps of reconstruction such as track reconstruction, and energy clustering.
 
-  The project will entail the exploration of the CLIC dataset published here [7] which contains hit-based information in the 
-  form of calorimeter energy deposits. Furthermore, the training of a GNN-based model, and possibly other models, and comparing 
-  with the current state-of-the-art results of the cluster-based model. 
+  Although each reconstruction step goes through several layers of development and validation, the optimization of each step
+  is done independently which is not ideal since, for example, the tracking and clustering steps may not be well optimized for
+  the final task if it is done separately from the full particle reconstruction. It is therefore interesting to explore an
+  ML-based algorithm capable of performing the reconstruction in one-shot, in an end-end fashion. The first step towards
+  this, is to train an MLPF-like model which takes as input the reconstructed tracks and, instead of the calorimeter clusters,
+  the calorimeter cell energy deposits.
+
+  The project will entail the exploration of the CLIC dataset published here [7] which contains hit-based information in the
+  form of calorimeter energy deposits. Furthermore, the training of a GNN-based model, and possibly other models, and comparing
+  with the current state-of-the-art results of the cluster-based model.
 
 
   [1] https://www.sciencedirect.com/science/article/abs/pii/0168900295001387?via%3Dihub \
