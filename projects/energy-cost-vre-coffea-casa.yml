@@ -1,6 +1,6 @@
 ---
 name: Measuring energy consumption of HEP software on user analysis facilities
-postdate: 2023-05-10
+postdate: 2024-02-06
 categories:
   - Analytics
 durations:
@@ -9,7 +9,7 @@ skillset:
   - Python
   - Big data
 status:
-  - Available
+  - Not offered this year
 project:
   - IRIS-HEP
 experiments:
