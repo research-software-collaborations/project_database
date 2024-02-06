@@ -48,6 +48,7 @@ status:
   - In progress
   - Complete
   - Obsolete/Closed
+  - Unavailable
 
 project:
   - compiler research
