@@ -1,0 +1,55 @@
+---
+name: Packaging the HEP simulation stack on conda-forge
+postdate: 2024-02-08
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+skillset:
+  - Python
+  - C++
+  - Docker
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - ATLAS
+  - LHCb
+  - CMS
+  - ALICE
+  - EIC
+  - HLLHC
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Package the HEP simulation tools for conda-forge
+description: >
+  One common toolchain used in high energy physics for simulation is:
+  [MadGraph5_aMC@NLO](https://launchpad.net/mg5amcnlo) to
+  [PYTHIA8](https://pythia.org/) to [Delphes](https://github.com/delphes/delphes).
+  Installing these tools can be challenging at times, especially for new users.
+  [Conda-forge](https://conda-forge.org/) allows for distribution of arbitrarily
+  complex binaries across multiple platforms though the conda/mamba/micromamba/pixi
+  package management ecosystem.
+  As [ROOT](https://anaconda.org/conda-forge/root/) has been successfully packaged and
+  distributed on conda-forge along with the
+  [PYTHIA8 Python bindings](https://anaconda.org/conda-forge/pythia8/) it should be
+  possible to package all the components of the HEP simulation stack and distribute
+  them on conda-forge.
+
+  However, the interconnected nature of some of these tools requires that multiple
+  dependencies are first packaged and distributed before the full stack can be.
+  This project would attempt to package as many of the dependencies of the HEP
+  simulation stack on conda-forge as possible starting with
+  [FastJet](http://fastjet.fr/), [LHAPDF](https://lhapdf.hepforge.org/),
+  and adding Python 3 bindings for the
+  [HepMC2](https://github.com/conda-forge/hepmc2-feedstock), and
+  [HepMC3](https://github.com/conda-forge/hepmc3-feedstock) conda-forge feedstocks.
+contacts:
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
