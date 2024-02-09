@@ -13,13 +13,13 @@ skillset:
 status:
   - Available
 project:
-  - compiler research
+  - IRIS-HEP
 location:
   - Remote
 commitment:
   - Full time
 program:
-  - HSF-India fellow
+  - IRIS-HEP fellow
 
 shortdescription: How fast can large-scale HEP data analysis be performed using Dask and Awkward Arrays?
 
@@ -38,7 +38,11 @@ description: >
   performance-testing/tuning in single and multi-user environments.
 
 contacts:
-  - name: Ianna Osborne
-    email: ianna.osborne@cern.ch
+  - name: Alexander Held
+    email: alexander.held@cern.ch
   - name: Oksana Shadura
     email: oksana.shadura@cern.ch
+  - name: Jim Pivarski
+    email: pivarski@princeton.edu
+  - name: Ianna Osborne
+    email: ianna.osborne@cern.ch
