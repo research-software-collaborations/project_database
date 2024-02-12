@@ -31,8 +31,8 @@ description: >
   added to Uproot and Awkward Array, making it possible to analyze jagged
   particle physics data from ROOT files as Dask arrays for the first time. The
   aim of this project is to determine how well these capabilities scale in a
-  real AF environment. The project could be divided in the multiple sub-steps 
-  (depending on the timeline): adding CPU-intence CMS systematics to defined analysis workflow 
+  real AF environment. The project could be divided in the multiple sub-steps
+  (depending on the timeline): adding CPU-intence CMS systematics to defined analysis workflow
   an/or perform the performance testing the [uproot.dask](https://uproot.readthedocs.io/en/latest/uproot._dask.dask.html)
   and [dask-awkward](https://github.com/dask-contrib/dask-awkward)
   implementations with defined workload, learning best-practices, and
