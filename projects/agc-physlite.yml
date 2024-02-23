@@ -25,7 +25,7 @@ description: >
   The IRIS-HEP Analysis Grand Challenge (AGC) is a realistic environment for investigating how high energy physics data analysis workflows scale to the demands
   of the High-Luminosity LHC (HL-LHC). It captures relevant workflow aspects from data delivery to statistical inference. The AGC has so far been based on
   publicly available Open Data from the CMS experiment. The ATLAS collaboration aims to use a data format called PHYSLITE at the HL-LHC, which slightly differs
-  from the data formats used so far within the AGC. This project involves implementing the capability to analyze PHYSLITE ATLAS data within the similiar to AGC
+  from the data formats used so far within the AGC. This project involves implementing the capability to analyze PHYSLITE ATLAS data within the similar to AGC
   workflow, the columnar analysis prototype, and optimizing the related performance under large volumes of data. In addition to this, the evaluation of systematic
    uncertainties for ATLAS with PHYSLITE is expected to differ in some aspects from what the AGC has considered thus far. This project will also investigate workflows
   to integrate the evaluation of such sources of uncertainty for ATLAS.
