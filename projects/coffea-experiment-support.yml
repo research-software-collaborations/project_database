@@ -1,0 +1,48 @@
+---
+name: Coffea development for LHC experiments
+
+postdate: 2022-02-22
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - CMS
+  - ATLAS
+skillset:
+  - C++
+  - Python
+  - CI/CD
+  - Linux
+  - Git
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+
+shortdescription: Development of coffea to support multiple LHC experiment analysis workflows
+
+description: >
+  As the [coffea](https://coffeateam.github.io/coffea/) analysis framework has continued
+  to gain use across the CMS experiment and is beginning to be used more in ATLAS, the
+  amount of experiment specific code has grown as well.
+  With coffea's recent transition in late 2023 to be more Dask focused there is work to be
+  done to support experiment specific areas, such as the ATLAS specific
+  `coffea.nanoevents.PHYSLITESchema`, while still focusing on performance and user needs.
+  This project would support the general development of coffea with a focus on targeting
+  experiment specific code to support and improve the user experience and would have
+  the Fellow work closely with the coffea core team.
+
+contacts:
+  - name: Lindsey Gray
+    email: lindsey.gray@cern.ch
+  - name: Nick Smith
+    email: nick.smith@cern.ch
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
