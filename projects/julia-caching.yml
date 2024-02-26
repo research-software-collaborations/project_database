@@ -1,0 +1,45 @@
+---
+name: Enabling Julia code to run at scale with artefact caching
+postdate: 2024-02-23
+categories:
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - Future Colliders
+skillset:
+  - Julia
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Develop HEP strategies for artefact caching in Julia to allow large scale running
+description: >
+  Julia is a promising language for high-energy physics as it combines the easy
+  of use and ergonomics of dynamic languages such as Python, with the runtime
+  speed of C or C++. One of Julia's features is that it uses a JIT (or
+  just-ahead-of-time) compiler to target the specific architecture on which it
+  is being run. This however, comes at the cost of the compilation time, meaning
+  that the first pass through the code is slower. If Julia is to be adopted
+  widely in high-energy physics, and run at large scales, then it is important
+  to mitigate this cost by *pre-compiling* the Julia code to be used on the
+  system and avoid the cost of recompiling on every node. This is accomplished
+  by the use of the `DEPOT_PATH` setting. This will first be investigated on
+  cluster systems at CERN, e.g., SWAN and lxbatch. Startup time and runtime will
+  be investigated with increasingly large sets of jobs running. Then we shall
+  extend our investigations to caching Julia code on CVMFS, which would allow
+  scaling to running on the whole grid. Finally, we shall examine the
+  possibility of precompiling artefacts for different microarchitectures, that
+  would allow exploitation of the full power of modern CPUs in large scale
+  heterogeneous systems.
+contacts:
+  - name: Graeme Stewart
+    email: graeme.andrew.stewart@cern.ch
+  - name: Pere Mato
+    email: Pere.Mato@cern.ch
