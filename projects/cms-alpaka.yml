@@ -1,0 +1,53 @@
+---
+name: Alpaka for CMS
+postdate: 2024-03-06
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - C++
+  - CUDA
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Extending the [Alpaka](https://github.com/alpaka-group/alpaka) performance portability library with task-parallel constructs for the [CMS pixel reconstruction](https://github.com/cms-patatrack/pixeltrack-standalone/)
+description: >
+  This project proposes to extend the [Alpaka](https://github.com/alpaka-group/alpaka) performance portability library with task-parallel constructs,
+  like task graphs and cooperative groups, and to evaluate their performance using them in the [pixel track](https://github.com/cms-patatrack/pixeltrack-standalone/)
+  reconstruction software of the CMS experiment at CERN. As data volume and complexity surge, the CMS pixel
+  reconstruction process, crucial for accurate particle tracking and collision event analysis, demands optimized
+  computational strategies for timely data processing. Alpaka, facilitating development across diverse
+  hardware architectures by providing a unified API for writing parallel software for CPUs, GPUs, and FPGAs,
+  will be extended with task graph and cooperative groups APIs to meet this demand.
+
+  Integrating task graphs into Alpaka will streamline the scheduling and execution of interdependent tasks,
+  optimizing resource utilization and reducing time-to-solution for complex data analyses.
+  Cooperative groups will facilitate more flexible and efficient thread collaboration, crucial
+  for fine-grained parallelism and dynamic workload distribution. These developments aim to
+  improve the performance and scalability of CMS pixel track reconstruction algorithms,
+  ensuring faster and more accurate data analysis for high-energy physics research.
+
+  Students participating in this project will have the opportunity to contribute to programming
+  a state-of-the-art C++ library, engaging directly with a developer group that adheres
+  to the best software programming practices. They will gain hands-on experience in developing
+  and implementing advanced computational solutions within a real-world scientific framework,
+  enhancing their technical skills in high-performance computing and software development
+  within a collaborative and cutting-edge research environment.
+contacts:
+  - name: Jiri Vyskocil
+    email: jiri@vyskocil.com
+  - name: Volodymyr Bezguba
+    email: v.bezguba@kau.edu.ua
+
