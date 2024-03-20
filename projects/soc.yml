@@ -22,17 +22,17 @@ location:
 commitment:
   - Full time
 shortdescription: Embedded software application for a RISC-V based system-on-chip (SoC) for LHCb Velo detector.
-description: >
-At the CERN Microelectronics section, we are in the process of developing
-a custom RISC-V based system-on-chip (SoC) generator. This will be used to embed
-on-chip processors and programmability into ASICs for multiple experiments.
+description: > 
+  At the CERN Microelectronics section, we are in the process of developing
+  a custom RISC-V based system-on-chip (SoC) generator. This will be used to embed
+  on-chip processors and programmability into ASICs for multiple experiments.
 
-The student will participate developing the specific embedded software applications (C++/Python) 
-for various operations targeting the custom processor system.
-If interested, the student can also participate in the development of software tools used to 
-build the custom hardware system.
+  The student will participate developing the specific embedded software applications (C++/Python) 
+  for various operations targeting the custom processor system.
+  If interested, the student can also participate in the development of software tools used to 
+  build the custom hardware system.
 
-The first prototype will be part of the LHCb Velo detector and possibly the CMS tracker.
+  The first prototype will be part of the LHCb Velo detector and possibly the CMS tracker.
 contacts:
   - name: Alessandro Caratelli
     email: alessandro.caratelli@cern.ch
