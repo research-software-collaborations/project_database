@@ -3,11 +3,11 @@ name: Implement Differentiating of the Kokkos Framework With Clad
 postdate: 2024-04-11
 categories:
   - ML/AI
+  - HPC
 durations:
   - 3 months
 skillset:
   - C++
-  - HPC
 experiments:
   - Any
 project:
