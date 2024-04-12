@@ -3,7 +3,7 @@
 #to add additional responses, please modify project_metadata.yml accordingly
 ---
 name: <add a title for your project>
-postdate: <todays date>
+postdate: <todays date> [in YYYY-MM-DD format]
 categories:
   - Any   # or add one or more specific categories listed in project_metadata.yml
 durations:
