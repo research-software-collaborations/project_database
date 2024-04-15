@@ -1,0 +1,40 @@
+#remove commented text (after "#") in your project yml, including this line..
+#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+#to add additional responses, please modify project_metadata.yml accordingly
+---
+name: Implementing the ATLAS TopCP Transformer in ServiceX
+postdate: 2024-04-15
+categories:
+  - Analysis tools   # or add one or more specific categories listed in project_metadata.yml
+durations:
+  - 3 months   # or add one or more specific duration listed in project_metadata.yml
+experiments:
+  - ATLAS   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+skillset:
+  - Python   # or add one or more skills listed in project_metadata.yml
+  - Docker
+status:
+  - Available
+project:
+  - IRIS-HEP   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+location:
+  - In person    # otherwise "Remote" or "In person"
+commitment:
+  - Full time    # otherwise "Part time" or "Full time"
+program:
+  - Any
+shortdescription: Implement a standard ATLAS ntuple maker in a ServiceX transformer
+description: >
+  ATLAS has plans underway to develop standard ntuple dumpers for the PHYSLITE analysis data format, which include the possibility of dumping
+  systematic uncertainties in a compact and efficient manner. This project is to encapsulate one of these dumpers in a ServiceX transformer
+  to enable it to be used as a seamless way of accessing PHYSLITE data in analysis jobs in a columnar manner.
+
+contacts:
+  - name: Peter Onyisi
+    email: ponyisi@utexas.edu
+  - Peter Onyisi, KyungEon Choi
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
