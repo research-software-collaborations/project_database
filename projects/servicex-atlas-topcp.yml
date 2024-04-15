@@ -5,22 +5,22 @@
 name: Implementing the ATLAS TopCP Transformer in ServiceX
 postdate: 2024-04-15
 categories:
-  - Analysis tools   # or add one or more specific categories listed in project_metadata.yml
+  - Analysis tools # or add one or more specific categories listed in project_metadata.yml
 durations:
-  - 3 months   # or add one or more specific duration listed in project_metadata.yml
+  - 3 months # or add one or more specific duration listed in project_metadata.yml
 experiments:
-  - ATLAS   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+  - ATLAS # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
 skillset:
-  - Python   # or add one or more skills listed in project_metadata.yml
+  - Python # or add one or more skills listed in project_metadata.yml
   - Docker
 status:
   - Available
 project:
-  - IRIS-HEP   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+  - IRIS-HEP # o if associated to a community project, add it here (from those listed in project_metadata.yml)
 location:
-  - In person    # otherwise "Remote" or "In person"
+  - In person # otherwise "Remote" or "In person"
 commitment:
-  - Full time    # otherwise "Part time" or "Full time"
+  - Full time # otherwise "Part time" or "Full time"
 program:
   - Any
 shortdescription: Implement a standard ATLAS ntuple maker in a ServiceX transformer
