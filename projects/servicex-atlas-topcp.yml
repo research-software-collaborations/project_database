@@ -32,7 +32,8 @@ description: >
 contacts:
   - name: Peter Onyisi
     email: ponyisi@utexas.edu
-  - Peter Onyisi, KyungEon Choi
+  - name: KyungEon Choi
+    email: kyungeonchoi@utexas.edu
 
 mentees: # keep an empty list until the project has started or a student is identified
 # when that happens add a list with name: and link: attributes for each students
