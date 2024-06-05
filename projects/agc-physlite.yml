@@ -11,7 +11,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -36,3 +36,6 @@ contacts:
     email: alexander.held@cern.ch
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
+mentees:
+  - name: Denys Klekots
+    link: https://iris-hep.org/fellows/Denys-Klekots.html
