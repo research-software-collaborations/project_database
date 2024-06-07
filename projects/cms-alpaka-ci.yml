@@ -1,5 +1,5 @@
 ---
-name: CI/CD improvements for Alpaka library, and related projects. 
+name: CI/CD improvements for Alpaka library, and related projects.
 postdate: 2024-06-07
 categories:
   - Open science
@@ -7,7 +7,7 @@ categories:
 durations:
   - 3 months
 experiments:
-  - CMS 
+  - CMS
 skillset:
   - Python
   - Git
@@ -22,8 +22,8 @@ commitment:
   - Any
 program:
   - IRIS-HEP fellow
-shortdescription: Improvement and optimization of the CI job generator for the alpaka library 
- 
+shortdescription: Improvement and optimization of the CI job generator for the alpaka library
+
 description: >
   alpaka is an abstraction library that allows writing a function once and
   executed on different accelerators, e.g. on different CPU (x86, ARM, RISC V)
@@ -61,5 +61,4 @@ contacts:
   - name: Volodymyr Bezguba
     email: v.bezguba@kau.edu.ua
 
-mentees: 
-
+mentees:
