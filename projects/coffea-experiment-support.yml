@@ -16,7 +16,7 @@ skillset:
   - Linux
   - Git
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -46,3 +46,6 @@ contacts:
     email: nick.smith@cern.ch
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
+mentees:
+  - name: Sam Kelson
+    link: https://iris-hep.org/fellows/SamKelson.html
