@@ -1,0 +1,41 @@
+---
+name: Packaging the HEP simulation stack on conda-forge
+postdate: 2024-06-18
+categories:
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+  - EIC
+  - HLLHC
+skillset:
+  - Python
+  - Docker
+  - CI/CD
+status:
+  - In progress
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Packaging the HEP simulation stack on conda-forge
+description: >
+  One common toolchain used in high energy physics for simulation is: MadGraph5_aMC@NLO, PYTHIA8, Delphes. Installing these tools can be challenging at times,
+  especially for new users. The conda-forge packaging infrastructure system and package registry allows for distribution of complex binaries across multiple
+  platforms though the Conda package management ecosystem. As ROOT and the PYTHIA8 library with Python bindings have been successfully packaged and distributed
+  on conda-forge it should be possible to package all the components of the HEP simulation stack and distribute them on conda-forge. Packaging these
+  components will allow them to have the ability to not only be installed as individual tools, but also be installed together in a coherent package environment. 
+
+contacts:
+  - name: Matthew Feickert
+    email: Matthew.Feickert@cern.ch
+
+mentees:
+  - name: Lev Pambuk
+    link: https://iris-hep.org/fellows/Kwaizer.html
