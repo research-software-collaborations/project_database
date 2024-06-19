@@ -11,7 +11,7 @@ skillset:
   - C++
   - Docker
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 experiments:
@@ -53,3 +53,6 @@ description: >
 contacts:
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
+mentees:
+  - name: Lev Pambuk
+    link: https://iris-hep.org/fellows/Kwaizer.html
