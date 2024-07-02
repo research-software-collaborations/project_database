@@ -1,5 +1,5 @@
 ---
-name: Smart job retries for CMS workload management system
+name: Smart Task Resubmission for CMS Workload Management System
 postdate: 2024-01-30
 categories:
   - Computing
@@ -10,7 +10,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -19,9 +19,9 @@ commitment:
   - Full time
 program:
   - IRIS-HEP fellow
-shortdescription: Develop a tool to monitor and make smart decisions on how to retry CMS grid jobs.
+shortdescription: Develop a tool to monitor and make smart decisions on how to resubmit tasks within CMS workflows.
 description: >
-  The CMS experiment runs its data processing and simulation jobs on the Worldwide LHC Computing Grid in the scale of ~100k jobs in parallel. It’s inevitable to avoid job failures on this scale, and thus it’s crucial to have an effective failure recovery system. The existing algorithm is agnostic to the information of other jobs which run at the same site or belong to the same physics class. The objective of this project is to develop a tool which will monitor all the CMS grid jobs and make smart decisions on how to retry them by aggregating the data coming from different jobs across the globe. Such decisions can potentially be: reducing the job submission to computing sites experiencing particular failures, changing the job configuration in case of inaccurate configurations, and not retrying potentially ill-configured jobs. This project has the potential to significantly improve efficiency of the whole CMS computing grid, reducing the wasted cpu cycles and increasing the overall throughput.
+  The CMS experiment runs its data processing and simulation jobs on the Worldwide LHC Computing Grid at the scale of ~100k jobs in parallel. It is inevitable to avoid job failures at this scale, making an effective failure recovery system crucial. The existing algorithm for job resubmission is inefficient, as it does not consider information from other jobs running at the same computing site or belonging to the same physics class. The objective of this project is to migrate the autoACDC script to the new version of Unified, which controls the distribution of workflows across GRID computing clusters. The new "smart" autoACDC should operate with minimal human intervention, automatically selecting resubmission parameters based on error code statistics and previously successful resubmissions gathered from department staff. This tool aims to significantly reduce the manual effort required by the Production and Reprocessing (P&R) team, thus improving operational efficiency and increasing overall throughput.
 contacts:
   - name: Hassan Ahmed
     email: m.hassan@cern.ch
