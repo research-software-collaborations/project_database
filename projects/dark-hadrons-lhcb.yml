@@ -1,0 +1,35 @@
+---
+name: Searching for light dark hadrons at LHCb.
+
+postdate: 2024-02-22
+categories:
+  - Analysis tools
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - LHCb
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Development of the ML selection and optimisation for dark hadrons search at LHCb.
+description: >
+  The Standard Model of elementary particles does not contain a proper Dark Matter candidate. One of the most tantalizing theoretical developments is the so-called Hidden Valley models. These models predict the existence of dark hadrons - composite particles that are bound similarly to ordinary hadrons in the Standard Model. Such dark hadronscan be abundantly produced in high-energy proton-proton collisions. Some dark hadrons are stable like a proton, which makes them excellent Dark Matter candidates, while others decay to ordinary particles after flying a certain distance in the collider experiment. The LHCb detector has a unique capability to identify such decays, particularly if the new particles have a mass below ten times the proton mass.
+
+  This project assumes a unique search for light dark hadrons that covers a mass range not accessible to other experiments. It assumes an interesting program on data analysis (python-based) with non-trivial machine learning solutions and phenomenology research using fast simulation framework. In particular, the search will cover a range of invariant masses and lifetimes which has to be covered optimally by smooth ML application. On top of this, to deal with theory dependence, the Pythia Hidden Valey modules to be used for developing fast simulation framework. Developed signal selection to be used for data analysis but also new trigger lines for LHCb Run 3. Depending on the outcome the autoencoder-based anomaly detection can be used on real data as well.
+
+  The project offers a rich opportunity for the student to gain hands-on experience with python, C++. It also assumes the implication of the ML/NN algorithms from at least scikit-learn or pytorch.
+contacts:
+  - name: Andrii Usachov
+    email: andrii.usachov@nikhef.nl
+mentees:

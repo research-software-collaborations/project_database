@@ -1,0 +1,40 @@
+name: Topological Rare Hadron Decay Tagging with DNN
+postdate: 2024-04-15
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - ML
+  - Linux
+  - Git
+status:
+  - In progress
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Deep neural net topological tagger for rare hadron decay identification
+description: >
+  The CMS experiment provides a unique opportunity to study extremely rare hadron
+  decays due to a significantly larger amount of data compared with the LHCb and
+  Belle II experiments. The main challenge is to identify such decays and suppress
+  associated backgrounds in the high pile-up environment. In this project, we will
+  use a Deep Neural Network to develop a new method of tagging such decays using
+  topological information to identify the relevant charged tracks associated with
+  the decays of interest. The project requires familiarity with machine learning
+  algorithms and tools to build and train deep neural networks. It will involve
+  testing different DNN types and feature engineering.
+contacts:
+  - name: Dmytro Kovalskyi
+    email: kdv@mit.edu
+mentees:
+  - name: Andrii Len
+    link: https://iris-hep.org/fellows/Andreylen.html

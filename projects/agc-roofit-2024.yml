@@ -1,0 +1,47 @@
+---
+name: Statistical treatment of the AGC results with RooFit
+postdate: 2024-04-04
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - CMS
+  - HLLHC
+skillset:
+  - Python
+  - C++
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Implement estimation of physics model parameters of the AGC with RooFit
+description: >
+  The IRIS-HEP Analysis Grand Challenge (AGC) is a realistic environment for
+  investigating how high energy physics data analysis workflows scale to the
+  demands of the High-Luminosity LHC (HL-LHC). The project offers a blueprint
+  for HEP analysis applications that can be implemented using different tools
+  and approaches. One of the implementations offered is done with ROOT, the tool
+  for storing, processing and data analysis used by LHC experiments. In
+  particular, it demonstrates usage of the RDataFrame high-level interface for
+  data analysis in the CMS ttbar OpenData application. At the same time, it
+  lacks the final steps of the AGC workflow, which involve the estimation of
+  physics model parameters from the output histograms using the maximum
+  likelihood method. The objective of this project is adding those steps via
+  RooFit, the tool provided by ROOT for statistical analysis and advanced
+  fitting, showcasing the use of such tool in a Python environment.
+
+contacts:
+  - name: Jonas Rembser
+    email: jonas.rembser@cern.ch
+  - name: Alexander Held
+    email: alexander.held@cern.ch
+
+mentees:
