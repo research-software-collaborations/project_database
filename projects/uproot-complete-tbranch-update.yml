@@ -1,0 +1,46 @@
+---
+name: Modifying existing TTrees in Uproot
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+  - 1 year
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Add new columns to existing TTrees (99% done) and/or new rows (new project) in Uproot"
+description: >
+  Uproot can add new objects to existing ROOT files through
+  [uproot.update](https://uproot.readthedocs.io/en/latest/uproot.writing.writable.update.html),
+  but it would be even more useful if it could modify existing TTrees
+  in place. Zoë Bilodeau implemented the ability to add new
+  columns/TBranches, which is especially useful for backfilling data
+  (e.g. adding an array of `False` for triggers that didn't exist at
+  the time of data-taking). This implementation is nearly done (see
+  [uproot#1155](https://github.com/scikit-hep/uproot5/pull/1155)),
+  apart from a few corner-cases that need to be tested and
+  debugged. It would also be useful to be able to add rows/entries,
+  which would be an entirely new project. Completing the
+  adding-columns project would provide the experience necessary to
+  tackle the adding-rows project.
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
