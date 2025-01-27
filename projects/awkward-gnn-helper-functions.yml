@@ -1,0 +1,58 @@
+---
+name: ML-ready Awkward Arrays
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+  - ML
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Helper functions to turn Awkward records into array dimensions and PyG indexes"
+description: >
+  Awkward Array has functions to convert to and from TensorFlow and
+  PyTorch, such as
+  [ak.from_raggedtensor](https://awkward-array.org/doc/main/reference/generated/ak.from_raggedtensor.html)
+  and following, with support for TensorFlow's RaggedTensor. However,
+  there are format conversions that still have to be handled manually,
+  such as turning an Awkward Array of records (e.g. muon with pT, eta,
+  phi fields) into an array dimension (e.g. length-3 dimension in the
+  tensor `shape`). NumPy has a function for this,
+  [np.lib.recfunctions.structured_to_unstructured](https://numpy.org/doc/2.1/user/basics.rec.html#numpy.lib.recfunctions.structured_to_unstructured),
+  though the Awkward equivalent can have a different name (since it
+  has different submodules). The labor-intensive steps described in
+  [this StackOverflow
+  answer](https://stackoverflow.com/a/79215978/1623645) and [this
+  tutorial](https://hsf-training.github.io/deep-learning-intro-for-hep/25-ragged-data-and-graphs.html#building-permutation-invariance-into-the-model)
+  could be encapsulated as ready-to-use functions. Also,
+  PyTorch-Geometric (PyG) expects ragged arrays to be represented as
+  an external array of integers, which Awkward Array could generate
+  with a function (see
+  [awkward#3256](https://github.com/scikit-hep/awkward/issues/3256)). Yet
+  another framework, [PyTorch
+  Cluster](https://github.com/rusty1s/pytorch_cluster), expects
+  raggedness to be expressed as a list of tensors (see
+  [awkward#3265](https://github.com/scikit-hep/awkward/issues/3265)). All
+  of these helper functions would simplify the conversion of Awkward
+  Arrays into tensors for fixed-size NNs and GNNs.
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page

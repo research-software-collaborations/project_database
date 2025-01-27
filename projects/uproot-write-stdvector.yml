@@ -1,0 +1,41 @@
+---
+name: Writing std::vector from Uproot
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Add support for writing ragged arrays as std::vectors to Uproot"
+description: >
+  Uproot can write ragged data as dynamic arrays, but ROOT requires
+  TBranches of this type (e.g. `Muon_pt`) to be accompanied by a
+  "counter" TBranch (e.g. `nMuon`), which can be cumbersome when
+  writing many ragged arrays, some with the same dimensions, others
+  with different dimensions. `std::vectors` do not require "counter"
+  TBranches, but they're expressed in a different format that would
+  have to be handled separately. It is an often-requested feature,
+  though (see
+  [uproot#257](https://github.com/scikit-hep/uproot5/issues/257)).
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page

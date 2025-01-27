@@ -1,0 +1,46 @@
+---
+name: Custom autodiff in Awkward Array
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+  - 1 year
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Replace JAX with custom autodiff in Awkward Array"
+description: >
+  At an [Analysis Tools](https://indico.cern.ch/event/1387764/)
+  meeting and in
+  [awkward#3349](https://github.com/scikit-hep/awkward/discussions/3349),
+  we've discussed the possibility of switching from JAX to a custom
+  implementation to implement automatic differentiation (autodiff,
+  also known as autograd). The problems with JAX are related to its
+  interface, which is intended to do much more than just
+  autodiff. Also, implementing eager autodiff is likely not a major
+  project, especially if we take advantage of [complex-step
+  differentiation](https://www.hedonisticlearning.com/posts/complex-step-differentiation.html). This
+  project would either implement autodiff as a module within Awkward
+  Array or as a new Scikit-HEP library (and possibly as a backend for
+  Vector, too).
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page

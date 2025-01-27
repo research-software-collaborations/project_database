@@ -1,0 +1,50 @@
+---
+name: Using std::maps in Awkward Array
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Implement sorted_map type in Awkward Array"
+description: >
+  Awkward Array implements some data types as types with equivalent
+  storage (e.g. lists of uint8 for strings) plus
+  [ak.behavior](https://awkward-array.org/doc/main/reference/ak.behavior.html)
+  to provide specialized functionality (e.g. printing as strings and
+  broadcasting one string as one object). A basic type that has not
+  been implemented is a key-value mapping, such as C++'s
+  `std::map`. This is different from Awkward Array's "record" type,
+  which has a fixed set of field names, each of which can have a
+  different type. A key-value mapping has keys of one type (often but
+  not always strings) and values of another, fixed type (not different
+  for each key), like `std::map<std::string, int>`. When Uproot
+  encounters C++ `std::map<K, V>` in a ROOT file, it produces an
+  Awkward Array of lists of pairs of types `K` and `V` with name
+  `"sorted_map"`. However, "sorted map" behaviors have not yet been
+  implemented in Awkward Array, which would make this data type useful
+  (see
+  [awkward#780](https://github.com/scikit-hep/awkward/issues/780)). This
+  project would be to add such functionality.
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
