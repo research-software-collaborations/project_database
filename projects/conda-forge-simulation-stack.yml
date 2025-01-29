@@ -11,7 +11,7 @@ skillset:
   - C++
   - Docker
 status:
-  - In progress
+  - Available
 project:
   - IRIS-HEP
 experiments:
@@ -27,7 +27,7 @@ location:
   - Remote
 commitment:
   - Full time
-shortdescription: Package the HEP simulation tools for conda-forge
+shortdescription: Package HEP tools for conda-forge
 description: >
   One common toolchain used in high energy physics for simulation is:
   [MadGraph5_aMC@NLO](https://launchpad.net/mg5amcnlo) to
@@ -44,15 +44,12 @@ description: >
 
   However, the interconnected nature of some of these tools requires that multiple
   dependencies are first packaged and distributed before the full stack can be.
-  This project would attempt to package as many of the dependencies of the HEP
-  simulation stack on conda-forge as possible starting with
-  [FastJet](http://fastjet.fr/), [LHAPDF](https://lhapdf.hepforge.org/),
-  and adding Python 3 bindings for the
-  [HepMC2](https://github.com/conda-forge/hepmc2-feedstock), and
-  [HepMC3](https://github.com/conda-forge/hepmc3-feedstock) conda-forge feedstocks.
+  This project would attempt to package as many of the dependencies of the broader HEP
+  simulation stack on conda-forge as possible starting with those outlined
+  in the
+  [HEP Packaging Coordination list](https://github.com/hep-packaging-coordination/packaging-hep-simulation-stack/issues/1)
+  and additionally contribute to the maintenance of the
+  [ROOT feedstock](https://github.com/conda-forge/root-feedstock) on conda-forge.
 contacts:
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
-mentees:
-  - name: Lev Pambuk
-    link: https://iris-hep.org/fellows/Kwaizer.html
