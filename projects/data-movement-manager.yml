@@ -1,0 +1,29 @@
+---
+name: Towards Accountable Network Bandwidth Utilization via SDN
+postdate: 2024-04-17
+categories:
+  - Networking
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - HLLHC
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Part time
+program:
+  - IRIS-HEP fellow
+shortdescription: Contributing to the development of the Data Movement Manager (DMM) within the Rucio/SENSE context
+description: In the exa-scale computing era for large scale experiments such as the High Luminosity LHC, the current model for data transfer workflows summarized as push-now-worry-later will not be feasible. We are integrating software defined networking (SDN) with the current LHC software stack for data transfers in order to have accountability in the network bandwidth utilization for large bandwidth data flows. This project entails actively contributing to the development of the Data Movement Manager (DMM) which is the interface between SENSE, the SDN service from ESNet, and Rucio, the data management application used for LHC and beyond.
+contacts:
+  - name: Aashay Arora
+    email: aaarora@ucsd.edu
+  - name: Diego Davila
+    email: didavila@ucsd.edu

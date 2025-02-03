@@ -1,0 +1,51 @@
+---
+name: Two-phase Uproot
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Split Uproot into two phases: metadata-reading and data-reading"
+description: >
+  Uproot is designed for interactive use: a user specifies a file to
+  open, Uproot reads the file's metadata, and then the user specifies
+  which TBranches to read as arrays. However, in high-throughput
+  situations, the metadata-reading (implemented in pure Python) is a
+  bottleneck—it would be better to jump directly to the
+  high-performance array-reading. This can be done by using Uproot in
+  two passes: the first pass reads all the metadata and stores it in a
+  database (once), and the second pass uses the database to jump
+  directly to the seek locations of array data (many times). This is
+  conceptually similar to what
+  [kerchunk](https://fsspec.github.io/kerchunk/) does with other file
+  formats (making ROOT a kerchunk format is one possible
+  implementation), and a demonstrator for this concept was implemented
+  using the Tiled database as
+  [tiled-uproot](https://github.com/jpivarski/tiled-uproot). This
+  project would be to decide on a database format and implement
+  two-phase reading with a nice interface.
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+  - name: Ianna Osborne
+    email: iosborne@princeton.edu
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page

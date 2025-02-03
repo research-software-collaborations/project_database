@@ -1,0 +1,38 @@
+---
+name: Data Popularity, Placement Optimization and Storage Usage Effectiveness
+postdate: 2023-04-12
+categories:
+  - Open science
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+  - ML
+  - Big data
+  - Networking
+status:
+  - Complete
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Part time
+program:
+  - IRIS-HEP fellow
+shortdescription: Data Popularity, Placement Optimization and Storage Usage Effectiveness at the Data Center
+description: >
+  The goal of this project is to take data management to the next level by employing machine
+  learning methods to create a precise data use prediction model. This model applied to data placement
+  decisions can bring important benefits both 1) to data center in dealing with large amounts of “cold,” or unused data,
+  which can potentially become “hot”, or popular and heavily used, and 2) to scientists, by enabling them to access their data more quickly.
+  Deploying such models in production have many challenges and pitfalls like the accuracy of the predictions at different scales.
+contacts:
+  - name: Vincent Garonne
+    email: vincent.garonne@bnl.gov
+mentees:
+  - name: Avi G. Kaufman
+    link: https://iris-hep.org/fellows/AviKaufman.html

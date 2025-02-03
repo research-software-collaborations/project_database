@@ -1,0 +1,35 @@
+---
+name: Development of the generic vertex finder in HLT1-level trigger at LHCb.
+
+postdate: 2024-02-22
+categories:
+  - Analysis tools
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - LHCb
+skillset:
+  - CUDA
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Development of new algorithm that finds generic vertices in the LHCb using GPUs.
+description: >
+  The project is dedicated to the development of an innovative algorithm designed to identify displaced decay vertices within the LHCb experiment. The primary aim of this algorithm is to facilitate an inclusive search methodology for long-lived particles, instead of targeting specific decay signatures. This  strategy requires the algorithm to effectively differentiate and suppress vertices associated with well-established long-lived hadrons, necessitating the integration of ML solutions. This approach will enable the analysis to be adaptable to a wide range of New Physics models and searches. Furthermore, the algorithm is constrained by computational speed requirements of the online HLT1 trigger at LHCb, which makes it challenging.
+
+  The student will develop the algorithm to be run on the LHCb GPU farm. This endeavor offers a rich opportunity for the student to gain hands-on experience with CUDA, C++, and Python. It also assumes the implication of the ML algorithms from at least scikit-learn or pytorch.
+
+contacts:
+  - name: Andrii Usachov
+    email: andrii.usachov@nikhef.nl
+mentees:

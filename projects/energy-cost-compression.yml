@@ -1,0 +1,39 @@
+---
+name: Estimating the energy cost of ML algorithms
+postdate: 2023-05-10
+categories:
+  - Analytics
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Big data
+  - ML
+status:
+  - Complete
+project:
+  - IRIS-HEP
+experiments:
+  - Any
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Test and validate power consumption estimates for a ML algorithm for data compression
+description: >
+  [Baler](https://github.com/baler-collaboration/baler) is a machine-learning based lossy data compression tool.
+  In this project, we will review the literature concerning energy consumption for ML models and
+  obtain estimates of the energetic cost of training and hyperparameter optimization following the guidelines
+  of the Green Software Foundation. The candidate will work in a team of students and interns who are
+  developers of the compression tool, and will be able to suggest improvements and insights towards Baler's
+  energy efficiency.
+contacts:
+  - name: Caterina Doglioni
+    email: caterina.doglioni@cern.ch
+  - name: Alexander Ekman
+    email: alexander.ekman@hep.lu.se
+mentees:
+  - name: Leonid Didukh
+    link: https://iris-hep.org/fellows/LeonidDidukh.html

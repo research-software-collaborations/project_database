@@ -1,0 +1,40 @@
+---
+name: Smart Task Resubmission for CMS Workload Management System
+postdate: 2024-01-30
+categories:
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+status:
+  - Complete
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Develop a tool to monitor and make smart decisions on how to resubmit tasks within CMS workflows.
+description: >
+  The CMS experiment runs its data processing and simulation jobs on the Worldwide LHC Computing Grid at the scale of ~100k jobs in parallel. It is inevitable to avoid job failures at this scale, making an effective failure recovery system crucial. The existing algorithm for job resubmission is inefficient, as it does not consider information from other jobs running at the same computing site or belonging to the same physics class. The objective of this project is to migrate the autoACDC script to the new version of Unified, which controls the distribution of workflows across GRID computing clusters. The new "smart" autoACDC should operate with minimal human intervention, automatically selecting resubmission parameters based on error code statistics and previously successful resubmissions gathered from department staff. This tool aims to significantly reduce the manual effort required by the Production and Reprocessing (P&R) team, thus improving operational efficiency and increasing overall throughput.
+contacts:
+  - name: Hassan Ahmed
+    email: m.hassan@cern.ch
+  - name: Hasan Ozturk
+    email: h.ozturk@cern.ch
+  - name: Luca Lavezzo
+    email: luca.marco.lavezzo@cern.ch
+  - name: Jennifer Adelman McCarthy
+    email: jennifer.kathryn.adelman-mc.carthy@cern.ch
+  - name: Zhangqier Wang
+    email: wangzqe@mit.edu
+  - name: Dmytro Kovalskyi
+    email: kdv@mit.edu
+mentees:
+  - name: Volodymyr Kovalenko
+    link: https://iris-hep.org/fellows/LionHamelion.html

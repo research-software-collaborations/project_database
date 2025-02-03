@@ -1,0 +1,64 @@
+---
+name: CI/CD improvements for Alpaka library, and related projects.
+postdate: 2024-06-07
+categories:
+  - Open science
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - Git
+  - CI/CD
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Improvement and optimization of the CI job generator for the alpaka library
+
+description: >
+  alpaka is an abstraction library that allows writing a function once and
+  executed on different accelerators, e.g. on different CPU (x86, ARM, RISC V)
+  or GPU architectures (Nvidia, AMD, Intel). Therefore, the library must
+  support a wide range of different build tools and runtime libraries in
+  different versions. At the moment, we could test 2,500,000 different
+  combinations of software dependencies in our CI, which would take
+  months for a single commit.
+
+  To reduce the number of jobs and also save the time for manually adding new software
+  dependency combinations, we implemented a
+  [CI job generator](https://github.com/alpaka-group/alpaka/blob/develop/script/job_generator/job_generator.py)
+  written in Python using [pair-wise testing](https://en.wikipedia.org/wiki/All-pairs_testing).
+  The generator reduces the number of jobs to about 170. Unfortunately, we encountered several
+  problems and limitations when using the generator. The biggest problem is to check whether
+  all expected test pairs are generated. Therefore, we have started to rewrite the
+  [generator](https://github.com/alpaka-group/bashi) to solve all problems and ensure
+  that it works as expected from the first commit by using strong test coverage.
+
+  Your task is to finalize the work on the new version of the generator, migrate alpaka
+  to the new generator and verify that the CI works as expected. The biggest challenge
+  of the project is that trial and error does not work due to the immense number of
+  combinations. Verifying that the generator works as expected is the main problem.
+  Depending on the result of the migration, further optimizations are required.
+  These can be simple optimizations, such as reducing the number of test parameters, but
+  also clever optimizations inspired by HPC applications, such as an intelligent
+  scheduling algorithm for the CI jobs to make better use of the CI resources and
+  abort the CI as early as possible in case of broken code.
+
+contacts:
+  - name: Jiri Vyskocil
+    email: jiri@vyskocil.com
+  - name: Simeon Ehrig
+    email: s.ehrig@hzdr.de
+  - name: Volodymyr Bezguba
+    email: v.bezguba@kau.edu.ua
+
+mentees:

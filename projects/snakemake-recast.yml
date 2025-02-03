@@ -1,0 +1,45 @@
+---
+name: Snakemake backend for RECAST
+postdate: 2023-05-24
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Docker
+status:
+  - Complete
+project:
+  - IRIS-HEP
+experiments:
+  - Any
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implement a Snakemake backend for RECAST workflows
+description: >
+  [RECAST](https://iris-hep.org/projects/recast.html) is a platform for systematic
+  interpretation of LHC searches.
+  It reuses preserved analysis workflows from the LHC experiments, which is now possible
+  with containerization and tools such as [REANA](http://reanahub.io).
+  When RECAST was first implemented for ATLAS a workflow language with
+  sufficient Linux container support was not available and the
+  [yadage](https://github.com/yadage/yadage) workflow system was created.
+  In the years since yadage was created the
+  [Snakemake](https://snakemake.readthedocs.io/en/stable/) workflow management
+  system has become increasingly popular in the broader scientific community and
+  has developed mature Linux container support.
+  This project would aim to implement another RECAST backend using Snakemake as a
+  modern alternative to yadage.
+contacts:
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
+  - name: Lukas Heinrich
+    email: lukas.heinrich@cern.ch
+mentees:
+  - name: Andrii Povsten
+    link: https://iris-hep.org/fellows/AndriiPovsten.html

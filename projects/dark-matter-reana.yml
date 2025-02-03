@@ -1,0 +1,42 @@
+---
+name: REANA workflow for Dark Matter Searches
+postdate: 2023-02-14
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Docker
+status:
+  - Complete
+project:
+  - IRIS-HEP
+experiments:
+  - Any
+program:
+  - Any
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Implement a REANA workflow for dark matter searches at RCFM
+description: >
+  [REANA](https://reana.io/) is a platform for reproducible data analysis workflows
+  that can be run at scale. REANA has been used extensively for running containerized
+  workflows of LHC experiments, like ATLAS, and for reinterpretation of published
+  analyses. This project would aim to implement a REANA workflow for a galaxy
+  rotation-curve fitting analysis (RCFM) to improve replicability and to
+  provide a starting point for future work.
+contacts:
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
+  - name: Lukas Heinrich
+    email: lukas.heinrich@cern.ch
+  - name: Amy Roberts
+    email: amy.roberts@ucdenver.edu
+  - name: Giordon Stark
+    email: gstark@cern.ch
+mentees:
+  - name: Sambridhi Deo
+    link: https://iris-hep.org/fellows/Samcoodess.html

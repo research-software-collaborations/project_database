@@ -1,0 +1,42 @@
+---
+name: Development of simulation workflows for BSM LLPs at LHCb
+
+postdate: 2023-03-29
+categories:
+  - Simulation
+  - Generators
+durations:
+  - 3 months
+experiments:
+  - LHCb
+skillset:
+  - C++
+  - Python
+status:
+  - Complete
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Development of simulation workflows for BSM LLPs at LHCb
+description: >
+  In this project, the candidate will become familiar with Monte Carlo (MC) simulations in the LHC environment,
+  using generators such as Pythia and EvtGen, and will learn to work within the LHCb framework. They will learn to
+  generate new physics scenarios concerning long-lived particles, particularly dark bosons and heavy neutral leptons.
+  The software implementation of these models will be of general interest to the entire LHC community. Moreover, these
+  simulations will be used to assess the physics performance of various trigger algorithms developed within the Allen
+  framework and to determine LHCb's sensitivity to detecting these types of particles. New particles in a wide mass range,
+  from 500 to 4500 MeV, and lifetimes between 10 ps and 2 ns, will be generated and analyzed to develop pioneering
+  selection procedures for recognizing these signals during Run 3 of LHC data collection.
+contacts:
+  - name: Arantza Oyanguren
+    email: oyanguren@ific.uv.es
+  - name: Brij Kishor Jashal
+    email: brij@cern.ch
+mentees:
+  - name: Valerii Kholoimov
+    link: https://iris-hep.org/fellows/KholoimovValerii.html

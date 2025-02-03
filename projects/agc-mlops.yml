@@ -1,0 +1,35 @@
+---
+name: Improving the Analysis Grand Challenge (AGC) machine learning training workflow
+postdate: 2023-04-07
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+  - HLLHC
+skillset:
+  - ML
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Improving the Analysis Grand Challenge (AGC) machine learning training workflow
+description: >
+  The Analysis Grand Challenge (AGC) is performing the last steps in an analysis pipeline at scale to test workflows envisioned for the HL-LHC. Since ML methods have become so widespread in analysis and these analyses also need to be scaled up for HL-LHC data, ML training and inference were also integrated into the AGC analysis pipeline. The goal of this project is to improve current the ML training implementation with Kubeflow Pipelines, an open source platform for implementing MLOps, providing a framework for building, deploying, and managing machine learning workflows.
+contacts:
+  - name: Elliott Kauffman
+    email: elmaka8700@gmail.com
+  - name: Alexander Held
+    email: alexander.held@cern.ch
+  - name: Oksana Shadura
+    email: oksana.shadura@cern.ch

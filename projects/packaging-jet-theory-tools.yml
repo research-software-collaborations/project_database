@@ -1,0 +1,52 @@
+---
+name: Packaging jet substructure observable tools
+postdate: 2024-02-08
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+skillset:
+  - Python
+  - C++
+  - Docker
+  - CI/CD
+  - Linux
+  - Git
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - ATLAS
+  - CMS
+  - EIC
+  - HLLHC
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Repackage the EnergyFlow and Wasserstein tools for modern PyPI and conda-forge
+description: >
+  In the area of jet substructure observable tools that leverage machine learning
+  applications, the Python packages [EnergyFlow](https://github.com/thaler-lab/EnergyFlow) and
+  [Wasserstein](https://github.com/thaler-lab/Wasserstein) stood out for their use in the broader
+  high energy physics theory and experimental communities.
+  The original project creators and maintainers have left the projects, and though the projects
+  have been placed in a community organization to aid support, the packaging tooling choices
+  have made it difficult to maintain the projects.
+
+  This project would update the original SWIG-based Python bindings for the project C++ code
+  to use [scikit-build-core](https://scikit-build-core.readthedocs.io/) and
+  [pybind11](https://pybind11.readthedocs.io/) and update the CI/CD system to allow for fluid
+  building and testing of the packages.
+  The end deliverables of the project would be for the project repositories to have transitioned
+  their packaging systems, updated their CI/CD systems, made new releases to the PyPI package
+  index, and releases the packages to conda-forge.
+contacts:
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
+  - name: Henry Schreiner
+    email: henry.fredrick.schreiner@cern.ch

@@ -1,0 +1,63 @@
+---
+name: Refactoring Uproot's AwkwardForth implementation
+postdate: 2023-05-24
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Complete
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: >
+  Keeping the functionality of Uproot's accelerated reading through AwkwardForth, but
+  making it more maintainable by removing mutable state/coding it in a functional style.
+description: >
+  Uproot is a Python library for reading and writing ROOT files (the most common file
+  format in particle physics). While it is relatively fast at reading "columnar" data,
+  either arrays of numbers or arrays of numbers that are grouped into variable-length
+  lists, any other data type requires iteration, which is a performance limitation in
+  the Python language. ("for" loops in Python are 100's of times slower than in compiled
+  languages.) To improve this situation, we introduced a domain-specific language (DSL)
+  called AwkwardForth, in which loops are much faster to execute than they are in Python
+  (factors of 100's again). This language was created in 2021 (https://arxiv.org/abs/2102.13516)
+  and added to Uproot in 2022 (https://arxiv.org/abs/2303.02202). In the end, an example
+  data structure (std::vector<std::vector<float>>) could be read 400× faster with
+  AwkwardForth than with Python. Users of Uproot don't have to opt in or change their
+  code, it just runs faster.
+
+  That would be the end of the story, except that the AwkwardForth-generating code in
+  Uproot has been very hard to maintain. In part, it's because it's doing something
+  complicated: generating code that runs later or generating code that generates code
+  that runs later. But it is also more complicated than it needs to be, with Python
+  objects that change their own attributes in arbitrary ways as information about what
+  AwkwardForth needs to be generated accumulates. The code would be much easier to read
+  and reason about if it were stateless or append-only (see: functional programming),
+  and it easily could be. This project would be to restructure the AwkwardForth-generating
+  code in a functional style, to "remove the moving parts."
+
+  To be clear, the project will not require you to understand the AwkwardForth that is
+  being generated (though that's not a bad thing), and it will not require you to figure
+  out how to generate the right AwkwardForth for a given data type. This part of the problem
+  has been solved and there are many unit tests that can check correctness, to allow you to
+  do test-driven development. The project is about software engineering: how to structure
+  code so that it can be read and understood, while keeping the problem-solving aspect
+  unchanged.
+contacts:
+  - name: Ioana Ifrim
+    email: ioana.ifrim@cern.ch
+  - name: Jim Pivarski
+    email: pivarski@princeton.edu
+mentees:
+  - name: Seth Bendigo
+    link: https://iris-hep.org/fellows/SethBendigo.html

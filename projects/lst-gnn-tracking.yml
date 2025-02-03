@@ -1,6 +1,6 @@
-#remove commented text (after "#") in your project yml, including this line..
-#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
-#to add additional responses, please modify project_metadata.yml accordingly
+# remove commented text (after "#") in your project yml, including this line..
+# See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+# to add additional responses, please modify project_metadata.yml accordingly
 ---
 name: Augmenting Line-Segment Tracking with Graph Neural Network
 postdate: 2023-02-18
@@ -16,7 +16,7 @@ skillset:
   - C++
   - ML
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -67,11 +67,16 @@ description: >
   Week 3: Creating example of running the Line Segment classification inference on C++ environment with TorchScript
   Week 4/5: Integrating the inference with LST’s CUDA code to run the inference on GNN
   Week 5: Validating the implementation in the LST framework
-  Week 6/7: Performing optimization of utilizing the GNN inferences to measure performance gain in the efficiency metric of LST framework (i.e. efficiency, fake rate, and duplicate rate)
+  Week 6/7: Performing optimization of utilizing the GNN inferences to measure performance gain in the efficiency metric of LST framework (i.e. efficiency, fake
+  rate, and duplicate rate)
   Week 8/9: Perform large scale hyperparameter optimization to find best resulting model architectecture
-  Week 10/11: Perform research and development of extending the ability to classify Triplets, and beyond, with the Line Graph transformation approach, which would enable “one-shot” inference
+  Week 10/11: Perform research and development of extending the ability to classify Triplets, and beyond, with the Line Graph transformation approach, which
+  would enable “one-shot” inference
   Week 12: Wrap up the project, document and summarize the findings to allow for next steps
 
 contacts:
   - name: Philip Chang
     email: p.chang@ufl.edu
+mentees:
+  - name: Povilas Pugzlys
+    link: https://iris-hep.org/fellows/HubertPugzlys.html

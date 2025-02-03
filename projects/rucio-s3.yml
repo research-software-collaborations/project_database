@@ -1,0 +1,49 @@
+---
+name: Rucio-S3-compatible access interface for analysis facilities
+postdate: 2023-05-07
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+skillset:
+  - Python
+  - Docker
+status:
+  - Complete
+project:
+  - IRIS-HEP
+experiments:
+  - ATLAS
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Add S3 compatible access interface to Rucio
+description: >
+  [Rucio](https://rucio.cern.ch/) is an open source software framework that
+  provides functionality to scientific collaborations to organize, manage,
+  monitor, and access their distributed data and data flows across
+  heterogeneous infrastructures.
+  Rucio was originally developed to meet the requirements of the high-energy
+  physics experiment ATLAS, and is continuously enhanced to support diverse
+  scientific communities.
+  Since 2016 Rucio has orchestrated multiple Exabytes of data access and data
+  transfers globally.
+
+  With this project we seek to enhance Rucio to support a new mechanism for
+  analysis facilities, which are oriented towards object stores in order to
+  provide a portable destination for HEP analyzers to store data products
+  produced in their research in a portable, shareable and standardized way.
+contacts:
+  - name: Lukas Heinrich
+    email: lukas.heinrich@cern.ch
+  - name: Matthew Feickert
+    email: matthew.feickert@cern.ch
+  - name: Mario Lassnig
+    email: mario.lassnig@cern.ch
+mentees:
+  - name: Kyrylo Meliushko
+    link: https://iris-hep.org/fellows/kyrylogy.html

@@ -1,0 +1,45 @@
+---
+name: CI/CD and Automation of Manual Operations
+postdate: 2024-01-30
+categories:
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - CI/CD
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Automate manual operations and implement CI/CD for CMS Production & Reprocessing group.
+description: >
+  The Production & Reprocessing (P&R) group is responsible for maintaining and operating the CMS central workload management system, which processes hundreds of
+  physics workflows daily which produce the data that physicists use in their analyses. The requests which have a similar physics goal are grouped as
+  ‘campaigns’. P&R manages the lifecycle of hundreds of campaigns, each with its unique needs. The objective of this project is to automate the checks that are
+  performed manually on these campaigns. This involves creating a system to automatically set up, verify, and activate new campaigns, along with managing data
+  storage and allocation. The second part of the project focuses on implementing a Continuous Integration and Continuous Deployment (CI/CD) pipeline for
+  efficiently deploying and maintaining software services. This will include converting manual testing procedures into automated ones, improving overall
+  efficiency and reducing errors. Tools such as Gitlab Pipelines for CI/CD, Python for scripting, and various automated testing frameworks will be employed.
+  This initiative is designed to streamline operations, making them more efficient and effective.
+contacts:
+  - name: Hassan Ahmed
+    email: m.hassan@cern.ch
+  - name: Hasan Ozturk
+    email: h.ozturk@cern.ch
+  - name: Luca Lavezzo
+    email: luca.marco.lavezzo@cern.ch
+  - name: Jennifer Adelman McCarthy
+    email: jennifer.kathryn.adelman-mc.carthy@cern.ch
+  - name: Zhangqier Wang
+    email: wangzqe@mit.edu
+  - name: Dmytro Kovalskyi
+    email: kdv@mit.edu

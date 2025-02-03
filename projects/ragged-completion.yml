@@ -1,0 +1,46 @@
+---
+name: Completing the Ragged library
+postdate: 2025-01-20
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+  - 1 year
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: "Implement the remaining functions to make Ragged an Array-API compliant ragged array library"
+description: >
+  Scikit-HEP's
+  [Ragged](https://github.com/scikit-hep/ragged/discussions/6) library
+  is an interface over Awkward Array that restricts it to ragged
+  arrays only (no records, missing data, etc.)  and satisfies
+  DataAPI's [Array API](https://data-apis.org/), which is rapidly
+  becoming the standard interface for array libraries. As such, the
+  requirements for Ragged are very precise: all required functions
+  have already been stubbed out with full docstrings, and about half
+  of them have been implemented. This project would be to complete it
+  and promote it as a fully functional, Array API-compliant ragged
+  array library.
+
+contacts:
+  - name: Jim Pivarski
+    email: jpivarski@gmail.com
+  - name: Ianna Osborne
+    email: iosborne@princeton.edu
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page

@@ -15,7 +15,7 @@ skillset:
   - C++
   - ML
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -26,12 +26,17 @@ program:
   - IRIS-HEP fellow
 shortdescription: Develop and test an analysis pipeline using ROOT's RDataFrame for the next iteration of the Analysis Grand Challenge
 description: >
-  The IRIS-HEP Analysis Grand Challenge (AGC) aims to develop examples of realistic, end-to-end high-energy physics analyses, as well as demonstrate the advantages of modern tools and technologies when applied to such tasks.
-  The next iteration of the AGC (v2) will put the capabilities of modern analysis interfaces such as Coffea and ROOT's RDataFrame under further test, for example by including more complex systematic variations and sophisticated machine learning techniques.
-  The project consists in the investigation and implementation of such new developments in the context of RDataFrame as well as their benchmarking on state-of-the-art analysis facilities.
-  The goal is to gain insights useful to guide the future design of both the analysis facilities and the applications that will be deployed on them.
+  The IRIS-HEP Analysis Grand Challenge (AGC) aims to develop examples of realistic, end-to-end high-energy physics analyses, as well as demonstrate the
+  advantages of modern tools and technologies when applied to such tasks. The next iteration of the AGC (v2) will put the capabilities of modern analysis
+  interfaces such as Coffea and ROOT's RDataFrame under further test, for example by including more complex systematic variations and sophisticated machine
+  learning techniques. The project consists in the investigation and implementation of such new developments in the context of RDataFrame as well as their
+  benchmarking on state-of-the-art analysis facilities. The goal is to gain insights useful to guide the future design of both the analysis facilities and the
+  applications that will be deployed on them.
 contacts:
   - name: Enrico Guiraud
     email: enrico.guiraud@cern.ch
   - name: Alexander Held
     email: alexander.held@cern.ch
+mentees:
+  - name: Andrii Falko
+    link: https://iris-hep.org/fellows/andriiknu.html
