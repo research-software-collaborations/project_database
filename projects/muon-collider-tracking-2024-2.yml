@@ -12,7 +12,7 @@ skillset:
   - C++
   - Python
 status:
-  - Available
+  - Obsolete/Closed
 project:
   - IRIS-HEP
 program:
@@ -43,3 +43,5 @@ contacts:
   - name: Sergo Jindariani
     email: sergo@fnal.gov
 mentees:
+  - name: Sarah Shinde
+    link: https://iris-hep.org/fellows/shindesc.html

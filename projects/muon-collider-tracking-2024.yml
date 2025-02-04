@@ -12,7 +12,7 @@ skillset:
   - C++
   - Python
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 program:
@@ -46,3 +46,6 @@ contacts:
   - name: Sergo Jindariani
     email: sergo@fnal.gov
 mentees:
+mentees:
+  - name: Samuel Ferraro
+    link: https://iris-hep.org/fellows/samf25.html
