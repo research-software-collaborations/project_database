@@ -26,7 +26,7 @@ commitment:
 shortdescription: First characterization of the detector environment and simiulation development for a very high-energy wakefield-acceleration based collider.
 description: >
   A 10 TeV lepton collider has the promise to revolutionize our understanding of particle physics. One of the proposal entiles a very high-energy electron or photon collider using novel acceleration techniques that promise a relatively compact layout even for such large energies.
-  The design of a detector for such a collider is just starting to be studied. In particular this project will develop the needed tools to study the environment created by beam-induced backgrounds that will inform which detector technologies are expected to be needed to be developed in the future. If time allows, a first proposal of how the detector layout will be also pursued for the first time. 
+  The design of a detector for such a collider is just starting to be studied. In particular this project will develop the needed tools to study the environment created by beam-induced backgrounds that will inform which detector technologies are expected to be needed to be developed in the future. If time allows, a first proposal of how the detector layout will be also pursued for the first time.
     The project allows the fellow to mix acquiring good technical skills in Python and C++, and the ability to innovate state-of-the-art simulation techniques. The impact is setting up the first-ever simulation infrastructure for such colliders.
 
 contacts:
