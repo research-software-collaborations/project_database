@@ -1,0 +1,41 @@
+---
+name: Vertex Classification in High PU scenario
+postdate: 2025-02-05
+categories:
+  - Analysis Tools
+durations:
+  - 3 months
+skillset:
+  - Python
+  - C++
+  - Tracking
+status:
+  - Available
+experiments:
+  - ATLAS
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Selecting vertices in high-luminosity high energy hadron colliders
+description: >
+  Future High luminosity LHC upgrades (HL-LHC) and high energy proton-proton colliders such as FCC-hh will 
+  produce 200 – 1000 simultaneous vertex interactions per event, posing significant challenges to the 
+  physics event reconstruction. At the LHC, we utilize algorithms that selects one “hard-scatter” vertex 
+  among all reconstructed vertices. The ability to select the correct vertex using existing algorithms 
+  degrade as the number of vertices continues to increase and new solutions will be required. This problem 
+  is particularly challenging due to the fact that different physics process give rise to very different 
+  event topologies making it difficult to design a single algorithm that can be broadly applicable to all 
+  events. In this project, we propose to utilize advanced machine learning methods to develop the next 
+  generation of vertex selection algorithms suitable for the very high luminosity hadron colliders of the future. 
+contacts:
+  - name: Ariel Schwartzman
+    email: sch.slac.stanford@gmail.com
+  - name: Wasikul Islam
+    email: wasikul.islam@cern.ch
+  - name: Rocky Bala garg
+    email: rbgarg@stanford.edu
