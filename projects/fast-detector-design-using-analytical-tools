@@ -1,0 +1,54 @@
+---
+name: Validating fast analytical tools against ACTS framework to allow fast turn-around of detector designs
+postdate: 2025-02-05
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - ACTS
+skillset:
+  - Python
+  - C++
+  - Tracking
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Validating fast analytical tools against ACTS framework to allow fast turn-around of detector designs
+description: >
+  Expected transverse momentum resolution (σ(pT)/pT) at a future electron-positron Higgs Factory is of the 
+order of (10^−5⋅pT⊕10^−3). Achieving this ambitious goal requires innovative detector concepts. While detailed 
+Monte Carlo simulations combined with sophisticated reconstruction software represent the gold standard for 
+performance evaluation, this approach is often cumbersome and slow, making it impractical during the early stages 
+of detector design. A fast feedback tool is therefore essential—one that is simple to use and does not rely on 
+resource-intensive frameworks like Geant4. Such a tool should focus on intrinsic detector performance, 
+minimizing sensitivity to reconstruction software tunings. It should be capable of rapid execution to enable
+the exploration of multiple detector concepts, facilitating the identification of the most promising designs.
+An early analytical framework addressing this need was introduced by R.L. Gluckstern in 1963 [Ref: NIM A24 (1963) 381–389], 
+offering direct calculations based on simplifying assumptions such as negligible multiple scattering, uniformly spaced detector planes, 
+and consistent hit resolution across layers. An enhanced calculation tool based on this foundation, relaxing these assumptions, 
+allows for more realistic modeling. This direct calculation method, being analytical rather than simulation-based, is highly efficient. 
+Validation against detailed simulation and reconstruction results from ATLAS and CMS has shown reasonable agreement. However, 
+some limitations remain due to residual assumptions (e.g., discrete multiple scattering) and complexities in actual detector geometries, 
+such as non-uniform material distribution as a function of η and ϕ.
+Project Objective:
+The current project aims to utilize the ACTS framework, in conjunction with a detector geometry such as the Open Data Detector, 
+to simulate and reconstruct single muon tracks. This will enable direct comparisons between full simulation + reconstruction methods 
+and the analytical calculation approach with identical detector descriptions.
+Project Workflow:
+1.	Acquire a basic understanding of track reconstruction and the ACTS framework.
+2.	Simulate single muons, perform track reconstruction within ACTS, and obtain various resolutions.
+3.	Get key detector parameters (e.g., hit resolution, detector layer positions) for input into the direct calculation tool.
+4.	Run the calculation tool, determine resolutions, and compare results with those from ACTS simulations.
+
+  - name: Charles Young
+    email: young@slac.stanford.edu
+  - name: Rocky Bala Garg
+    email: rbgarg@stanford.edu
