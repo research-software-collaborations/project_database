@@ -25,22 +25,22 @@ program:
   - IRIS-HEP fellow
 shortdescription: Improving Particle Flow Algorithms through the incorporation of fast-timing and dual-readout
 description: >
-Machine learning is having a transformative impact in collider detectors, both at the LHC, and 
-also in the context of future colliders. While many efforts in particle flow reconstruction are 
-being pursued, there are unique new opportunities that are largely unexplored and have the potential 
-to significantly enhance this area of research. In particular, the incorporation of fast-timing 
-and dual-readout information. Fast-timing provides a new dimension to calorimetry. In the case of 
-high granularity calorimeters, cell-time information can be utilized to better resolve nearby 
-hadronic showers. The overlap/confusion between nearby showers is what limits existing AI/ML 
-particle flow algorithms as there is not enough information to disentangle such overlaps purely 
-based on spatial information. On the other, dual-readout calorimeter cells/fibers allow for a new 
-type of particle flow algorithm. The key idea is that dual-readout provides excellent energy resolution, 
-so, in contrast with traditional particle flow where the main handle is high-resolution spatial information, 
-in dual-readout it is the energy resolution what can enable improved association between tracks and 
-calorimeter signals. This calls for a new class of particle flow algorithm that has yet to be developed. 
-Achieving the full potential of these ideas requires a team with strong knowledge and combined expertise 
-in calorimetry, jet physics, and AI/ML methods. This project presents an opportunity to explore these 
-cutting-edge computing algorithms and methods with the goal of realizing the next generation of 
+Machine learning is having a transformative impact in collider detectors, both at the LHC, and
+also in the context of future colliders. While many efforts in particle flow reconstruction are
+being pursued, there are unique new opportunities that are largely unexplored and have the potential
+to significantly enhance this area of research. In particular, the incorporation of fast-timing
+and dual-readout information. Fast-timing provides a new dimension to calorimetry. In the case of
+high granularity calorimeters, cell-time information can be utilized to better resolve nearby
+hadronic showers. The overlap/confusion between nearby showers is what limits existing AI/ML
+particle flow algorithms as there is not enough information to disentangle such overlaps purely
+based on spatial information. On the other, dual-readout calorimeter cells/fibers allow for a new
+type of particle flow algorithm. The key idea is that dual-readout provides excellent energy resolution,
+so, in contrast with traditional particle flow where the main handle is high-resolution spatial information,
+in dual-readout it is the energy resolution what can enable improved association between tracks and
+calorimeter signals. This calls for a new class of particle flow algorithm that has yet to be developed.
+Achieving the full potential of these ideas requires a team with strong knowledge and combined expertise
+in calorimetry, jet physics, and AI/ML methods. This project presents an opportunity to explore these
+cutting-edge computing algorithms and methods with the goal of realizing the next generation of
 particle flow reconstruction for future colliders.
 contacts:
   - name: Ariel Schwartzman
