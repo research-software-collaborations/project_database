@@ -10,7 +10,7 @@ experiments:
 skillset:
   - Julia
 status:
-  - Obsolete/Closed
+  - Completed
 project:
   - IRIS-HEP
 location:
@@ -18,7 +18,10 @@ location:
 commitment:
   - Full time
 program:
-  - IRIS-HEP fellow
+  - CERN Summer Student
+mentees:
+  - name: Elvis Agüero
+    link: https://indico.cern.ch/event/1410341/contributions/6135602/
 shortdescription: Develop HEP strategies for artefact caching in Julia to allow large scale running
 description: >
   Julia is a promising language for high-energy physics as it combines the easy
