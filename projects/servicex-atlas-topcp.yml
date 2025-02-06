@@ -14,7 +14,7 @@ skillset:
   - Python # or add one or more skills listed in project_metadata.yml
   - Docker
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP # o if associated to a community project, add it here (from those listed in project_metadata.yml)
 location:
