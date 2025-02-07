@@ -1,0 +1,38 @@
+---
+name: Machine learning pileup suppression trigger algorithms at the HL-LHC
+postdate: 2025-02-07
+categories:
+  - Analysis tools
+  - AI/ML
+durations:
+  - 3-6 months
+experiments:
+  - ATLAS
+  - HLLHC
+skillset:
+  - ML
+  - Python
+  - C++
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Machine learning pileup suppression trigger algorithms at the HL-LHC
+description: >
+This project proposes to investigate new approaches to the challenge of pileup at the High Luminosity 
+LHC (HL-LHC). The goal is to investigate and implement advanced methods for the selection of multi-jet 
+signatures at the trigger level, addressing key experimental challenges that arise at high luminosity 
+and require the development of new techniques. The project consists of utilizing simulated HL-LHC data 
+to implement and study a new type of machine learning algorithm to tackle these new challenges and 
+enhance the power of the HL-LHC to discover new physics.
+contacts:
+  - name: Ariel Schwartzman
+    email: sch.slac.stanford@gmail.com
+- name: Rainer Bartoldus
+    email: bartoldu@slac.stanford.edu
