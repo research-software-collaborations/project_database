@@ -1,0 +1,37 @@
+name: CMS Level 1 trigger scouting for luminosity measurement  
+postdate: 2025-02-09 
+categories:
+  - Analysis tools
+durations:
+  - 3 month 
+experiments:
+  - CMS
+skillset:
+  - C++, Git, Linux, Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time   
+program:
+  - IRIS-HEP fellow
+shortdescription: Data processing of CMS Level 1 trigger 40 MHz scouting for luminosity measurement
+description: >
+  In High-Luminosity LHC era the CMS 40 MHz L1 Scouting system will be used for luminosity measurements 
+  by counting multiple trigger primitives, as muon stubs, energy deposition in calorimeters, 
+  track primitives, and others. A detailed study of these primitives and their correlations is 
+  required to determine their suitability for precision luminosity measurement in the HL-LHC conditions. 
+  A prototype of the system has already been deployed as a Run 3 demonstrator, and data is available 
+  for analysis. Students involved in this project will gain experience with the CMS data flow, 
+  including the use of the CMS Software Framework (CMSSW) and HTCondor for large-scale data processing.
+
+contacts:
+  - name: Olena Karacheban
+    email: olena.karacheban@cern.ch
+  - name: Alexey Shevelev
+    email: alexey.shevelev@cern.ch
+
+mentees: 
