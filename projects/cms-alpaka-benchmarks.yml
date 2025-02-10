@@ -26,7 +26,7 @@ shortdescription: Writing benchmarks for the [Alpaka](https://github.com/alpaka-
 description: >
   This project proposes to write benchmarks for the [Alpaka](https://github.com/alpaka-group/alpaka) performance portability library.
   to evaluate the performance of using various parallel constructs in the [pixel track](https://github.com/cms-patatrack/pixeltrack-standalone/)
-  reconstruction software of the CMS experiment at CERN, and other software. 
+  reconstruction software of the CMS experiment at CERN, and other software.
   Alpaka facilitates development across diverse
   hardware architectures by providing a unified API for writing parallel software for CPUs, GPUs, and FPGAs.
   As the complexity of scientific software and alpaka itself grows, we need to continuously monitor the perofmarnce
@@ -34,8 +34,8 @@ description: >
 
   Performance benchmakrs build upon our CI (Continuous Integration) and Unit Testing systems. A benchmark is a piece of C++ code
   written against the alpaka API
-  that tests a specific functionality in alpaka, and measures its performance using the CI. The benchmarks range in 
-  complexity from short functions testing a single isolated feature, similar to a unit test, to complex algorithms 
+  that tests a specific functionality in alpaka, and measures its performance using the CI. The benchmarks range in
+  complexity from short functions testing a single isolated feature, similar to a unit test, to complex algorithms
   that measure the performance fo several modules interacting with eah other. The project will start with short
   single-purpose benchmarks which will gradually introduce the student to the basics of using alpaka API and its different modules
   so that they can tackle complex challenging tasks in the later phases of the project.
