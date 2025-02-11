@@ -3,9 +3,10 @@ name: New Frontiers in 5D Calorimeter Reconstruction
 postdate: 2025-02-07
 categories:
   - Analysis tools
-  - AI/ML
+  - ML/AI
 durations:
-  - 3-6 months
+  - 3 months
+  - 6 months
 experiments:
   - ATLAS
   - HLLHC
