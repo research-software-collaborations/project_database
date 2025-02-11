@@ -3,7 +3,7 @@ name: Machine learning pileup suppression trigger algorithms at the HL-LHC
 postdate: 2025-02-07
 categories:
   - Analysis tools
-  - AI/ML
+  - ML/AI
 durations:
   - 3 months
   - 6 months
