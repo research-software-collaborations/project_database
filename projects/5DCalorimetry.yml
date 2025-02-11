@@ -25,23 +25,23 @@ program:
   - IRIS-HEP fellow
 shortdescription: New Frontiers in 5D Calorimeter Reconstruction
 description: >
-Machine learning is having a transformative impact in collider detectors, both at the LHC, and
-also in the context of future colliders. While many efforts in particle flow reconstruction are being
-pursued, there are unique new opportunities that are largely unexplored and have the potential to
-significantly enhance this area of research. In particular, the incorporation of fast-timing
-with dual-readout information. Fast-timing provides a new dimension to calorimetry. In the case
-of high granularity calorimeters, cell-time information can be utilized to better resolve nearby
-hadronic showers and improve the jet energy resolution beyond what can be achieved with existing
-AI/ML particle flow methods. This project consists of exploring a new frontier for particle flow
-reconstruction incorporating fast timing and dual readout information. The goal is to investigate
-how to combine fast-timing information with dual readout signals and tracks using modern machine
-learning techniques. This project presents an opportunity to explore cutting-edge calorimetry
-technology and computing algorithms and methods with the goal of realizing the next generation
-of 5D (x,y,z,t,E) particle flow reconstruction for future colliders.
+  Machine learning is having a transformative impact in collider detectors, both at the LHC, and
+  also in the context of future colliders. While many efforts in particle flow reconstruction are being
+  pursued, there are unique new opportunities that are largely unexplored and have the potential to
+  significantly enhance this area of research. In particular, the incorporation of fast-timing
+  with dual-readout information. Fast-timing provides a new dimension to calorimetry. In the case
+  of high granularity calorimeters, cell-time information can be utilized to better resolve nearby
+  hadronic showers and improve the jet energy resolution beyond what can be achieved with existing
+  AI/ML particle flow methods. This project consists of exploring a new frontier for particle flow
+  reconstruction incorporating fast timing and dual readout information. The goal is to investigate
+  how to combine fast-timing information with dual readout signals and tracks using modern machine
+  learning techniques. This project presents an opportunity to explore cutting-edge calorimetry
+  technology and computing algorithms and methods with the goal of realizing the next generation
+  of 5D (x,y,z,t,E) particle flow reconstruction for future colliders.
 contacts:
   - name: Ariel Schwartzman
     email: sch.slac.stanford@gmail.com
-- name: Michael Kagan
+  - name: Michael Kagan
     email: makagan@slac.stanford.edu
-- name: Rainer Bartoldus
+  - name: Rainer Bartoldus
     email: bartoldu@slac.stanford.edu
