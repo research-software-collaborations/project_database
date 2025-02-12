@@ -24,7 +24,7 @@ program:
 shortdescription: DevOps in cloud hosted database for HL-LHC FBCM detector development
 description: >
   For High-Lumi LHC in the CMS experiment the standalone luminometer FBCM is being designed.
-  It is silicon pad-based detector with dedicated fast ASIC. Varios parts of the detector are
+  It is silicon pad-based detector with dedicated fast ASIC. Various parts of the detector are
   at the final design stage and will be produced in 2025. To keeping track of the produced components,
   test results, and overall progress of the detector construction the database is under development.
   It is Django framework with an accompanying Python frontend. The student will contribute to the
