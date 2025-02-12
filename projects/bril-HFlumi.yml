@@ -8,7 +8,9 @@ durations:
 experiments:
   - CMS
 skillset:
-  - Git, Linux, Python
+  - Git
+  - Linux
+  - Python
 status:
   - Available
 project:
