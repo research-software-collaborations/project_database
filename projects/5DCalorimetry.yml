@@ -8,8 +8,8 @@ durations:
   - 3 months
   - 6 months
 experiments:
-  - ATLAS
-  - HLLHC
+  - FCC-ee
+  - Future Higgs Factory Detectors
 skillset:
   - ML
   - Python
