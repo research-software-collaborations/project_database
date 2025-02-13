@@ -1,0 +1,37 @@
+---
+name: AGC-column-joining
+postdate: 2025-02-13
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+  - Networking
+durations:
+  - 6 months
+experiments:
+  - CMS
+  - HLLHC
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: On-demand column-joining of input data for the AGC demonstrator analysis
+description: >
+  The project's goal is to integrate R&D of on-demand column-joining into the Analysis Grand Challenge. The project would involve testing components already developed and developing new integrations with coffea to facilitate joining columns in separate datasets together for analysis, e.g. loading cached columns from expensive calculations. Benchmarking throughput and capability of the components, identifying and mitigating bottlenecks, and understanding overall feasibility and applicability are crucial.
+
+contacts:
+  - name: Nick Manganelli
+    email: nmangane@cern.ch
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
