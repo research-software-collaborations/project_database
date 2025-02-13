@@ -25,11 +25,15 @@ program:
   - Any
 shortdescription: On-demand column-joining of input data for the AGC demonstrator analysis
 description: >
-  The project's goal is to integrate R&D of on-demand column-joining into the Analysis Grand Challenge.
-  The project would involve testing components already developed and developing new integrations with coffea
+  The project's goal is to integrate [ongoing R&D](https://uscms-software-and-computing.github.io/postdocs/postdoc-nickmanganelli.html))
+  of on-demand column-joining into the Analysis Grand Challenge.
+  The project would involve testing components already developed and developing new integrations with [coffea](https://coffea-hep.readthedocs.io/en/latest/))
   to facilitate joining columns in separate datasets together for analysis,
   e.g. loading cached columns from expensive calculations. Benchmarking throughput and capability of the components,
   identifying and mitigating bottlenecks, and understanding overall feasibility and applicability are crucial.
+  [trino](https://trino.io/docs/current/) provides a Distributed SQL engine capable of joining ragged columnar data.
+  This requires inputs to be in parquet format, which can be facilitated with transforming input
+  ROOT TTree's using [ServiceX](https://iris-hep.org/projects/servicex.html) or [hepconver](https://hepconvert.readthedocs.io/en/latest/index.html)
 
 contacts:
   - name: Nick Manganelli
