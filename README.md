@@ -36,6 +36,6 @@ longer relevant to be updated accordingly.
 - This repo uses precommit-ci. Consider using pre-commit locally
 - Two scripts will run on PRs. To check that they work ok with your change
 -  ```python3 _scripts/check_projects.py projects/*```
--  ```yamllint -c _scripts/yaml_lint.rules projects/.``` (yamllist is installed by ```pip install yamllist``` for example)
+-  ```yamllint -c _scripts/yaml_lint.rules projects/.``` (yamllint is installed by ```pip install yamllint``` for example)
 - [Instructions for building the webpage with all projects are maintained here](https://github.com/research-software-collaborations/research-software-collaborations.github.io/blob/master/README.md#testing-a-new-project-or-other-development-in-the-project_database-repo)
 
