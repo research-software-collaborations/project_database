@@ -1,5 +1,5 @@
 ---
-name: Research and development of scientific use cases powered by the HEP Python-C++ ecosystem
+name: Scientific workflows with xeus-cpp
 postdate: 2025-02-12
 categories:
   - HPC
@@ -22,8 +22,7 @@ commitment:
   - Any
 status:
   - Available
-shortdescription: Research and development of scientific use cases\
-  powered by the HEP Python-C++ ecosystem
+shortdescription: Research and development of scientific use cases powered by the HEP Python-C++ ecosystem
 description: |
   High-energy physics (HEP) presents a wide range of computational challenges
   that demand scalable, high-performance software solutions. While significant
