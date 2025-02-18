@@ -1,0 +1,43 @@
+---
+name: DevOps in cloud hosted Django project to support new FBCM detector development
+postdate: 2025-02-09
+categories:
+  - Analysis tools
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Git
+  - Linux
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: DevOps in cloud hosted database for HL-LHC FBCM detector development
+description: >
+  For High-Lumi LHC in the CMS experiment the standalone luminometer FBCM is being designed.
+  It is silicon pad-based detector with dedicated fast ASIC. Various parts of the detector are
+  at the final design stage and will be produced in 2025. To keeping track of the produced components,
+  test results, and overall progress of the detector construction the database is under development.
+  It is Django framework with an accompanying Python frontend. The student will contribute to the
+  design and optimization of the database, will take part in the ongoing development and subsequent
+  deployment of this application. They will gain knowledge and experience in Python scripting, databases,
+  and containerized deployment (OKD).
+contacts:
+  - name: Arkady Lokhovitskiy
+    email: arkady.lokhovitskiy@cern.ch
+  - name: Mihailo Obradovic
+    email: mihailo.obradovic@cern.ch
+  - name: Olena Karacheban
+    email: olena.karacheban@cern.ch
+
+mentees:

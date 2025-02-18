@@ -1,0 +1,46 @@
+---
+name: CMS Forward calorimeter Run 3 data analysis
+postdate: 2025-02-09
+categories:
+  - Analysis tools
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Git
+  - Linux
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Optimization of material activation correction for CMS Forward calorimeter data
+description: >
+  The Beam Radiation Instrumentation and Luminosity (BRIL) project focuses on precision
+  luminosity measurements and beam-induced background studies. One of the primary systems
+  used for precise luminosity measurement is the Forward Hadron (HF) Calorimeter.
+  While HF provides excellent stability and linearity, the detector is susceptible to
+  significant radiation activation. This activation, involving multiple short-lived
+  isotopes with typical lifetimes of hundreds of nanoseconds, can introduce biases
+  in measurements taken every 25 ns . Another potential source of systematic uncertainty
+  arises from imperfections in the timing alignment of the detector, leading to signal
+  spillover into neighboring measurement slices or bunch-crossings. To correct these effects,
+  a multi-parameter fit should be derived and applied to the full year of data,
+  significantly impacting the final luminosity measurement. Students participating
+  in this project will gain insights into data analyses, work with Python-based data
+  processing tools, including pandas and numpy.
+contacts:
+  - name: Alexey Shevelev
+    email: alexey.shevelev@cern.ch
+  - name: Olena Karacheban
+    email: olena.karacheban@cern.ch
+
+mentees:
