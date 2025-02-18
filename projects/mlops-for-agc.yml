@@ -13,6 +13,7 @@ experiments:
 skillset:
   - ML
   - Python
+  - Kubernetes
 status:
   - Available
 project:
