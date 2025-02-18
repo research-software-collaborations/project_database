@@ -2,7 +2,8 @@
 name: CMS Forward calorimeter Run 3 data analysis
 postdate: 2025-02-09
 categories:
-  - Analysis tools, Computing
+  - Analysis tools
+  - Computing
 durations:
   - 3 months
 experiments:
