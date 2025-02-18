@@ -1,0 +1,54 @@
+---
+name: Alpaka benchmarks for CMS
+postdate: 2024-02-10
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - C++
+  - CUDA
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Writing benchmarks for the [alpaka](https://github.com/alpaka-group/alpaka) performance portability library.
+description: >
+  This project proposes to write benchmarks for the [alpaka](https://github.com/alpaka-group/alpaka)
+  performance portability library to evaluate the performance of using various parallel constructs
+  in the [pixel track](https://github.com/cms-patatrack/pixeltrack-standalone/) reconstruction software
+  of the CMS experiment at CERN, and other software. The alpaka library facilitates development across diverse
+  hardware architectures by providing a unified API for writing parallel software for CPUs, GPUs, and FPGAs.
+  As the complexity of scientific software and alpaka itself grows, we need to continuously monitor the performance
+  of its modules.
+
+  The student's task will be to write performance benchmarks for alpaka in C++.
+  In future, running these benchamerks will be integrated into our CI (Continuous Integration) and Unit Testing systems.
+  A benchmark is a piece of C++ code written against the alpaka API that tests a specific functionality in alpaka,
+  and measures its performance. The benchmarks range in complexity from short functions testing
+  a single isolated feature, similar to a unit test, to complex algorithms that measure the performance
+  of several modules interacting with each other. The project will start with short single-purpose benchmarks
+  which will gradually introduce the student to the basics of using alpaka API and its different modules
+  so that they can tackle complex challenging tasks in the later phases of the project.
+
+  Students participating in this project will have the opportunity to contribute to programming
+  a state-of-the-art C++ library, engaging directly with a developer group that adheres
+  to the best software programming practices. They will gain hands-on experience in developing
+  and implementing advanced computational solutions within a real-world scientific framework,
+  enhancing their technical skills in high-performance computing and software development
+  within a collaborative and cutting-edge research environment.
+contacts:
+  - name: Jiri Vyskocil
+    email: jiri@vyskocil.com
+  - name: Volodymyr Bezguba
+    email: v.bezguba@kau.edu.ua
