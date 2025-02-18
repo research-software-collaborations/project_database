@@ -2,7 +2,8 @@
 name: DevOps in cloud hosted Django project to support new FBCM detector development
 postdate: 2025-02-09
 categories:
-  - Analysis tools, Computing
+  - Analysis tools
+  - Computing
 durations:
   - 3 months
 experiments:
