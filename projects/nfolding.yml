@@ -1,0 +1,52 @@
+---
+name: One Flow to Unfold Them All
+postdate: 2025-02-17
+categories:
+  - ML/AI
+  - Computing
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - ML
+  - Statistical Analysis
+status:
+  - Available
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - Any
+shortdescription: Unfolding quantities with a single normalizing flow
+description: |
+  A key challenge in HEP analyses consists in linking the predictions from quantum field theory, provided at the level of partons, with the corresponding detector signatures. One of the most common approaches to overcome this issue consists in “unfolding” to the parton level, effectively adjusting the data on a statistical basis to provide an estimate of their pre-detector distributions. Traditional unfolding methods [1,2,3] have been successfully used so far, but they can be applied only to binned datasets of small dimensionality, such that the unfolded observables and their binning have to be selected in advance.
+  In the most recent years, machine learning (ML) techniques have revolutionized unfolding by allowing for unbinned quantities to be measured across many dimensions [4].
+
+  In this project, we explore the application of a novel technique based on normalizing flows [5] to the unfolding case. The student(s), with a solid ML background and interest, will focus on the following aspects:
+  - understand the correction technique and set-up a training+testing pipeline to unfold an arbitrary number of observables;
+  - investigate the impact of negative weights in the samples;
+  - test the scalability of the technique (how many observables are we able to unfold at once? what are the limits of normalizing flows?);
+  - test the procedure on different physics samples;
+  - investigate the impact of different labels of correlations among the observables on the performance of the normalizing flow;
+  - investigate different ways of handling signal and background in the training procedure;
+  - possibly explore using techniques like flow-matching to achieve the same results.
+
+  [1] https://inspirehep.net/literature/97289
+
+  [2] https://arxiv.org/abs/hep-ph/9509307
+
+  [3] https://arxiv.org/abs/1205.6201
+
+  [4] https://arxiv.org/abs/2404.18807
+
+  [5] https://arxiv.org/abs/2403.18582
+
+contacts:
+  - name: Massimiliano Galli
+    email: massimiliano.galli@cern.ch
