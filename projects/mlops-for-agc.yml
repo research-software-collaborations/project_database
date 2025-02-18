@@ -25,9 +25,9 @@ program:
   - IRIS-HEP fellow
 shortdescription: Adopting running Analysis Grand Challenge (AGC) on Kubeflow MLOps platform
 description: >
-  The Analysis Grand Challenge (AGC) is performing the last steps in an analysis pipeline at scale to test workflows envisioned for the HL-LHC. 
+  The Analysis Grand Challenge (AGC) is performing the last steps in an analysis pipeline at scale to test workflows envisioned for the HL-LHC.
   The goal of this project is to adopt Kubeflow Pipelines for AGC ML learning workflow, an open source platform for implementing MLOps, providing a framework for building, deploying, and managing machine learning workflows.
-  
+
 contacts:
   - name: Alexander Held
     email: alexander.held@cern.ch
