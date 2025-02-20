@@ -1,27 +1,24 @@
-#remove commented text (after "#") in your project yml, including this line..
-#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
-#to add additional responses, please modify project_metadata.yml accordingly
 ---
 name: Exploring ML methods for Kalman filter tracking
 postdate: 2025-02-20
 categories:
-  - ML/AI   # or add one or more specific categories listed in project_metadata.yml
+  - ML/AI
 durations:
   - 3 months
-  - 6 months # or add one or more specific duration listed in project_metadata.yml
+  - 6 months
 experiments:
-  - Any   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+  - Any
 skillset:
   - Python
-  - ML # or add one or more skills listed in project_metadata.yml
+  - ML
 status:
   - Available
 project:
-  - IRIS-HEP   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+  - IRIS-HEP
 location:
-  - Any    # otherwise "Remote" or "In person"
+  - Any
 commitment:
-  - Any    # otherwise "Part time" or "Full time"
+  - Any
 program:
   - Any
 shortdescription: Combining Kalman filters and ML for particle tracking
@@ -33,14 +30,10 @@ description: >
   detector with the predictions from the previous step.
   In this project, we will explore how machine learning methods can be combined with the Kalman filter to improve the tracking performance.
   The goal is to develop a hybrid tracking algorithm that leverages the strengths of both approaches.
-  The project will involve implementing and testing different ML models for track finding and fitting.
   Code will be provided as a starting point, and the student is encouraged to experiment with different architectures 
   and be creative. The project will use Python and Pytorch.
 contacts:
   - name: Liv Våge
     email: liv.helen.vage@cern.ch
 
-mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+mentees:

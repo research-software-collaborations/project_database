@@ -1,26 +1,23 @@
-#remove commented text (after "#") in your project yml, including this line..
-#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
-#to add additional responses, please modify project_metadata.yml accordingly
 ---
 name: Cooperative track building for particle tracking
 postdate: 2025-02-20
 categories:
   - ML/AI
-  - Computing # or add one or more specific categories listed in project_metadata.yml
+  - Computing
 durations:
-  - Any   # or add one or more specific duration listed in project_metadata.yml
+  - Any
 experiments:
-  - Any   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+  - Any
 skillset:
-  - Any   # or add one or more skills listed in project_metadata.yml
+  - Any
 status:
   - Available
 project:
-  - IRIS-HEP   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+  - IRIS-HEP
 location:
-  - Any    # otherwise "Remote" or "In person"
+  - Any
 commitment:
-  - Any    # otherwise "Part time" or "Full time"
+  - Any
 program:
   - Any
 shortdescription: A creative exploration of how to cooperatively build tracks in particle tracking
@@ -41,7 +38,4 @@ contacts:
   - name: Liv Våge
     email: liv.helen.vage@cern.ch
 
-mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+mentees:
