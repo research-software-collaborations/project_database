@@ -25,9 +25,9 @@ program:
 shortdescription: Building simple ML workflows for HEP applications
 description: >
   In HEP, there are many ML methods and tasks that are common across experiments and across projects.
-  Physics analysis projects often include boosted decision trees and neural nets, calorimeter clustering is sometimes 
+  Physics analysis projects often include boosted decision trees and neural nets, calorimeter clustering is sometimes
   done with ML clustering, and graph neural nets are being explored for tracking.
-  Building an ML pipeline can be a time-consuming task, especially for those new to the field. 
+  Building an ML pipeline can be a time-consuming task, especially for those new to the field.
   This project will create a set of templates that people can use as a jumping-off point for their ML tasks.
   These templates will include the basic structure of a project, including data loading, preprocessing, model building,
   training, and evaluation.
@@ -38,6 +38,5 @@ description: >
 contacts:
   - name: Liv Våge
     email: liv.helen.vage@cern.ch
-
 
 mentees:

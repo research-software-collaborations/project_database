@@ -26,12 +26,12 @@ description: >
   These hits are used to reconstruct the particle's trajectory, which is essential for understanding the particle's properties.
   The traditional tracking methods reconstruct one particle track independently from its neighbouring tracks, when in fact the probability
   of a hit belonging to a track could be seen in the light of its neighbouring tracks. This information is exploited in graph neural nets
-  for tracking, which is an [active area of research][gnn-paper]. The goal of this project is to explore an alternative approach to graph neural nets, 
+  for tracking, which is an [active area of research][gnn-paper]. The goal of this project is to explore an alternative approach to graph neural nets,
   which can take long to train, implement and understand. Instead, this project will attempt to exploit the same information in a more lightweight way.
-  The project will involve implementing and testing different algorithms, which may involve classic computing algorithms like maze-solving, 
-  or it may be something more exotic like reinforcement learning. 
-  Code will be provided as a starting point, and the student is encouraged to experiment with different architectures 
-  and be creative. 
+  The project will involve implementing and testing different algorithms, which may involve classic computing algorithms like maze-solving,
+  or it may be something more exotic like reinforcement learning.
+  Code will be provided as a starting point, and the student is encouraged to experiment with different architectures
+  and be creative.
 
   [gnn-paper]: https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_09004/epjconf_chep2024_09004.html
 contacts:
