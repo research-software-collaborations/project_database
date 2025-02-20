@@ -5,7 +5,7 @@
 name: Cooperative track building for particle tracking
 postdate: 2025-02-20
 categories:
-  - ML
+  - ML/AI
   - Computing # or add one or more specific categories listed in project_metadata.yml
 durations:
   - Any   # or add one or more specific duration listed in project_metadata.yml
