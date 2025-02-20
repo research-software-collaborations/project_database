@@ -1,0 +1,42 @@
+---
+name: Creating ML templates for HEP
+postdate: 2025-02-20
+categories:
+  - ML/AI
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - Any
+skillset:
+  - Python
+  - ML
+  - Git
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: Building simple ML workflows for HEP applications
+description: >
+  In HEP, there are many ML methods and tasks that are common across experiments and across projects.
+  Physics analysis projects often include boosted decision trees and neural nets, calorimeter clustering is sometimes
+  done with ML clustering, and graph neural nets are being explored for tracking.
+  Building an ML pipeline can be a time-consuming task, especially for those new to the field.
+  This project will create a set of templates that people can use as a jumping-off point for their ML tasks.
+  These templates will include the basic structure of a project, including data loading, preprocessing, model building,
+  training, and evaluation.
+  The templates will be written in Python and will use common ML libraries such as scikit-learn and PyTorch.
+  Instead of being generic ML templates, these will be HEP specific, with examples of how to load and preprocess HEP data.
+  This is a chance to learn best practices and get comfortable with a variety of ML models.
+  For an overview of ML uses in HEP, see the [HEP-ML Living review](https://iml-wg.github.io/HEPML-LivingReview/).
+contacts:
+  - name: Liv Våge
+    email: liv.helen.vage@cern.ch
+
+mentees:
