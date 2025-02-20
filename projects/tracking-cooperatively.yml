@@ -1,0 +1,47 @@
+#remove commented text (after "#") in your project yml, including this line..
+#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+#to add additional responses, please modify project_metadata.yml accordingly
+---
+name: Cooperative track building for particle tracking
+postdate: 2025-02-20
+categories:
+  - ML
+  - Computing # or add one or more specific categories listed in project_metadata.yml
+durations:
+  - Any   # or add one or more specific duration listed in project_metadata.yml
+experiments:
+  - Any   # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+skillset:
+  - Any   # or add one or more skills listed in project_metadata.yml
+status:
+  - Available
+project:
+  - IRIS-HEP   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+location:
+  - Any    # otherwise "Remote" or "In person"
+commitment:
+  - Any    # otherwise "Part time" or "Full time"
+program:
+  - Any
+shortdescription: A creative exploration of how to cooperatively build tracks in particle tracking
+description: >
+  When a charged particle traverses a detector, it leaves traces of its passage in the form of hits.
+  These hits are used to reconstruct the particle's trajectory, which is essential for understanding the particle's properties.
+  The traditional tracking methods reconstruct one particle track independently from its neighbouring tracks, when in fact the probability
+  of a hit belonging to a track could be seen in the light of its neighbouring tracks. This information is exploited in graph neural nets
+  for tracking, which is an [active area of research][gnn-paper]. The goal of this project is to explore an alternative approach to graph neural nets, 
+  which can take long to train, implement and understand. Instead, this project will attempt to exploit the same information in a more lightweight way.
+  The project will involve implementing and testing different algorithms, which may involve classic computing algorithms like maze-solving, 
+  or it may be something more exotic like reinforcement learning. 
+  Code will be provided as a starting point, and the student is encouraged to experiment with different architectures 
+  and be creative. 
+
+  [gnn-paper]: https://www.epj-conferences.org/articles/epjconf/abs/2024/05/epjconf_chep2024_09004/epjconf_chep2024_09004.html
+contacts:
+  - name: Liv Våge
+    email: liv.helen.vage@cern.ch
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
