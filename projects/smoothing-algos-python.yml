@@ -1,5 +1,5 @@
 ---
-name: Adopting Analysis Grand Challenge (AGC) for Kubeflow MLOps platform
+name: Developing a Pythonic tool for smoothing histograms
 postdate: 2025-02-18
 categories:
   - Analysis tools
@@ -23,7 +23,7 @@ commitment:
   - Full time
 program:
   - IRIS-HEP fellow
-shortdescription: Developing a Pythonic tool for smoothing hisograms
+shortdescription: Developing a Pythonic tool for smoothing histograms
 description: Histograms are fundamental objects in statistical modelling frameworks used in many Large Hadron Collider (LHC) analyses. They serve as the primary representation of both experimental data and theoretical predictions, with systematic uncertainties often modelled as variations on these histograms. Smoothing refers to techniques that reduce statistical noise in histograms, enhancing the stability of statistical models and ultimately leading to more reliable results in physics analyses. While smoothing is essential for analyses, existing tools lack accessible interfaces, comprehensive documentation, and  integration into the  Scikit-HEP ecosystems. This project aims to address this gap by developing a smoothing tool in Python based on existing algorithms, enabling physicists to apply smoothing methods more efficiently and consistently in their workflows.
 
 contacts:
