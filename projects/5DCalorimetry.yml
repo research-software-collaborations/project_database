@@ -8,8 +8,7 @@ durations:
   - 3 months
   - 6 months
 experiments:
-  - ATLAS
-  - HLLHC
+  - Future Colliders
 skillset:
   - ML
   - Python
