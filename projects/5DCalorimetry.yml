@@ -8,8 +8,7 @@ durations:
   - 3 months
   - 6 months
 experiments:
-  - FCC-ee
-  - Future Higgs Factory Detectors
+  - Future Colliders
 skillset:
   - ML
   - Python
