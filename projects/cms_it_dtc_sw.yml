@@ -22,15 +22,15 @@ commitment:
   - Full time
 program:
   - IRIS-HEP fellow
-shortdescription: Writing SW for the IT-DTC system that runs on the [APOLLO board](https://arxiv.org/abs/2501.03702) 
+shortdescription: Writing SW for the IT-DTC system that runs on the [APOLLO board](https://arxiv.org/abs/2501.03702)
 description: >
-  The [APOLLO platform](https://arxiv.org/abs/2501.03702) will be used as the Inner Tracker Data Trigger and Control system (IT-DTC) and the Level-1 track trigger finder 
-  for the CMS Phase-II upgrade at the HL-LHC. This project is focused on developing and testing the IT-DTC plugin SW, 
-  which is part of the Online Software for the Tracker upgrade.  
-  
-  The student will join the effort of the SW development by testing the Front-End module readout blocks. 
-  This involves active collaboration with the system's HW,  FW and SW developers and will greatly contribute to student's experience 
-  and understanding of the detector operation and readout systems. Depending on the project duration and general development progress, 
+  The [APOLLO platform](https://arxiv.org/abs/2501.03702) will be used as the Inner Tracker Data Trigger and Control system (IT-DTC) and the Level-1 track trigger finder
+  for the CMS Phase-II upgrade at the HL-LHC. This project is focused on developing and testing the IT-DTC plugin SW,
+  which is part of the Online Software for the Tracker upgrade.
+
+  The student will join the effort of the SW development by testing the Front-End module readout blocks.
+  This involves active collaboration with the system's HW,  FW and SW developers and will greatly contribute to student's experience
+  and understanding of the detector operation and readout systems. Depending on the project duration and general development progress,
   this project can be extended to participation in development and tests of the calibration of IT modules within the IT-DTC plugin.
 
 contacts:
