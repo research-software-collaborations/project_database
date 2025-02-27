@@ -13,7 +13,7 @@ skillset:
   - Networking
   - Big data
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -50,3 +50,9 @@ contacts:
     email: smckee@umich.edu
   - name: Ilija Vukotic
     email: ivukotic@uchicago.edu
+
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+  - name: Yana Holoborodko
+  - link: https://iris-hep.org/fellows/hooloobooroodkoo.html
