@@ -13,7 +13,7 @@ skillset:
   - C++
   - Python
 status:
-  - Available
+  - Obsolete/Closed
 project:
   - IRIS-HEP
 location:
@@ -32,4 +32,3 @@ description: >
 contacts:
   - name: Andrii Usachov
     email: andrii.usachov@nikhef.nl
-mentees:

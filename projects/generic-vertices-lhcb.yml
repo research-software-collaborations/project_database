@@ -14,7 +14,7 @@ skillset:
   - C++
   - Python
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -33,3 +33,5 @@ contacts:
   - name: Andrii Usachov
     email: andrii.usachov@nikhef.nl
 mentees:
+  - name: Vladyslav Yankovskyi
+    link: https://iris-hep.org/fellows/VladyslavYankovskyi.html
