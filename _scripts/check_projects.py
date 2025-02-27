@@ -75,6 +75,12 @@ for f in filelist:
             if "mentees" not in found_attributes:
                 n_errors+=1
                 print("Missing project mentee list", f)
+            else:
+                mentee_list = data["mentees"]
+                for mentee in mentee_list:
+                    if "name" not in mentee or "link" not in mentee:
+                        n_errors+=1
+                        print("Missing name or link in mentee",mentee)
 
 if n_errors>0:
     print("Found",n_errors,"errors")
