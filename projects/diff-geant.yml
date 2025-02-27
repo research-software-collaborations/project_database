@@ -36,6 +36,6 @@ contacts:
     email: michael.aaron.kagan@cern.ch
 
 mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
+  # when that happens add a list with name: and link: attributes for each students
   - name: Nishank Gite
   - link: https://iris-hep.org/fellows/afinitus.html
