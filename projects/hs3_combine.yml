@@ -31,7 +31,7 @@ description: |
   The goal of this projects consists in introducing the necessary changes in Combine to support HS3. Contributions to HS3 are also expected whenever aspects not taken into consideration in the current implementation arise.
 
   [1] https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard
-  
+
   [2] https://arxiv.org/abs/2404.06614
 
 contacts:
