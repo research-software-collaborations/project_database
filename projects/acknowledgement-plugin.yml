@@ -1,5 +1,5 @@
 ---
-name: Building an Acknowledgement Plugin for the Alarms and Alerts System 
+name: Building an Acknowledgement Plugin for the Alarms and Alerts System
 postdate: <todays date> [in YYYY-MM-DD format]
 categories:
   - Networking
@@ -19,7 +19,7 @@ commitment:
   - Any
 program:
   - IRIS-HEP fellow
-shortdescription: Building an Acknowledgement Plugin for the Alarms and Alerts System 
+shortdescription: Building an Acknowledgement Plugin for the Alarms and Alerts System
 description: |
   perfSONAR is a widely-used monitoring framework for Research and Education networks,
   which are critical to supporting global scientific collaboration. These high-speed
@@ -49,7 +49,7 @@ description: |
 
   Learning Experience
   You’ll gain experience integrating code into an existing system, working on both
-  front-end and back-end components. You’ll learn to implement new features in a 
+  front-end and back-end components. You’ll learn to implement new features in a
   eal-world environment, collaborate with experienced developers, and test your code
   under various scenarios. This project provides an opportunity to sharpen your
   full-stack development skills, while directly supporting a global scientific
@@ -60,12 +60,10 @@ description: |
   * Familiarity with modern web development tools and languages.
   * Some experience working with Jupyter Notebooks, Python and REST APIs.
 
-
 contacts:
   - name: Petya Vasileva
     email: petyav@umich.edu
   - name: Ilija Vukotic
     email: ivukotic@uchicago.edu
-
 
 mentees:
