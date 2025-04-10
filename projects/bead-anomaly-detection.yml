@@ -1,0 +1,47 @@
+#remove commented text (after "#") in your project yml, including this line..
+#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+#to add additional responses, please modify project_metadata.yml accordingly
+---
+name: BEAD - Background Enrichment for Anomaly Detection
+postdate: 2025-04-03
+categories:
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - Any # or add one or more experimental (or pheno/theory) affiliations listed in project_metadata.yml
+skillset:
+  - ML
+status:
+  - Available
+project:
+  - Any # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+location:
+  - Any # otherwise "Remote" or "In person"
+commitment:
+  - Any # otherwise "Part time" or "Full time"
+program:
+  - HSF-India fellow
+shortdescription: Improving anomaly detection using enriched background representations via latent space ML models
+description: >
+  Several Large Hadron Collider (LHC) experiments are conducting searches aimed at detecting dark matter.
+  Unsupervised and semi-supervised learning outlier detection techniques are advantageous to these searches,
+  for casting a wide net on a variety of possibilities for how dark matter manifests, as they impose minimal
+  constraints from specific physics model details, but rather learn to separate characteristics of rare signals
+  starting from the knowledge of the background they’ve been trained on. Developing innovative search techniques
+  for probing dark matter signatures is crucial for broadening the DM search program at the LHC, and BEAD is a
+  Python package that uses deep learning based methods for anomaly detection in HEP data for such new physics
+  searches. BEAD has been designed with modularity in mind, to enable usage of various unsupervised latent
+  variable models for any task. The aim of this project would be to develop new approaches for background
+  enrichment with the end goal of improving anomaly detection performance for new physics searches.
+
+contacts:
+  - name: Pratik Jawahar
+    email: pratik.jawahar@cern.ch
+  - name: Sukanya Sinha
+    email: sukanya.sinha@cern.ch
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
