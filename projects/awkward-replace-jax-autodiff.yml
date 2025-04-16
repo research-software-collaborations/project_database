@@ -39,8 +39,10 @@ description: >
 contacts:
   - name: Ianna Osborne
     email: iosborne@princeton.edu
-  - name: Liv Våge
-    email: liv.helen.vage@cern.ch
+  - name: Lino Gerlach
+    email: lino.oscar.gerlach@cern.ch
+  - name: Peter Fackeldey
+    email: peter.fackeldey@cern.ch
 
 mentees: # keep an empty list until the project has started or a student is identified
 # when that happens add a list with name: and link: attributes for each students
