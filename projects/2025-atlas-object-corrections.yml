@@ -1,0 +1,30 @@
+title: Differentiable Modeling of Systematic Uncertainties in ATLAS Object Corrections
+categories:
+  - Analysis tools
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+skillset:
+  - Python
+  - ML
+  - Statistical Analysis
+status:
+  - In progress
+project:
+  - IRIS-HEP
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Part time
+mentors:
+  - Gordon Watts (University of Washington)
+mentees:
+  - name: Cody Tanner
+    link: /fellows/knottedtree123.html
+description: >
+  This project aims to build a differentiable neural network model to replicate ATLAS object corrections and their systematic uncertainties for small-R jets. The model will enable integration of corrections within gradient-based analysis pipelines, improving computational efficiency and accuracy.
+link: /fellows/knottedtree123.html
