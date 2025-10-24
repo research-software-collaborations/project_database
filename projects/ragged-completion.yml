@@ -11,7 +11,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - Complete
 project:
   - Any
 location:
@@ -35,12 +35,9 @@ description: >
   array library.
 
 contacts:
-  - name: Jim Pivarski
-    email: jpivarski@gmail.com
   - name: Ianna Osborne
     email: iosborne@princeton.edu
 
-mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+mentees:
+  - name: Oleksii Hrechykha
+    link: https://iris-hep.org/fellows/ohrechykha.html

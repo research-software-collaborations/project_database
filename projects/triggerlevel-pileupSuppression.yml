@@ -15,7 +15,7 @@ skillset:
   - Python
   - C++
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -37,3 +37,6 @@ contacts:
     email: sch.slac.stanford@gmail.com
   - name: Rainer Bartoldus
     email: bartoldu@slac.stanford.edu
+mentees:
+  - name: Peilin Ye
+    link: https://iris-hep.org/fellows/p-ye.html

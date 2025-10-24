@@ -13,7 +13,7 @@ skillset:
   - Linux
   - Python
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -43,4 +43,6 @@ contacts:
   - name: Olena Karacheban
     email: olena.karacheban@cern.ch
 
-mentees:
+mentees: 
+  - name: Yurii Perets 
+    link: https://iris-hep.org/fellows/YuriiPerets.html

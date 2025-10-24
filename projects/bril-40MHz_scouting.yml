@@ -13,7 +13,7 @@ skillset:
   - Linux
   - Python
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -39,3 +39,5 @@ contacts:
     email: alexey.shevelev@cern.ch
 
 mentees:
+  - name: Dmytro Belitskiy
+    link: https://iris-hep.org/fellows/Dmitriy-Belitskiy.html

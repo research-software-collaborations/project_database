@@ -13,7 +13,7 @@ skillset:
   - Linux
   - Python
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -41,3 +41,5 @@ contacts:
     email: olena.karacheban@cern.ch
 
 mentees:
+  - name: Danylo Kulakov
+    link: https://iris-hep.org/fellows/bibric.html

@@ -12,7 +12,7 @@ skillset:
   - C++
   - Tracking algorithms
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -52,3 +52,6 @@ contacts:
     email: young@slac.stanford.edu
   - name: Rocky Bala Garg
     email: rbgarg@stanford.edu
+mentees:
+  - name: Jianan (David) Lai
+    link: https://iris-hep.org/fellows/dlai211.html

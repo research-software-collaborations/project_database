@@ -13,7 +13,7 @@ skillset:
   - Linux
   - Git
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -40,3 +40,6 @@ contacts:
     email: zeynep.demiragli@cern.ch
   - name: Gianfranco De Castro
     email: gianfranco.de.castro@cern.ch
+mentees:
+  - name: Luka Gavrysh
+    link: https://iris-hep.org/fellows/Lukka777.html
