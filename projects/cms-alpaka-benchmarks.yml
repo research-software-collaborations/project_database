@@ -13,7 +13,7 @@ skillset:
   - C++
   - CUDA
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -52,3 +52,6 @@ contacts:
     email: jiri@vyskocil.com
   - name: Volodymyr Bezguba
     email: v.bezguba@kau.edu.ua
+mentees:
+  - name:
+    link: https://iris-hep.org/fellows/ivanandriievskyi.html

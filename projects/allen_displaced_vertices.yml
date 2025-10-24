@@ -13,7 +13,7 @@ skillset:
   - CUDA
   - Git
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -30,3 +30,5 @@ contacts:
     email: andrii.usachov@cern.ch
 
 mentees:
+  - name: Vladyslav Yankovskyi
+    link: https://iris-hep.org/fellows/VladyslavYankovskyi.html

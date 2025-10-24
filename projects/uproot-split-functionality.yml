@@ -10,7 +10,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - Complete
 project:
   - Any
 location:
@@ -40,12 +40,13 @@ description: >
   two-phase reading with a nice interface.
 
 contacts:
-  - name: Jim Pivarski
-    email: jpivarski@gmail.com
+  - name: Andres Rios-Tascon
+    email: ariostas@princeton.edu
+  - name: Nick Smith
+    email: nick.smith@cern.ch
   - name: Ianna Osborne
     email: iosborne@princeton.edu
 
-mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+mentees:
+  - name: Yehyun Choi
+    link: https://iris-hep.org/fellows/dbizdfvy.html

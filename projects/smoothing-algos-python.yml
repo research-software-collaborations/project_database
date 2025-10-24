@@ -13,7 +13,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -32,3 +32,6 @@ contacts:
     email: alexander.held@cern.ch
   - name: Matthew Feickert
     email: matthew.feickert@cern.ch
+mentees:
+  - name: Roman Petrov
+    link: https://iris-hep.org/fellows/roman-petrov.html

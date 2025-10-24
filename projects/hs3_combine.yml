@@ -13,7 +13,7 @@ skillset:
   - C++
   - Statistical Analysis
 status:
-  - Available
+  - Complete
 project:
   - Any
 location:
@@ -39,3 +39,6 @@ contacts:
     email: massimiliano.galli@cern.ch
   - name: Nick Smith
     email: nick.smith@cern.ch
+mentees:
+  - name: Hannah Havel
+    link: https://iris-hep.org/fellows/hannahhavel.html

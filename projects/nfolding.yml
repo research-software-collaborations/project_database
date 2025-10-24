@@ -14,7 +14,7 @@ skillset:
   - ML
   - Statistical Analysis
 status:
-  - Available
+  - Complete
 project:
   - Any
 location:
@@ -50,3 +50,7 @@ description: |
 contacts:
   - name: Massimiliano Galli
     email: massimiliano.galli@cern.ch
+
+mentees:
+  - name: Jack Rodgers
+    link: https://iris-hep.org/fellows/jackrodgers3.html
