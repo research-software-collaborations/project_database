@@ -42,5 +42,5 @@ contacts:
 
 mentees: # keep an empty list until the project has started or a student is identified
 # when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+  - name: Maxym Naumchyk
+  - link: https://iris-hep.org/fellows/70752300.html
