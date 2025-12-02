@@ -19,7 +19,7 @@ program:
 commitment:
   - Any
 status:
-  - Available
+  - Complete
 shortdescription: Optimizing automatic differentiation using activity analysis
 description: |
   In mathematics and computer algebra, automatic differentiation (AD) is a set
