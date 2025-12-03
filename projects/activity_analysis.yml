@@ -19,7 +19,7 @@ program:
 commitment:
   - Any
 status:
-  - Available
+  - Complete
 shortdescription: Optimizing automatic differentiation using activity analysis
 description: |
   In mathematics and computer algebra, automatic differentiation (AD) is a set
@@ -49,3 +49,6 @@ contacts:
     email: petro.zarytskyi@gmail.com
   - name: Vassil Vasilev
     email: vvasilev@cern.ch
+mentees:
+  - name: Maksym Andriichuk
+    link: https://iris-hep.org/fellows/maksym-andriichuk.html
