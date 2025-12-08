@@ -14,7 +14,8 @@ experiments:
 skillset:
   - Python
 status:
-  - Postponed (Spring/Summer 2026)
+  # Actually postponed, will be reopened in Spring/Summer 2026 if possible
+  - Obsolete/Closed
 project:
   - IRIS-HEP
 location:
