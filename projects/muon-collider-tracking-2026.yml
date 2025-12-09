@@ -1,0 +1,47 @@
+---
+name: Charged-particles reconstruction at Muon Colliders
+postdate: 2025-12-08
+categories:
+  - Simulation
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Future Colliders
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+  - In person
+commitment:
+  - Full time
+
+shortdescription: Optimization of charged-particle reconstruction algorithms in future Muon Colliders
+description: >
+  A muon-collider has been proposed as a possible path for future high-energy physics.
+  The design of a detector for a muon collider has to cope with a large
+  rate of beam-induced background, resulting in an unprecedentedly large multplicity of particles entering the
+  detector that are unrelated to the main muon-muon collision.
+  The algorithms used for charged particle reconstruction (tracking) need to cope with such "noise" and be
+  able to successfully reconstruct the trajectories of the particles of interest, which results
+  in a very large conbinatorial problem that challenges the approaches adopted so far.
+  The project consists of investigating how the tracking algorithms can be improved by utilizing a combination of
+  directional information from specially-arranged silicon-detector layers and more advanced reconstruction techniques and algorithms
+  available in the experiment-generic ACTS tracking library adapted to the specific environment expected for a Muon Collider detector.
+  The project allows the fellow to mix acquiring good technical skills and the ability to innovate state-of-the-art tracking algorithms in this less-explored environment.
+
+contacts:
+  - name: Simone Pagan Griso
+    email: spagangriso@lbl.gov
+  - name: Sergo Jindariani
+    email: sergo@fnal.gov
+  - name: Angira Rastogi
+    email: arastogi@lbl.gov
+mentees:
