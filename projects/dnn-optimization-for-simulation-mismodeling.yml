@@ -1,0 +1,42 @@
+name: Mitigating the impact of simulation mis-modeling on DNN Training
+postdate: 2025-04-10
+categories:
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - ML
+  - Statistical Analysis
+  - Linux
+  - Git
+status:
+  - Complete
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Building robust DNNs in the presence of detector mis-modeling
+description: >
+  Simulation mis-modeling can significantly impact the performance of a DNN
+  model trained using simulated signal events against data background. Under
+  such conditions, the model may treat mis-modeled features as signal/background
+  discriminators, introducing large systematic effects.
+  There are multiple ways to address this issue, such as training solely on data
+  samples or modifying the loss function to include penalty terms for
+  mis-modeled features. In this project, we will compare such methods to assess
+  their relative performance and identify common trends.
+  The project requires a solid understanding of machine learning algorithms and
+  the tools used to build and train deep neural networks.
+contacts:
+  - name: Dmytro Kovalskyi
+    email: kdv@mit.edu
+mentees:
+  - name: Andrii Len
+    link: https://iris-hep.org/fellows/Andreylen.html

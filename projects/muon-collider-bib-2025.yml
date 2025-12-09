@@ -1,0 +1,43 @@
+---
+name: Beam-Induced Background Simulations at Muon Colliders
+postdate: 2024-04-25
+categories:
+  - Simulation
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Future Colliders
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+  - In person
+commitment:
+  - Full time
+
+shortdescription: New sampling techniques for beam-induced background generation in future Muon Colliders
+description: >
+  A very high-energy muon-collider has been proposed as a possible path for future high-energy physics and represents a novel concept never implemented before.
+  The design of a detector for a muon collider has to cope with a large
+  rate of beam-induced background, resulting in an unprecedentedly large multplicity of particles entering the
+  detector that are unrelated to the main muon-muon collision. The dominant source of such background comes from showering of high-energy electroncs produced by the beam muon decays into dedicated shielding.
+  Simulations of beam-indueced backgrounds are extremely resource-intensive to carry out. The current approach is to simulate a single bunch-crossing and then create new events assuming azimutha;l symmetry of the produced particles. Unfortunately, this is not a good nor valid assumption.
+  In this project you will change fundamentally the way we sample the initial simulation, keeping track of each muon decay and sampling those muons randomly to create new bunch crossings. To achieve that, we will ensure correlations and physucs of the nature of the beam-induced backgrounds are respected.
+    The project allows the fellow to mix acquiring good technical skills in Python and C++, and the ability to innovate state-of-the-art simulation techniques. The impact is vritually changing how efficiently and realistically we perform any simulation of muon collider detectors that is used to assess the feasibility and challenges of this innovative endavor.
+
+contacts:
+  - name: Simone Pagan Griso
+    email: spagangriso@lbl.gov
+  - name: Sergo Jindariani
+    email: sergo@fnal.gov
+  - name: Angira Rastogi
+    email: arastogi@lbl.gov
+mentees:

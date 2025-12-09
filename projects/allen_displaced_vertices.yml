@@ -1,0 +1,34 @@
+---
+name: Displaced Vertex Finder on GPUs for LHCb
+postdate: 2025-02-20
+categories:
+  - HPC
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - LHCb
+skillset:
+  - Python
+  - CUDA
+  - Git
+status:
+  - Complete
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: Development of algorithm that finds displaced vertices in Velo detector of LHCb
+description: >
+  Many models Beyond the Standard Model predict existence of new long-lived particles. When produced at the interaction point, these particles can travel a macroscopic distance before decaying. The decay products can leave traces (tracks) in the Velo detector of LHCb. The goal of this project is to develop fast and efficient algorithm that finds anomalous displaced vertices using GPUs. The developments will take place within the Allen project at LHCb, and the algorithm will be implemented in Python and CUDA, and will be tested on simulated data. Such algorithm will result in significant expansion of the LHCb sensitivity for many classes of BSM models at once. This project requires a solid understanding of math and experience with CUDA, knowledge of the LHCb tracking is a plus.
+contacts:
+  - name: Andrii Usachov
+    email: andrii.usachov@cern.ch
+
+mentees:
+  - name: Vladyslav Yankovskyi
+    link: https://iris-hep.org/fellows/VladyslavYankovskyi.html

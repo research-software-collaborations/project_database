@@ -12,7 +12,7 @@ skillset:
   - C++
   - Python
 status:
-  - Available
+  - Obsolete/Closed
 project:
   - IRIS-HEP
 program:
@@ -45,3 +45,5 @@ contacts:
   - name: Angira Rastogi
     email: arastogi@lbl.gov
 mentees:
+  - name: Sarah Shinde
+    link: https://iris-hep.org/fellows/shindesc.html

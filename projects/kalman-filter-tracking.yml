@@ -1,0 +1,39 @@
+---
+name: Exploring ML methods for Kalman filter tracking
+postdate: 2025-02-20
+categories:
+  - ML/AI
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - Any
+skillset:
+  - Python
+  - ML
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: Combining Kalman filters and ML for particle tracking
+description: >
+  When a charged particle traverses a detector, it leaves traces of its passage in the form of hits.
+  These hits are used to reconstruct the particle's trajectory, which is essential for understanding the particle's properties.
+  The Kalman filter is a widely used algorithm for tracking particles in high-energy physics experiments.
+  It is an iterative algorithm that estimates the particle's trajectory by combining the measurements from the
+  detector with the predictions from the previous step.
+  In this project, we will explore how machine learning methods can be combined with the Kalman filter to improve the tracking performance.
+  The goal is to develop a hybrid tracking algorithm that leverages the strengths of both approaches.
+  Code will be provided as a starting point, and the student is encouraged to experiment with different architectures
+  and be creative. The project will use Python and Pytorch.
+contacts:
+  - name: Liv Våge
+    email: liv.helen.vage@cern.ch
+
+mentees:

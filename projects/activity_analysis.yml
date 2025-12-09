@@ -1,0 +1,54 @@
+---
+name: Optimizing automatic differentiation using activity analysis
+postdate: 2024-06-15
+categories:
+  - ML/AI
+  - HPC
+durations:
+  - 3 months
+skillset:
+  - C++
+experiments:
+  - Any
+project:
+  - compiler research
+location:
+  - Remote
+program:
+  - Any
+commitment:
+  - Any
+status:
+  - Complete
+shortdescription: Optimizing automatic differentiation using activity analysis
+description: |
+  In mathematics and computer algebra, automatic differentiation (AD) is a set
+  of techniques to numerically evaluate the derivative of a function specified
+  by a computer program. Automatic differentiation is an alternative technique
+  to Symbolic differentiation and Numerical differentiation (the method of
+  finite differences).
+  Clad is a source transformation based AD tool which can perform more advanced
+  program optimization by implementing more sophisticated analyses because it
+  has access to a rich program representation – the Clang AST. These optimizations
+  investigate which parts of the computation graph are relevant for the AD rules.
+  One such optimization is the To-Be-Recorded optimization which reduces the memory
+  pressure to the clad tape data structure. TBR analysis is a part of an adjoint
+  mode of AD. It finds variables whose present value is used in a derivative
+  instruction and reduces the number of statements by not creating temporary variables
+  for dependent variables that are being overwritten and not being used. Another
+  optimization is the activity analysis optimization which discards all statements
+  which are irrelevant for the generated code. That is, if the statements do not
+  depend on the input/output variables of a routine in a differentiable way, they are
+  ignored. The advantage is that this improves the performance of the generated code
+  and reduces the phase space of features needed to be supported to enable
+  differentiable STL, for example.
+contacts:
+  - name: Maksym Andriichuk
+    email: maksym.andriichuk@icloud.com
+  - name: Petro Zarytskyi
+    email: petro.zarytskyi@gmail.com
+  - name: Vassil Vasilev
+    email: vvasilev@cern.ch
+mentees:
+  - name: Maksym Andriichuk
+    link: https://iris-hep.org/fellows/maksym-andriichuk.html

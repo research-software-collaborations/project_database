@@ -13,7 +13,7 @@ skillset:
   - Git
   - CI/CD
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 location:
@@ -62,3 +62,5 @@ contacts:
     email: v.bezguba@kau.edu.ua
 
 mentees:
+  - name: Yurii Perets
+    link: https://iris-hep.org/fellows/YuriiPerets.html

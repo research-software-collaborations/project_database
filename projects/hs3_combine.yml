@@ -1,0 +1,44 @@
+---
+name: HS3 Support for Combine
+postdate: 2025-03-06
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - C++
+  - Statistical Analysis
+status:
+  - Complete
+project:
+  - Any
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - Any
+shortdescription: Provide HS3 support for the Combine statistical analysis tool
+description: |
+  The High Energy Physics Statistics Serialization Standard (HS3) [1] is an ongoing effort that defines standards of different statistical procedures and results used in High Energy Physics (HEP) in terms of human-and machine readable representations. Having a code-independent representation of the likelihood and inference results allows not only to publish the likelihood itself (a long-term goal in HEP experiments), but also to use different frameworks interchangeably, removing the dependency on code and reducing the need for maintenance of legacy projects.
+
+  The tool of election to perform statistical analysis in the CMS collaboration is Combine [2]. Combine uses a very specific format called “Datacard” (a plain text file), together with the ROOT workspaces, to define the statistical model. While human-readable and convenient in very simple analyses, this format scales poorly with the complexity of the analyses, making it very difficult to handle in the case of high number of channels, processes and nuisance parameters.
+
+  The goal of this projects consists in introducing the necessary changes in Combine to support HS3. Contributions to HS3 are also expected whenever aspects not taken into consideration in the current implementation arise.
+
+  [1] https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard
+
+  [2] https://arxiv.org/abs/2404.06614
+
+contacts:
+  - name: Massimiliano Galli
+    email: massimiliano.galli@cern.ch
+  - name: Nick Smith
+    email: nick.smith@cern.ch
+mentees:
+  - name: Hannah Havel
+    link: https://iris-hep.org/fellows/hannahhavel.html

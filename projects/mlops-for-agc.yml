@@ -1,0 +1,40 @@
+---
+name: Adopting Analysis Grand Challenge (AGC) for Kubeflow MLOps platform
+postdate: 2025-02-18
+categories:
+  - Analysis tools
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+  - HLLHC
+skillset:
+  - ML
+  - Python
+  - Kubernetes
+status:
+  - Obsolete/Closed
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Adopting Analysis Grand Challenge (AGC) for Kubeflow MLOps platform
+description: >
+  The Analysis Grand Challenge (AGC) is performing the last steps in an analysis pipeline at scale to test workflows envisioned for the HL-LHC.
+  The goal of this project is to adopt Kubeflow Pipelines for the AGC machine learning workflow. Kubeflow is an open source platform for implementing MLOps, providing a framework for building, deploying, and managing machine learning workflows.
+
+contacts:
+  - name: Alexander Held
+    email: alexander.held@cern.ch
+  - name: Oksana Shadura
+    email: oksana.shadura@cern.ch
+  - name: Carl Lundstedt
+    email: clundstedt@unl.edu
+  - name: Sam Albin
+    email: sammothy33@gmail.com

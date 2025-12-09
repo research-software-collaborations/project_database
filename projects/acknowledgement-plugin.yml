@@ -1,0 +1,69 @@
+---
+name: Building an Acknowledgement Plugin for the Alarms and Alerts System
+postdate: 2025-03-14
+categories:
+  - Networking
+durations:
+  - 3 months
+experiments:
+  - Any
+skillset:
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Building an Acknowledgement Plugin for the Alarms and Alerts System
+description: |
+  perfSONAR is a widely-used monitoring framework for Research and Education networks,
+  which are critical to supporting global scientific collaboration. These high-speed
+  networks connect universities, research institutes, and laboratories,
+  enabling massive data transfers and providing the backbone for international science
+  projects. The Alarms and Alerts schedulers process millions of daily network tests
+  and produce alarms which aim to alert site administrators and scientists using the
+  computing grid, about current network problems. By improving how these alerts are
+  managed and acknowledged, you’ll help ensure that researchers worldwide can rely on
+  stable, high-performing connections to conduct their work without interruptions.
+
+  The project involves enhancing an existing alert subscription frontend that notifies
+  users of network issues. Your main responsibility will be implementing a new feature
+  allowing administrators to acknowledge alarms, signaling that they are working on
+  the issue. If time allows, you’ll also explore adding new alarm types to expand the
+  system’s usefulness. These changes will help site admins react to problems more
+  efficiently, reducing downtime and ensuring the smooth operation of a global research
+  network that serves critical scientific projects.
+
+  You work within a pre-established framework and codebase, integrating your
+  contributions with the current front-end. You’ll learn how to connect the user
+  interface with backend logic to handle alarm status changes, enabling clear
+  visibility into which issues are being addressed. The goal is to produce a polished
+  feature that is both functional and user-friendly. Throughout the project, we
+  expect regular check-ins (e.g., weekly) to help you stay on track and to provide
+  guidance.
+
+  Learning Experience
+  You’ll gain experience integrating code into an existing system, working on both
+  front-end and back-end components. You’ll learn to implement new features in a
+  eal-world environment, collaborate with experienced developers, and test your code
+  under various scenarios. This project provides an opportunity to sharpen your
+  full-stack development skills, while directly supporting a global scientific
+  community.
+
+  Preferred Skills
+
+  * Familiarity with modern web development tools and languages.
+  * Some experience working with Jupyter Notebooks, Python and REST APIs.
+
+contacts:
+  - name: Petya Vasileva
+    email: petyav@umich.edu
+  - name: Ilija Vukotic
+    email: ivukotic@uchicago.edu
+
+mentees:

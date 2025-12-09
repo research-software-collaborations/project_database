@@ -1,0 +1,55 @@
+---
+name: Scientific workflows with xeus-cpp
+postdate: 2025-02-12
+categories:
+  - HPC
+  - ML/AI
+durations:
+  - 3 months
+skillset:
+  - C++
+  - Python
+  - Statistical Analysis
+experiments:
+  - Any
+project:
+  - compiler research
+location:
+  - Remote
+program:
+  - IRIS-HEP fellow
+commitment:
+  - Any
+status:
+  - Available
+shortdescription: Research and development of scientific use cases powered by the HEP Python-C++ ecosystem
+description: |
+  High-energy physics (HEP) presents a wide range of computational challenges
+  that demand scalable, high-performance software solutions. While significant
+  efforts have been made to develop robust and efficient tools, the diversity
+  of scientific applications often extends beyond the original scope envisioned
+  by software developers. As a result, there is a growing need to explore and
+  develop novel scientific use cases that leverage modern computational techniques.
+
+  Cutting-edge instruments able to collect unprecedented amounts of data such as
+  radio telescopes, particle accelerators, and real-time AI inference in healthcare
+  will go online by the 2030s. The seamless operation of these facilities demands
+  nearly instantaneous data transfer from instruments to accelerator hardware,
+  necessitating the development of next-generation software architectures and
+  enhanced language interoperability. Unlike the current unidirectional interaction,
+  future pipelines in C++ and Python must collaborate synergistically.
+
+  The field of HEP has developed an on-demand synergy between high-performance
+  languages such as CUDA C++ and fast prototyping languages such as Python.
+  Tools such as [xeus-cpp](https://github.com/compiler-research/xeus-cpp) explore
+  high-performance scientific workflows. Existing examples prototyped with xeus-clang-repl
+  (precursor to xeus-cpp) can be found
+  [here](https://github.com/compiler-research/xeus-clang-repl/tree/main/notebooks/kalman_CUDA_demo).
+  The project aims to demonstrate low-latency interactions between C++ and Python in the context
+  of various sciences such as physics and computational biology.
+
+contacts:
+  - name: Vassil Vasilev
+    email: vvasilev@cern.ch
+  - name: Aaron Jomy
+    email: aaron.jomy@cern.ch
