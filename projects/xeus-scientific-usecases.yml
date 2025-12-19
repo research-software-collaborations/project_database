@@ -21,7 +21,7 @@ program:
 commitment:
   - Any
 status:
-  - Obsolete/Closed 
+  - Obsolete/Closed
 shortdescription: Research and development of scientific use cases powered by the HEP Python-C++ ecosystem
 description: |
   High-energy physics (HEP) presents a wide range of computational challenges
