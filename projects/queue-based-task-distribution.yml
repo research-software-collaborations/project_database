@@ -1,0 +1,50 @@
+---
+name: Developing a queue-based task distribution system
+postdate: 2026-01-13
+categories:
+  - Networking
+  - Computing
+  - Open science
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+  - HLLHC
+skillset:
+  - Python
+  - Docker
+  - Kubernetes
+  - Networking
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: Developing a task distribution system based on queues (potential Dask replacement)
+description: >
+  Dask is nowadays commonly used to distribute tasks and process them on HEP infrastructures.
+  However, for large scale analysis that involve more than tens/hundreds of thousands of tasks it comes to its limits.
+  The scaling limitation is primarly due to Dask's Python-based single-threaded central scheduler, which can only handle
+  up to a few thousand tasks per second gracefully.
+  We propose a project to replace this central scheduler with a message (task) queue (e.g. using RabbitMQ) that workers can concurrently
+  fetch work from.
+  This concept essentially changes the system from a 'push-based' (central scheduler submits to workers) to a 'pull-based' (workers fetch from a queue) system.
+  This project involves building a distributed system including: a client to put tasks into a queue, deploying such a queue on coffea-casa,
+  workers (managed by HTCondor/Kubernetes) that connect and fetch from this queue.
+  Certain challenges/opportunities need to be addressed: avoiding large messages (e.g. pickled coffea Processors) for the queue, queue multiplexing,
+  dynamic worker scaling (adding/removing workers over time), task failure handling, different queue types/kinds, workers being able to submit dynamically
+  tasks back into the queue, adding a monitoring system for the queue and workers, etc.
+contacts:
+  - name: Peter Fackeldey
+    email: peter.fackeldey@cern.ch
+  - name: Oksana Shadura
+    email: oksana.shadura@cern.ch
+
+mentees: # keep an empty list until the project has started or a student is identified
+  # when that happens add a list with name: and link: attributes for each students
