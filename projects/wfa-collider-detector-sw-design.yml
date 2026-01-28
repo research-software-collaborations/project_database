@@ -1,0 +1,38 @@
+---
+name: Software for Detector Design for future wake-field based colliders
+postdate: 2025-12-08
+categories:
+  - Simulation
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - Future Colliders
+skillset:
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+  - In person
+commitment:
+  - Full time
+
+shortdescription: Software infrastructure and detector layout exploration for detectors at future wakefield-based colliders
+description: >
+  Wafkefield-based acceleration techniques promised tens of GeV of acceleration in under a meter. Such concepts have been demonstrated in laboratories with single cells.
+  Despite this promise, only recently a coordinated effort to study end-to-end a complete collider design based on such technology has started.
+  Within this project, the question of what type of detector would be best suited to extract the best physics out of such very-high-energy electron-positron (or electron-electron, or photon-photon) collisions remains largely unexplored.
+  In this project, you will help building up the software infrastructure, within the key4hep framework, that will allow such detailed studies and start exploring detector layout assumptions and their implications.
+
+contacts:
+  - name: Simone Pagan Griso
+    email: spagangriso@lbl.gov
+  - name: Angira Rastogi
+    email: arastogi@lbl.gov
+mentees:
