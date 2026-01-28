@@ -35,7 +35,6 @@ longer relevant to be updated accordingly.
 ## Testing/visualizing your entry
 - This repo uses precommit-ci. Consider using pre-commit locally
 - Two scripts will run on PRs. To check that they work ok with your change
--  ```python3 _scripts/check_projects.py projects/*```
--  ```yamllint -c _scripts/yaml_lint.rules projects/.``` (yamllint is installed by ```pip install yamllint``` for example)
+-  ```python3 _scripts/check_projects.py projects/*```, or use `uv` (auto-installs `pyyaml`): ```uv run --with pyyaml _scripts/check_projects.py projects/*```
+-  ```yamllint -c _scripts/yaml_lint.rules projects/.``` (yamllint is installed by ```pip install yamllint``` for example), or use `uv` (auto-installs `yamllint`): ```uvx yamllint -c _scripts/yaml_lint.rules projects/.```
 - [Instructions for building the webpage with all projects are maintained here](https://github.com/research-software-collaborations/research-software-collaborations.github.io/blob/master/README.md#testing-a-new-project-or-other-development-in-the-project_database-repo)
-
