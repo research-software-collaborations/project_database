@@ -1,0 +1,58 @@
+---
+name: Benchmarking and Optimizing PyHS3
+postdate: 2026-02-02
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - ATLAS
+skillset:
+  - Python
+  - Linux
+  - Git
+  - Statistical Analysis
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Benchmarking and Optimizing Statistical Analysis for PyHS3
+description: >
+  [pyhs3](https://github.com/scipp-atlas/pyhs3) is a pure-Python implementation of the
+  [HS3](https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard)
+  (HEP Statistics Serialization Standard) specification for serializing and
+  evaluating statistical models used in High Energy Physics analyses.
+  As pyhs3 matures, it is critical to establish a robust benchmarking
+  infrastructure to measure and track the performance of probability
+  density function (pdf) evaluation and model fitting over time.
+  The project goal is to develop a comprehensive benchmarking suite for
+  pyhs3 that measures speed and memory usage of pdf evaluation, using
+  tools such as line profiling to identify bottlenecks in critical code
+  paths. Benchmarks should compare pyhs3 against existing implementations
+  including [numba-stats](https://github.com/HDembinski/numba-stats),
+  [ROOT](https://root.cern.ch/), [pyhf](https://pyhf.readthedocs.io/),
+  and [zfit](https://zfit.readthedocs.io/), with the expectation that
+  numerical results are in perfect agreement across all implementations.
+  Beyond benchmarking, the project will optimize pyhs3's performance
+  through techniques such as caching of intermediate results and other
+  improvements identified through profiling. The benchmarking
+  infrastructure should enable continuous performance tracking across
+  releases, providing a reliable point of reference for detecting
+  regressions and validating improvements. Applicants are expected to
+  have working experience with Python and familiarity with profiling
+  and benchmarking tools.
+
+contacts:
+  - name: Giordon Stark
+    email: gstark@cern.ch
+
+mentees:

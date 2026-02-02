@@ -1,0 +1,59 @@
+---
+name: HistFactory Constraint Specifications for PyHS3
+postdate: 2026-02-02
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - ATLAS
+skillset:
+  - Python
+  - Linux
+  - Git
+  - Statistical Analysis
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Implementation of HistFactory Constraint Specifications for PyHS3
+description: >
+  The [HistFactory](https://cds.cern.ch/record/1456844) model is the
+  standard statistical model used across LHC experiments for measurements
+  and searches. It defines how observed data, signal and background
+  predictions, and systematic uncertainties are combined into a
+  likelihood function. A key component of the HistFactory model is
+  the constraint term, which encodes prior knowledge about nuisance
+  parameters representing systematic uncertainties.
+  [pyhs3](https://github.com/scipp-atlas/pyhs3) is a pure-Python
+  implementation of the
+  [HS3](https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard)
+  specification that aims to support the full HistFactory model. However,
+  certain aspects of the constraint term specification that are allowed
+  by the HS3 standard are not yet implemented. In particular, the use
+  of alternative distributions for constraint terms (beyond the default
+  Poisson and Gaussian) is a current blocker to fully supporting
+  `histfactory_dist` distributions
+  (see [scipp-atlas/pyhs3#109](https://github.com/scipp-atlas/pyhs3/issues/109)).
+  The project goal is to implement the missing constraint term
+  specifications in pyhs3 by studying existing implementations in
+  ROOT and the mathematical formulations in published papers, building
+  on initial work in
+  [scipp-atlas/pyhs3#139](https://github.com/scipp-atlas/pyhs3/pull/139).
+  Applicants are expected to have working experience with Python and
+  basic knowledge of statistical analysis.
+
+contacts:
+  - name: Giordon Stark
+    email: gstark@cern.ch
+
+mentees:
