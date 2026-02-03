@@ -1,0 +1,61 @@
+---
+name: CMS Combine Datacard Support for PyHS3
+postdate: 2026-02-02
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - Linux
+  - Git
+  - Statistical Analysis
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Implementing CMS Combine Datacard Support in PyHS3
+description: >
+  [CMS Combine](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/)
+  is the statistical analysis tool used by the CMS experiment at the LHC
+  for measurements and searches, built on top of RooFit and RooStats.
+  [pyhs3](https://github.com/scipp-atlas/pyhs3) is a pure-Python
+  implementation of the
+  [HS3](https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard)
+  (HEP Statistics Serialization Standard) specification for serializing
+  and evaluating statistical models. Supporting CMS Combine datacards in
+  pyhs3 requires implementing several missing probability distributions
+  and mathematical functions, as tracked in
+  [scipp-atlas/pyhs3#69](https://github.com/scipp-atlas/pyhs3/issues/69).
+  The non-CMS-specific components, such as the Crystal Ball distribution,
+  Bernstein polynomials, and histogram distributions, have already been
+  implemented in pyhs3. However, the CMS-specific interpolation PDFs and
+  the `roorecursivefraction_dist` function still need to be implemented.
+  The project goal is to complete the implementation of the remaining
+  CMS-specific components and cross-check all of pyhs3's CMS Combine
+  datacard support against CMS Combine to ensure numerical agreement.
+  Applicants are expected to have working experience with Python and
+  basic knowledge of statistical analysis.
+
+  This builds on a prior project in this program: "HS3 Support for Combine: Provide HS3 support for the Combine statistical analysis tool.".
+
+contacts:
+  - name: Giordon Stark
+    email: gstark@cern.ch
+  - name: Massimiliano Galli
+    email: massimiliano.galli@cern.ch
+  - name: Nick Smith
+    email: nick.smith@cern.ch
+
+mentees:

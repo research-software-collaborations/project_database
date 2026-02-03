@@ -9,7 +9,7 @@ durations:
   - 3 months
   - 6 months
 experiments:
-  - ATLAS
+  - Any
 skillset:
   - Python
   - Linux
