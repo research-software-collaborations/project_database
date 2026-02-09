@@ -2,19 +2,18 @@
 name: HEP-Quantum-sim
 postdate: 2026-02-09
 categories:
-  - Quantum Simulation
   - ML/AI
-  - HEP Generation
+  - HPC
+  - Simulation
 durations:
-  - 3-6 months
+  - 1 year
 experiments:
-  - LHC, Phenomenology
+  - Future Colliders
 skillset:
-  - Quantum computing
-  - Lattice QCD
   - Python
   - C++
-  - Generators
+  - CUDA
+  - ML
 status:
   - Available
 project:
