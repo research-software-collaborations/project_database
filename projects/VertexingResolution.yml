@@ -1,0 +1,43 @@
+---
+name: Overcoming Vertex Reconstruction Limitations under the High-Density HL-LHC Pileup Environment
+postdate: 2026-02-09
+categories:
+  - Tracking/Vertexing
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - LHC/HL-LHC/ACTS
+skillset:
+  - Python
+  - C++
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Overcoming Vertex Reconstruction Limitations under the High-Density HL-LHC Pileup Environment
+description: >
+  Current vertex reconstruction algorithms at the LHC show a significant loss of efficiency in high-density environments
+  when the longitudinal separation between vertices falls below ~0.5 mm. The origin of this inefficiency is not well 
+  understood. Given a typical vertex position resolution of ~50 μm, vertices separated by more than ~150 μm (~3σ) should, 
+  in principle, be cleanly reconstructible. The observed performance degradation, therefore, points to limitations in the 
+  reconstruction algorithms rather than to intrinsic detector resolution.
+  This project aims to identify the root cause of this inefficiency and to develop an improved vertex reconstruction strategy 
+  suitable for the high-pileup conditions expected at the High-Luminosity LHC. The first phase will perform a detailed 
+  characterization of vertex reconstruction performance for nearby vertices as a function of their separation, with a particular 
+  focus on events in which one of two close-by vertices fails to be reconstructed. This will include detailed event displays 
+  and a step-by-step analysis of the vertex seeding and reconstruction chain in failure cases, in order to pinpoint the 
+  algorithmic features responsible for inefficiency in resolving close-by vertices separated by more than 3σ from each other. 
+  In the second phase, the insights gained from this study will be used to design and implement targeted algorithmic improvements, 
+  with the goal of significantly enhancing vertex reconstruction efficiency in high-density pileup environments at the HL-LHC. 
+contacts:
+  - name: Ariel Schwartzman
+    email: sch.slac.stanford@gmail.com
+  - name: Rocky Bala Garg
+    email: rbgarg@stanford.edu
