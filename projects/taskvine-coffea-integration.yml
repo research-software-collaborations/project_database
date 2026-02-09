@@ -31,9 +31,9 @@ description: >
   to schedule and manage tasks that run on batch systems and clouds,
   including HPC sites and GPU clusters. Taskvine can already be used
   to distribute analysis tasks in the
-  [coffea](https://coffeateam.github.io/coffea/) framwork. This
+  [coffea](https://coffeateam.github.io/coffea/) framework. This
   project focuses on improving the integration, including usage of
-  Vine Reduce and DAGs in TaskVine. There is also the possibilty to
+  Vine Reduce and DAGs in TaskVine. There is also the possibility to
   work on task monitoring and visualization of task data both via CLI
   and within Jupyter notebooks
 
