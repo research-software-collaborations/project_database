@@ -1,0 +1,31 @@
+---
+name: ATLAS-event-generation
+postdate: 2026-02-09
+categories:
+  - Generators
+durations:
+  - 3-6 months
+experiments:
+  - ATLAS
+skillset:
+  - Generators
+  - C++
+  - Python
+status:
+  - Available
+project:
+  - 
+location:
+  - Remote
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow, HSF-India fellow
+shortdescription: Modernising Event Generation in ATLAS Athena
+description: >
+  This project will focus on improving event generation workflows within the ATLAS Athena software framework. The project aims to make configuration and metadata handling more robust and less error-prone, reduce reliance on user-specific settings, and align event generation with modern configuration patterns used elsewhere in Athena. The student will also explore updates that improve compatibility with multi-threaded execution and provide clean, well-documented example configurations. The project offers hands-on experience with large-scale HEP software, production workflows, and collaborative development in a flagship LHC experiment, while delivering practical improvements with direct impact on simulation and analysis.
+contacts:
+  - name: Brij Kishor Jashal
+    email: brij@cern.ch
+
+mentees: []
