@@ -29,7 +29,6 @@ shortdescription: Quantum Simulation Modules for HEP Event Generation
 description: >
   Recent studies indicate that quantum simulators, both analog and digital, can probe non-perturbative phenomena and real-time dynamics that are difficult to access with classical lattice techniques, with clear relevance for high-energy physics. This project explores how such advances can be translated into practical components for HEP event generation and detector simulation workflows. The work will focus on identifying a limited, demonstrable use case motivated by LHC physics, developing appropriate data representations, and designing robust software interfaces that allow targeted quantum simulation modules to be integrated into existing HEP generators
 
-
 contacts:
   - name: Brij Kishor Jashal
     email: brij@cern.ch
