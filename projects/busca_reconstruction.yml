@@ -1,0 +1,33 @@
+---
+name: 'BuSca: Development of high performance reconstruction algorithms on GPUs prior any trigger decision'
+postdate: 2026-02-09
+categories:
+  - HPC
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - LHCb
+skillset:
+  - Python
+  - CUDA
+  - Git
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Any
+program:
+  - Any
+shortdescription: The BuSca project analyses data in real time before trigger decisions, using fast CUDA and ML methods to detect new physics events at 30 MHz.
+description: >
+  High-energy physics experiments are increasingly moving to software-based trigger systems operating at unprecedented input rates. In particular, the new fully software-based trigger of the LHCb experiment at CERN during Run 3 operates at a 30 MHz data rate in about 500 RTX A5000 GPUs at its first stage, allowing the access to previously unexplored data. This infrastructure is going to be further enhanced for Run 4 by upgrading the GPUs. The BuSca (Buffer Scanner) project acquires and analyses these data in real time, prior to any trigger decision, extending the sensitivity to new regions of physics phase space, in particular for particles with signatures beyond the Standard Model. This project implies the development of high-performance CUDA algorithms including ultrafast ML techniques to reconstruct and classify the events, aiming to access very rare events which usually escape detection.
+contacts:
+  - name: Arantza Oyanguren
+    email: Arantza.Oyanguren@ific.uv.es
+  - name: Jiahui Zhuo
+    email: Jiahui.Zhuo@cern.ch
+mentees:
