@@ -1,0 +1,59 @@
+---
+name: Porting HEP-specific Distributions to PyTensor
+postdate: 2026-02-02
+categories:
+  - Analysis tools
+  - Open science
+  - Computing
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - Any
+skillset:
+  - Python
+  - Linux
+  - Git
+  - Statistical Analysis
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+commitment:
+  - Any
+program:
+  - IRIS-HEP fellow
+shortdescription: Porting HEP-specific distributions to PyTensor
+description: >
+  High Energy Physics (HEP) analyses rely on a number of specialized
+  probability distributions that are commonly used in statistical
+  models built with [ROOT](https://root.cern.ch/) but are not
+  available in general-purpose scientific Python libraries.
+  [PyTensor](https://pytensor.readthedocs.io/) is the computational
+  backend used by [PyMC](https://www.pymc.io/) for building and
+  evaluating probabilistic models, and extending its distribution
+  library with HEP-specific distributions benefits both the HEP
+  and broader scientific Python communities.
+  The project goal is to contribute HEP-specific distributions
+  upstream to PyTensor's
+  [distributions](https://github.com/pymc-devs/distributions)
+  library, following the pattern established for the `Normal`
+  distribution in
+  [pymc-devs/distributions#1](https://github.com/pymc-devs/distributions/pull/1).
+  Several of these distributions have already been implemented in
+  [pyhs3](https://github.com/scipp-atlas/pyhs3) and need to be
+  ported upstream. As a secondary goal, the project will explore
+  replacing pyhs3's internal distribution implementations with the
+  upstream PyTensor versions, reducing code duplication and
+  maintenance burden. The scope of this secondary goal can be
+  adjusted depending on the experience level and timeline of the
+  fellow. Applicants are expected to have working experience with
+  Python and familiarity with probability distributions.
+
+contacts:
+  - name: Giordon Stark
+    email: gstark@cern.ch
+
+mentees:
