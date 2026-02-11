@@ -1,0 +1,51 @@
+---
+name: Using Floability to Create Portable Coffea Notebooks
+
+postdate: 2026-02-09
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - CI/CD
+  - Linux
+  - Git
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+
+shortdescription: Deploy example Coffea application in a Floability backpack.
+
+description: >
+  [Floability](https://floability.github.io/) is a tool that aims to
+  facilitate the portable deployment of Jupyter notebooks that involve
+  potentially complex scientific software environments and distributed
+  workflows at scale. [Coffea](https://coffeateam.github.io/coffea/)
+  is a software framework that enables physicists to analyze large
+  datasets and is ammendable to integrating in a Jupyter notebook.
+  This project aims to demonstrate the feasibility of deploying a
+  coffea application within Floability. The work will likely involving
+  coordinating with the Floability development team to add any
+  necessary features to enable Coffea analyses activities, in
+  particular around data access and management. The work will also
+  likely involve writing examples and tutorials, and helping to train
+  users.
+
+contacts:
+  - name: Kevin Lannon
+    email: klannon@nd.edu
+  - name: Doug Thain
+    email: dthain@nd.edu
+  - name: Ben Tovar
+    email: btovar@nd.edu
+mentees:
