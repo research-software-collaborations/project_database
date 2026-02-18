@@ -19,7 +19,7 @@ commitment:
   - Any
 program:
   - IRIS-HEP fellow
-shortdescription: 
+shortdescription:
 description: |
   perfSONAR is a widely-used monitoring framework for Research and Education networks,
   which are critical to supporting global scientific collaboration. These high-speed
