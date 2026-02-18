@@ -1,6 +1,6 @@
 ---
 name: Building an Acknowledgement Plugin for the Alarms and Alerts System
-postdate: 2025-03-14
+postdate: 2026-02-18
 categories:
   - Networking
 durations:
@@ -19,7 +19,7 @@ commitment:
   - Any
 program:
   - IRIS-HEP fellow
-shortdescription: Building an Acknowledgement Plugin for the Alarms and Alerts System
+shortdescription: 
 description: |
   perfSONAR is a widely-used monitoring framework for Research and Education networks,
   which are critical to supporting global scientific collaboration. These high-speed
