@@ -21,18 +21,26 @@ program:
   - IRIS-HEP fellow
 shortdescription: A lightweight validation framework for the perfSONAR upcoming deployment campaign
 description: |
-  Modern scientific collaborations rely on continuous network performance measurements to move massive datasets between sites worldwide. As part of an upcoming deployment campaign, new monitoring nodes will be installed across many institutions. This project focuses on building tools to verify that these monitoring systems are working correctly. The student will:
+  Modern scientific collaborations rely on continuous network performance measurements to
+  move massive datasets between sites worldwide. As part of an upcoming deployment
+  campaign, new monitoring nodes will be installed across many institutions. This
+  project focuses on building tools to verify that these monitoring systems are
+  working correctly. The student will:
 
-  * Check whether scheduled network tests actually run
-  * Detect missing or misconfigured monitoring nodes
-  * Identify sites that collect too little or too much measurement data
-  * Develop simple metrics and visual summaries to classify site health
+    * Check whether scheduled network tests actually run
+    * Detect missing or misconfigured monitoring nodes
+    * Identify sites that collect too little or too much measurement data
+    * Develop simple metrics and visual summaries to classify site health
 
-The outcome will be a lightweight validation framework that automatically highlights configuration problems and data gaps across the monitoring infrastructure.
-The project combines data analysis, automation, and practical problem-solving in a real distributed system used by international research communities.Programming experience in Python is sufficient. No prior networking knowledge is required.
+  The outcome will be a lightweight validation framework that automatically highlights
+  configuration problems and data gaps across the monitoring infrastructure.
+
+  The project combines data analysis, automation, and practical problem-solving in a
+  real distributed system used by international research communities. Programming
+  experience in Python is sufficient. No prior networking knowledge is required.
 contacts:
   - name: Shawn McKee
     email: smckee@umich.edu
   - name: Petya Vasileva
     email: petyav@umich.edu
-mentees:
+mentees: []
