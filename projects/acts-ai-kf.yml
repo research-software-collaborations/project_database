@@ -1,0 +1,32 @@
+name: AI for Kalman Filter-based Tracking
+postdate: 2026-02-13
+categories:
+  - ML/AI
+  - Computing
+durations:
+  - 3 months
+experiments:
+  - ACTS
+skillset:
+  - Python
+  - C++
+  - ML
+  - Big data
+  - Tracking algorithms
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: "This project aims to investigate the AI-aided Kalman Filter paradigm to address the computational challenges of particle trajectory reconstruction at the High-Luminosity LHC, by embedding machine learning models within traditional Kalman Filter-based tracking pipelines."
+description: "Reconstructing particle trajectories is a cornerstone of physics analyses at the LHC, but the standard Combinatorial Kalman Filter (CKF) algorithms currently face a critical bottleneck. With the transition to the High-Luminosity LHC (HL-LHC), the average number of interactions per bunch-crossing (pileup) will increase by an order of magnitude, causing CKF runtime to scale quadratically or worse. While end-to-end graph-based machine learning techniques are promising, they have not yet matched the precision of traditional methods. Consequently, this project serves as a test-bed for the AI-aided Kalman Filtering paradigm, which seeks to augment rather than replace the KF algorithm. By embedding ML-based strategies within the KF pipeline, this research aims to resolve sub-optimalities and improve track finding efficiency, offering multiple positions to explore this hybrid approach for next-generation particle tracking. This project will also include the possibility of studying the scaling behavior of new and existing machine learning models trained for the track finding task, to explore their performance in the limit of large to very-large architectures and datasets."
+
+contacts:
+  - name: Louis-Guillaume Gagnon
+    email: gagnonlg@lbl.gov
+mentees:
