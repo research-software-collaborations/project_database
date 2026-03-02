@@ -9,7 +9,7 @@ skillset:
   - Python
   - Docker
 status:
-  - Available
+  - Complete
 project:
   - IRIS-HEP
 experiments:
@@ -36,3 +36,8 @@ contacts:
     email: kyle.cranmer@wisc.edu
   - name: Lukas Heinrich
     email: lukas.heinrich@cern.ch
+mentees:
+  - name: Dmytro Skorubskyi
+    link: https://indico.cern.ch/event/1603566/#11-dmytro-skorubskyi-agc-rdf-o
+  - name: Svitlana Hoienko
+    link: https://indico.cern.ch/event/1603566/#7-svitlana-hoienko-recast-like
