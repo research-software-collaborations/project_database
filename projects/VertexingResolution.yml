@@ -7,7 +7,8 @@ durations:
   - 3 months
   - 6 months
 experiments:
-  - LHC
+  - CMS
+  - ATLAS
   - HLLHC
   - ACTS
 skillset:
