@@ -1,0 +1,47 @@
+---
+name: Integration of Taskvine with Coffea
+
+postdate: 2026-02-09
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - Python
+  - CI/CD
+  - Linux
+  - Git
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+
+shortdescription: Improving integrating Taskvine as a scale-out mechanism for Coffea
+
+description: >
+  [Taskvine](https://ccl.cse.nd.edu/softwares/taskvine/) allows users
+  to schedule and manage tasks that run on batch systems and clouds,
+  including HPC sites and GPU clusters. Taskvine can already be used
+  to distribute analysis tasks in the
+  [coffea](https://coffeateam.github.io/coffea/) framework. This
+  project focuses on improving the integration, including usage of
+  Vine Reduce and DAGs in TaskVine. There is also the possibility to
+  work on task monitoring and visualization of task data both via CLI
+  and within Jupyter notebooks
+
+contacts:
+  - name: Kevin Lannon
+    email: klannon@nd.edu
+  - name: Doug Thain
+    email: dthain@nd.edu
+  - name: Ben Tovar
+    email: btovar@nd.edu
+mentees:
