@@ -8,7 +8,7 @@ durations:
   - 6 months
 experiments:
   - LHC
-  - HL-LHC
+  - HLLHC
   - ACTS
 skillset:
   - Python
