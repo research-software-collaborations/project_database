@@ -41,8 +41,8 @@ description: >
   jet classification on trigger hardware has been [demonstrated with latencies around 100 ns](https://doi.org/10.1088/2632-2153/ad5f10).
   
   In this project you will work with the [HLS4ML jet tagging dataset](https://zenodo.org/records/3602260), which contains simulated LHC jets across five classes
-  (gluon, light quark, W, Z, and top). You will build and train a logic gate network classifier in
-  PyTorch, benchmark it against conventional neural network baselines, and explore how accuracy
+  (gluon, light quark, W, Z, and top). Using our library [torchlogix])https://github.com/ligerlac/torchlogix) you'll build a logic gate network classifier
+  , benchmark it against conventional neural network baselines, and explore how accuracy
   trades off against network size and depth. Stretch goals include comparing against other
   logic-gate-based approaches or exploring what it takes to get these models running on real
   hardware.
