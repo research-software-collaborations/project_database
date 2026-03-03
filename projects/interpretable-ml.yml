@@ -22,7 +22,7 @@ commitment:
 program:
   - Any
 shortdescription: Survey interpretability techniques for ML models used in HEP, and propose practical guidelines for the field.
-description: 
+description: >
   Machine learning is now everywhere in particle physics — from identifying what kind of particle
   created a jet, to filtering interesting collisions in real time, to generating simulated data.
   These models work impressively well, but we often have little idea why they make the decisions
@@ -30,7 +30,7 @@ description:
 
   A growing toolbox of interpretability methods exists — techniques like SHAP values and attention
   maps can highlight which inputs matter most, feature importance rankings from decision trees can
-  reveal what a model has learned. A Nature Reviews Physics commentary (https://doi.org/10.1038/s42254-022-00456-0) argued
+  reveal what a model has learned. A [Nature Reviews Physics commentary](https://doi.org/10.1038/s42254-022-00456-0) argued
   that interpretability is essential for ML in physics, yet there is no agreed-upon standard for
   what "interpretable" even means in this context, let alone best practices for achieving it.
   
@@ -41,7 +41,7 @@ description:
   reveal real physics? Can we reverse-engineer what a model has
   learned and express it in terms a physicist would recognise?
   
-  The main deliverable will be twofold - firsly a practical set of guidelines: when should HEP physicists use which
+  The main deliverable will be twofold — firstly a practical set of guidelines: when should HEP physicists use which
   interpretability approach, what are the pitfalls, and where are the open problems? Secondly: an open source repository of 
   tools that can be used to understand ML models. 
   
