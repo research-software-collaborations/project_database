@@ -1,13 +1,12 @@
-
 ---
 name: Logic Gate Neural Networks for Jet Substructure Classification
 postdate: 2026-03-03
 categories:
   - ML/AI
 durations:
-  - Any  
+  - Any
 experiments:
-  - Any  
+  - Any
 skillset:
   - Python
   - ML
@@ -16,20 +15,20 @@ status:
 project:
   - IRIS-HEP
 location:
-  - Any    
+  - Any
 commitment:
-  - Any    
+  - Any
 program:
   - IRIS-HEP fellow
 shortdescription: Build ultra-fast jet classifiers with differentiable logic gate networks
 description: >
   At the Large Hadron Collider (LHC), protons smash together billions of times per second,
-  producing sprays of particles called "jets." Figuring out what created each jet is one of the most 
-  important classification problems in particle physics. Today's best classifiers use large neural networks, 
+  producing sprays of particles called "jets." Figuring out what created each jet is one of the most
+  important classification problems in particle physics. Today's best classifiers use large neural networks,
   but the LHC's trigger system needs to make decisions in under a microsecond on specialised hardware chips called FPGAs. These chips
   are built from simple logic gates — tiny circuits that compute basic Boolean operations like AND,
   OR, and XOR.
-  
+
   So what if we built a neural network entirely out of those same logic gates? That's exactly what
   differentiable logic gate networks do. Instead of multiplying numbers through layers of neurons,
   they wire together simple Boolean operations and learn which gate to use at each position. A
@@ -39,19 +38,18 @@ description: >
   CPU core. This idea has already been applied to jet classification as a benchmark task, alongside
   related approaches like [LogicNets and PolyLUT](https://arxiv.org/abs/2506.07367), and real-time
   jet classification on trigger hardware has been [demonstrated with latencies around 100 ns](https://doi.org/10.1088/2632-2153/ad5f10).
-  
+
   In this project you will work with the [HLS4ML jet tagging dataset](https://zenodo.org/records/3602260), which contains simulated LHC jets across five classes
   (gluon, light quark, W, Z, and top). Using our library [torchlogix])https://github.com/ligerlac/torchlogix) you'll build a logic gate network classifier
   , benchmark it against conventional neural network baselines, and explore how accuracy
   trades off against network size and depth. Stretch goals include comparing against other
   logic-gate-based approaches or exploring what it takes to get these models running on real
   hardware.
-  
 
 contacts:
   - name: Liv Våge
     email: liv.helen.vage@cern.ch
-  - name: Lino Gerlach 
+  - name: Lino Gerlach
     email: lino.oscar.gerlach@cern.ch
 
-mentees: 
+mentees:
