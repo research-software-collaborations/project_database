@@ -1,6 +1,4 @@
-#remove commented text (after "#") in your project yml, including this line..
-#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
-#to add additional responses, please modify project_metadata.yml accordingly
+
 ---
 name: Towards Interpretable Machine Learning in High-Energy Physics
 postdate: 2026-03-03
@@ -16,11 +14,11 @@ skillset:
 status:
   - Available
 project:
-  - Any   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+  - Any  
 location:
-  - Any    # otherwise "Remote" or "In person"
+  - Any    
 commitment:
-  - Any    # otherwise "Part time" or "Full time"
+  - Any    
 program:
   - Any
 shortdescription: Survey interpretability techniques for ML models used in HEP, and propose practical guidelines for the field.
@@ -52,7 +50,4 @@ contacts:
     email: liv.helen.vage@cern.ch
 
 
-mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+mentees:
