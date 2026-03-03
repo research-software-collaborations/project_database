@@ -1,0 +1,58 @@
+#remove commented text (after "#") in your project yml, including this line..
+#See the project_metadata.yml file in this repository for expected responses to each attribute. If you need
+#to add additional responses, please modify project_metadata.yml accordingly
+---
+name: Towards Interpretable Machine Learning in High-Energy Physics
+postdate: 2026-03-03
+categories:
+  - ML/AI
+durations:
+  - Any  
+experiments:
+  - Any  
+skillset:
+  - Python
+  - ML
+status:
+  - Available
+project:
+  - Any   # o if associated to a community project, add it here (from those listed in project_metadata.yml)
+location:
+  - Any    # otherwise "Remote" or "In person"
+commitment:
+  - Any    # otherwise "Part time" or "Full time"
+program:
+  - Any
+shortdescription: Survey interpretability techniques for ML models used in HEP, and propose practical guidelines for the field.
+description: 
+  Machine learning is now everywhere in particle physics — from identifying what kind of particle
+  created a jet, to filtering interesting collisions in real time, to generating simulated data.
+  These models work impressively well, but we often have little idea why they make the decisions
+  they do. 
+
+  A growing toolbox of interpretability methods exists — techniques like SHAP values and attention
+  maps can highlight which inputs matter most, feature importance rankings from decision trees can
+  reveal what a model has learned. A Nature Reviews Physics commentary (https://doi.org/10.1038/s42254-022-00456-0) argued
+  that interpretability is essential for ML in physics, yet there is no agreed-upon standard for
+  what "interpretable" even means in this context, let alone best practices for achieving it.
+  
+  In this project, you will survey and hands-on compare interpretability methods across different
+  ML tasks in high-energy physics. Starting from existing trained models, e.g. jet
+  classifiers, you will apply post-hoc explanation tools (such as
+  SHAP and attention visualisation), compare them against other alternatives, and ask: do these methods agree? Do they
+  reveal real physics? Can we reverse-engineer what a model has
+  learned and express it in terms a physicist would recognise?
+  
+  The main deliverable will be twofold - firsly a practical set of guidelines: when should HEP physicists use which
+  interpretability approach, what are the pitfalls, and where are the open problems? Secondly: an open source repository of 
+  tools that can be used to understand ML models. 
+  
+contacts:
+  - name: Liv Våge
+    email: liv.helen.vage@cern.ch
+
+
+mentees: # keep an empty list until the project has started or a student is identified
+# when that happens add a list with name: and link: attributes for each students
+#  - name: Students name
+#  - link: #url for project page
