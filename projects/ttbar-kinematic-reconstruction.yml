@@ -1,0 +1,42 @@
+---
+name: Kinematic reconstruction of top quarks using CMS open data
+postdate: 2026-03-05
+categories:
+  - Analysis tools
+durations:
+  - 3 months
+experiments:
+  - CMS
+skillset:
+  - C++
+  - Python
+  - Statistical Analysis
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Remote
+  - In person
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: Development and validation of kinematic reconstruction methods for top-quark pairs in the dilepton decay channel
+description: >
+  Top-quark pair production is one of the most important processes studied at the LHC.
+  In the dilepton decay channel there are two undetected neutrinos in the final state. 
+  This makes the reconstruction of the top-quark pair kinematics challenging and requires dedicated reconstruction techniques. 
+  The project focuses on improving kinematic reconstruction approaches for top-quark pairs using open data from the CMS experiment 
+  (note: these are data which are made publicly available by the CMS experiment, and this project itself is not within the CMS Collaboration). 
+  The student will work with analysis frameworks commonly used in high-energy physics and will investigate and improve different strategies 
+  to reconstruct the neutrino kinematics and the properties of the top-quark pair system. 
+  Possible directions for improvement include using additional kinematic constraints and/or implementing machine learning techniques. 
+  The performance will be assessed in terms of reconstruction efficiency and resolution of the reconstructed observables. 
+  The project provides hands-on experience with collider data analysis, Monte Carlo simulations, and modern analysis tools used in particle physics.
+
+contacts:
+  - name: Oleksandr Zenaiev
+    email: oleksandr.zenaiev@desy.de
+
+mentees:
