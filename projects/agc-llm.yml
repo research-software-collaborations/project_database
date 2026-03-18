@@ -1,0 +1,42 @@
+---
+name: AGC meets LLMs
+postdate: 2026-03-18
+categories:
+  - Analysis tools
+  - ML/AI
+durations:
+  - 3 months
+experiments:
+  - ATLAS
+  - CMS
+  - HLLHC
+skillset:
+  - ML
+  - Python
+status:
+  - Available
+project:
+  - IRIS-HEP
+program:
+  - IRIS-HEP fellow
+location:
+  - Any
+commitment:
+  - Full time
+shortdescription: Large Language Models for physics analysis code generation with the Analysis Grand Challenge
+description: >
+  The Analysis Grand Challenge (AGC) project investigates approaches for performing physics analysis tasks at the end of the full data analysis pipeline.
+  Given the increasing capabilities of Large Language Models for code generation, this project explores their use for physics analysis tasks in the context of the AGC.
+  We will investigate this from multiple angles: evaluating LLM-generated AGC code against a human-written reference, expanding the AGC test infrastructure to perform more extensive correctness tests, and exploring partial or full LLM-driven rewrites of software dependencies to study possible performance gains.
+  We retain some flexibility to adjust based on the most promising directions identified at the start of the project and throughout.
+
+contacts:
+  - name: Peter Fackeldey
+    email: peter.fackeldey@cern.com
+  - name: Alexander Held
+    email: alexander.held@cern.ch
+  - name: Oksana Shadura
+    email: oksana.shadura@cern.ch
+
+mentees:
+  -
