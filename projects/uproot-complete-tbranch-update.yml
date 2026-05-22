@@ -1,6 +1,6 @@
 ---
-name: Modifying existing TTrees in Uproot
-postdate: 2025-01-20
+name: Modifying existing TTrees/RNTuples in Uproot
+postdate: 2026-05-22
 categories:
   - Analysis tools
 durations:
@@ -20,11 +20,11 @@ commitment:
   - Any
 program:
   - Any
-shortdescription: "Add new columns to existing TTrees (99% done) and/or new rows (new project) in Uproot"
+shortdescription: "Add new columns to existing TTrees (99% done) and RNTuples and/or new rows in Uproot"
 description: >
   Uproot can add new objects to existing ROOT files through
   [uproot.update](https://uproot.readthedocs.io/en/latest/uproot.writing.writable.update.html),
-  but it would be even more useful if it could modify existing TTrees
+  but it would be even more useful if it could modify existing TTrees and RNTuples
   in place. Zoë Bilodeau implemented the ability to add new
   columns/TBranches, which is especially useful for backfilling data
   (e.g. adding an array of `False` for triggers that didn't exist at
@@ -32,9 +32,11 @@ description: >
   [uproot#1155](https://github.com/scikit-hep/uproot5/pull/1155)),
   apart from a few corner-cases that need to be tested and
   debugged. It would also be useful to be able to add rows/entries,
-  which would be an entirely new project. Completing the
-  adding-columns project would provide the experience necessary to
-  tackle the adding-rows project.
+  which would be an entirely new project. Adding new rows and columns
+  to RNTuples is simpler, and will be straightforward once the machinery
+  to extend TTrees is in place. Completing the adding-columns project
+  would provide the experience necessary to tackle adding rows to TTrees and
+  extending RNTuples.
 
 contacts:
   - name: Ianna Osborne
