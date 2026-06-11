@@ -7,7 +7,6 @@ categories:
   - Computing
 durations:
   - 3 months
-  - 6 months
 experiments:
   - Any
 skillset:
@@ -16,7 +15,7 @@ skillset:
   - Git
   - Statistical Analysis
 status:
-  - Available
+  - In progress
 project:
   - IRIS-HEP
 location:
@@ -56,3 +55,5 @@ contacts:
     email: gstark@cern.ch
 
 mentees:
+  - name: Daryna Shevchuk
+    webpage: https://iris-hep.org/fellows/dasha-pn.html
