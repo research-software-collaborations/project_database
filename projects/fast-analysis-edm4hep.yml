@@ -27,17 +27,17 @@ description: >
   The Future Circular Collider (FCC) is a proposed large-scale project at CERN that aims
   to conduct detailed studies of the Higgs boson and its interactions, search for new particles,
   new forces and possible dark matter candidates. With substantial gains in precision and
-  sensitivity, it would enable measurements beyond the reach of current colliders, including 
+  sensitivity, it would enable measurements beyond the reach of current colliders, including
   the Large Hadron Collider (LHC) and its high-luminosity upgrade.
-  The FCC community, including studies of the FCC-ee design, uses EDM4hep and associated 
-  software to describe the data model for ongoing simulation studies. EDM4hep defines a 
-  series of C++ classes representing detector and physics objects corresponding to each 
-  aspect of the simulation and event reconstruction pipeline. While important for detailed 
-  studies, these data structures are inefficient for data analysis users who instead would 
-  benefit from having fast to analyze columnar data. As FCC-ee aims to collect more than a 
+  The FCC community, including studies of the FCC-ee design, uses EDM4hep and associated
+  software to describe the data model for ongoing simulation studies. EDM4hep defines a
+  series of C++ classes representing detector and physics objects corresponding to each
+  aspect of the simulation and event reconstruction pipeline. While important for detailed
+  studies, these data structures are inefficient for data analysis users who instead would
+  benefit from having fast to analyze columnar data. As FCC-ee aims to collect more than a
   trillion Z-boson decays, speed of analysis codes is particularly important.
-  The scale of the FCC-ee physics program presents a significant computing challenge. Given 
-  the projected collection of more than 10^12 Z-boson decays, analysis workflows must process 
+  The scale of the FCC-ee physics program presents a significant computing challenge. Given
+  the projected collection of more than 10^12 Z-boson decays, analysis workflows must process
   very large numbers of events efficiently. Compact columnar formats could help improve
   analysis performance and reduce the time required to obtain physics results.
 
