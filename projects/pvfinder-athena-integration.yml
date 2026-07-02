@@ -1,0 +1,44 @@
+name: Integration and Validation of PV-Finder into ATLAS Athena Framework
+postdate: 2026-07-01
+categories:
+  - Analysis tools
+  - ML/AI
+durations:
+  - 3 months
+  - 6 months
+experiments:
+  - ATLAS
+  - HL-LHC
+skillset:
+  - ML
+  - Python
+  - C++
+status:
+  - Available
+project:
+  - IRIS-HEP
+location:
+  - Any
+commitment:
+  - Full time
+program:
+  - IRIS-HEP fellow
+shortdescription: PV-Finder integration and validation into Athena
+description: >
+  PV-Finder is a machine-learning-based primary vertex reconstruction algorithm that we have been developing 
+  within the ATLAS Tracking CP group. The algorithm is now relatively mature, with encouraging results on 
+  both Run 2/3 data and HL-LHC simulation samples. Our current focus is on integrating PV-Finder into the 
+  ATLAS Athena framework, validating its performance, and preparing the work for publication.
+  The project would involve:
+  - Assisting with the integration and validation of PV-Finder within the Athena framework.
+  - Performing timing and performance studies of the Athena implementation and comparing its performance with the current AMVF primary vertex finding algorithm.
+  - Contributing to validation studies on Run 2/3 and HL-LHC samples, including the production of performance plots and documentation.
+  - Investigating potential optimizations to reduce inference time and computational cost while maintaining physics performance.
+
+contacts:
+  - name: Rocky Bala Garg
+    email: rbgarg@stanford.edu
+  - name: Lauren Tompkins
+    email: laurenat@stanford.edu
+  - name: Michael Sokoloff
+    email: sokoloff@ucmail.uc.edu
