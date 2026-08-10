@@ -11,7 +11,7 @@ experiments:
 skillset:
   - Python
 status:
-  - Available
+  - In progress
 project:
   - Any
 location:
@@ -45,6 +45,6 @@ contacts:
     email: ariostas@princeton.edu
 
 mentees: # keep an empty list until the project has started or a student is identified
-# when that happens add a list with name: and link: attributes for each students
-#  - name: Students name
-#  - link: #url for project page
+  # when that happens add a list with name: and link: attributes for each students
+  - name: Jokūbas Mačiulis
+  - link: https://iris-hep.org/fellows/Yokubas.html
