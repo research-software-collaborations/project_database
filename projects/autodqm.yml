@@ -1,0 +1,62 @@
+---
+name: AudoDQM
+postdate: 2026-05-01
+categories:
+  - ML/AI
+  - Computing
+durations:
+  - 3 months
+skillset:
+  - Python
+  - ML
+status:
+  - Available
+project:
+  - IRIS-HEP
+experiments:
+  - CMS
+program:
+  - IRIS-HEP fellow
+location:
+  - Remote
+commitment:
+  - Full time
+shortdescription: Automated data quality monitoring for CMS
+description: >
+  AutoDQM is the automated data quality monitoring framework used by the CMS experiment
+  to flag anomalous detector behavior in near-real-time during LHC data taking.
+  It compares per-run histograms produced by the central DQM workflow against reference
+  distributions and surfaces deviations to shifters and subsystem experts, who would
+  otherwise have to inspect tens of thousands of plots by eye each week.
+  Over the past several years the tool has evolved from purely statistical comparisons
+  (chi-squared, KS, pull-based tests) toward machine-learning-based approaches &mdash;
+  most notably autoencoder and PCA-based anomaly scores &mdash; which have shown clear
+  advantages for catching subtle, correlated failures that the classical tests miss.
+  A student would contribute to this ML thrust under the mentorship of a graduate student
+  and postdoc, both of whom are actively developing the next generation of AutoDQM at CMS.
+
+  Concretely, we propose a self-contained summer project in which a student extends and
+  benchmarks the ML-based anomaly detection pipeline for a targeted set of CMS subsystem
+  histograms (likely drawn from the muon and tracker DQM streams, where members of the
+  AutoDQM actively participate in detector operations).
+  The contribution would proceed in three phases that map onto a 10-week fellowship:
+  (1) assembling and curating a clean training/validation dataset of "good" runs from
+  recent Run 3 data, including the tooling needed to reproduce the dataset;
+  (2) training and tuning anomaly-detection models (autoencoder variants and a
+  transformer-based baseline) on these histograms, with careful attention to per-bin
+  sensitivity and to the run-dependent normalization issues that have sometimes
+  plagued earlier iterations; and (3) integrating the trained models into the existing
+  AutoDQM web interface so that scores and reconstructions are surfaced alongside the
+  classical statistical tests, and producing a quantitative comparison against a labeled
+  set of known-bad runs.
+  The work is well-suited to remote collaboration &mdash; code lives in a public GitHub
+  repository, the datasets are accessible from any CMS-authenticated machine, and the
+  project holds regular weekly working meetings that the student would join.
+  The deliverables (a reproducible dataset, trained models with documented performance,
+  and a merged pull request to the AutoDQM repository) are concrete, scoped to the
+  fellowship duration, and would form a meaningful, citable contribution to CMS operations.
+contacts:
+  - name: Indara Suarez
+    email: indara.mayeli.suarez.silva@cern.ch
+  - name: Frank Golf
+    email: frank.golf@cern.ch
