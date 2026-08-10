@@ -8,7 +8,7 @@ durations:
   - 6 months
 experiments:
   - ATLAS
-  - HL-LHC
+  - HLLHC
 skillset:
   - ML
   - Python
